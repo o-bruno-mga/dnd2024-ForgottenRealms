@@ -1,0 +1,976 @@
+{
+  "nome": "Druida",
+  "tracos_basicos": {
+    "Atributo Primário": "Sabedoria",
+    "Dado de Ponto de Vida": "D8 por nível de Druida",
+    "Proficiência em Salvaguarda": "Inteligência e Sabedoria",
+    "Proficiência em Perícias": "Escolha 2: Arcanismo, Lidar com Animais, Intuição, Medicina, Natureza, Percepção, Religião ou Sobrevivência",
+    "Proficiências com Armas": "Armas Simples",
+    "Proficiências com Ferramentas": "Kit de Herbalismo",
+    "Treinamento com Armadura": "Armadura Leve e Escudos",
+    "Equipamento Inicial": "Escolha A ou B: (A) Armadura de Couro, Escudo, Foice, Foco Druídico (Cajado), Kit de Explorador, Kit de Herbalismo e 9 PO; ou (B) 50 PO"
+  },
+  "tabela_caracteristicas": [
+    {
+      "Nível": "1",
+      "Bônus de Proficiência": "+2",
+      "Características": "Conjuração, Idioma Druídico, Ordem Primal",
+      "Forma Selvagem": "—",
+      "Truques": "2",
+      "Magias Preparadas": "4",
+      "1": "2",
+      "2": "—",
+      "3": "—",
+      "4": "—",
+      "5": "—",
+      "6": "—",
+      "7": "—",
+      "8": "—",
+      "9": "—"
+    },
+    {
+      "Nível": "2",
+      "Bônus de Proficiência": "+2",
+      "Características": "Companheiro Selvagem, Forma Selvagem",
+      "Forma Selvagem": "2",
+      "Truques": "2",
+      "Magias Preparadas": "5",
+      "1": "3",
+      "2": "—",
+      "3": "—",
+      "4": "—",
+      "5": "—",
+      "6": "—",
+      "7": "—",
+      "8": "—",
+      "9": "—"
+    },
+    {
+      "Nível": "3",
+      "Bônus de Proficiência": "+2",
+      "Características": "Subclasse de Druida",
+      "Forma Selvagem": "2",
+      "Truques": "2",
+      "Magias Preparadas": "6",
+      "1": "4",
+      "2": "2",
+      "3": "—",
+      "4": "—",
+      "5": "—",
+      "6": "—",
+      "7": "—",
+      "8": "—",
+      "9": "—"
+    },
+    {
+      "Nível": "4",
+      "Bônus de Proficiência": "+2",
+      "Características": "Aumento no Valor de Atributo",
+      "Forma Selvagem": "2",
+      "Truques": "3",
+      "Magias Preparadas": "7",
+      "1": "4",
+      "2": "3",
+      "3": "—",
+      "4": "—",
+      "5": "—",
+      "6": "—",
+      "7": "—",
+      "8": "—",
+      "9": "—"
+    },
+    {
+      "Nível": "5",
+      "Bônus de Proficiência": "+3",
+      "Características": "Ressurgimento Selvagem",
+      "Forma Selvagem": "2",
+      "Truques": "3",
+      "Magias Preparadas": "9",
+      "1": "4",
+      "2": "3",
+      "3": "2",
+      "4": "—",
+      "5": "—",
+      "6": "—",
+      "7": "—",
+      "8": "—",
+      "9": "—"
+    },
+    {
+      "Nível": "6",
+      "Bônus de Proficiência": "+3",
+      "Características": "Característica de Subclasse",
+      "Forma Selvagem": "3",
+      "Truques": "3",
+      "Magias Preparadas": "10",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "—",
+      "5": "—",
+      "6": "—",
+      "7": "—",
+      "8": "—",
+      "9": "—"
+    },
+    {
+      "Nível": "7",
+      "Bônus de Proficiência": "+3",
+      "Características": "Fúria Elemental",
+      "Forma Selvagem": "3",
+      "Truques": "3",
+      "Magias Preparadas": "11",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "1",
+      "5": "—",
+      "6": "—",
+      "7": "—",
+      "8": "—",
+      "9": "—"
+    },
+    {
+      "Nível": "8",
+      "Bônus de Proficiência": "+3",
+      "Características": "Aumento no Valor de Atributo",
+      "Forma Selvagem": "3",
+      "Truques": "3",
+      "Magias Preparadas": "12",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "2",
+      "5": "—",
+      "6": "—",
+      "7": "—",
+      "8": "—",
+      "9": "—"
+    },
+    {
+      "Nível": "9",
+      "Bônus de Proficiência": "+4",
+      "Características": "—",
+      "Forma Selvagem": "3",
+      "Truques": "3",
+      "Magias Preparadas": "14",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "3",
+      "5": "1",
+      "6": "—",
+      "7": "—",
+      "8": "—",
+      "9": "—"
+    },
+    {
+      "Nível": "10",
+      "Bônus de Proficiência": "+4",
+      "Características": "Característica de Subclasse",
+      "Forma Selvagem": "3",
+      "Truques": "4",
+      "Magias Preparadas": "15",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "3",
+      "5": "2",
+      "6": "—",
+      "7": "—",
+      "8": "—",
+      "9": "—"
+    },
+    {
+      "Nível": "11",
+      "Bônus de Proficiência": "+4",
+      "Características": "—",
+      "Forma Selvagem": "3",
+      "Truques": "4",
+      "Magias Preparadas": "16",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "3",
+      "5": "2",
+      "6": "1",
+      "7": "—",
+      "8": "—",
+      "9": "—"
+    },
+    {
+      "Nível": "12",
+      "Bônus de Proficiência": "+4",
+      "Características": "Aumento no Valor de Atributo",
+      "Forma Selvagem": "3",
+      "Truques": "4",
+      "Magias Preparadas": "16",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "3",
+      "5": "2",
+      "6": "1",
+      "7": "—",
+      "8": "—",
+      "9": "—"
+    },
+    {
+      "Nível": "13",
+      "Bônus de Proficiência": "+5",
+      "Características": "—",
+      "Forma Selvagem": "3",
+      "Truques": "4",
+      "Magias Preparadas": "17",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "3",
+      "5": "2",
+      "6": "1",
+      "7": "1",
+      "8": "—",
+      "9": "—"
+    },
+    {
+      "Nível": "14",
+      "Bônus de Proficiência": "+5",
+      "Características": "Característica de Subclasse",
+      "Forma Selvagem": "3",
+      "Truques": "4",
+      "Magias Preparadas": "17",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "3",
+      "5": "2",
+      "6": "1",
+      "7": "1",
+      "8": "—",
+      "9": "—"
+    },
+    {
+      "Nível": "15",
+      "Bônus de Proficiência": "+5",
+      "Características": "Fúria Elemental Aprimorada",
+      "Forma Selvagem": "3",
+      "Truques": "4",
+      "Magias Preparadas": "18",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "3",
+      "5": "2",
+      "6": "1",
+      "7": "1",
+      "8": "1",
+      "9": "—"
+    },
+    {
+      "Nível": "16",
+      "Bônus de Proficiência": "+5",
+      "Características": "Aumento no Valor de Atributo",
+      "Forma Selvagem": "3",
+      "Truques": "4",
+      "Magias Preparadas": "18",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "3",
+      "5": "2",
+      "6": "1",
+      "7": "1",
+      "8": "1",
+      "9": "—"
+    },
+    {
+      "Nível": "17",
+      "Bônus de Proficiência": "+6",
+      "Características": "—",
+      "Forma Selvagem": "4",
+      "Truques": "4",
+      "Magias Preparadas": "19",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "3",
+      "5": "2",
+      "6": "1",
+      "7": "1",
+      "8": "1",
+      "9": "1"
+    },
+    {
+      "Nível": "18",
+      "Bônus de Proficiência": "+6",
+      "Características": "Magias Bestiais",
+      "Forma Selvagem": "4",
+      "Truques": "4",
+      "Magias Preparadas": "20",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "3",
+      "5": "3",
+      "6": "1",
+      "7": "1",
+      "8": "1",
+      "9": "1"
+    },
+    {
+      "Nível": "19",
+      "Bônus de Proficiência": "+6",
+      "Características": "Dádiva Épica",
+      "Forma Selvagem": "4",
+      "Truques": "4",
+      "Magias Preparadas": "21",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "3",
+      "5": "3",
+      "6": "2",
+      "7": "1",
+      "8": "1",
+      "9": "1"
+    },
+    {
+      "Nível": "20",
+      "Bônus de Proficiência": "+6",
+      "Características": "Arquidruida",
+      "Forma Selvagem": "4",
+      "Truques": "4",
+      "Magias Preparadas": "22",
+      "1": "4",
+      "2": "3",
+      "3": "3",
+      "4": "3",
+      "5": "3",
+      "6": "2",
+      "7": "2",
+      "8": "1",
+      "9": "1"
+    }
+  ],
+  "caracteristicas": [
+    {
+      "nivel": 1,
+      "nome": "Conjuração",
+      "descricao": "Você aprendeu a conjurar magias através do estudo das forças místicas da natureza. Veja o capítulo 7 para as regras de conjuração. As informações abaixo detalham como você usa essas regras com magias de Druida, que aparecem na lista de magias de Druida mais adiante na descrição da classe.\n**Truques.** Você conhece dois truques à sua escolha da lista de magias de Druida. *Arte Druídica* e *Criar Chamas* são recomendadas.\nSempre que você alcança um nível de Druida, pode substituir um de seus truques por outro truque à sua escolha da lista de magias de Druida.\nAo atingir os níveis 4 e 10 de Druida, você aprende mais um truque à sua escolha da lista de magias de Druida, conforme mostrado na coluna Truques da tabela Características de Druida.\n**Espaços de Magia.** A tabela Características de Druida mostra quantos espaços de magia você tem para conjurar suas magias de 1º círculo ou superior. Você restaura todos os espaços gastos ao completar um Descanso Longo.\n**Magias Preparadas de 1º Círculo ou Superior.** Você prepara a lista de magias de 1º círculo ou superior que estão disponíveis para você conjurar com esta característica. Para começar, escolha quatro magias de 1º círculo da lista de magias de Druida. *Amizade Animal*, *Curar Ferimentos*, *Fogo das Fadas* e *Onda Trovejante* são recomendadas.\nO número de magias em sua lista aumenta à medida que você alcança níveis de Druida, conforme mostrado na coluna Magias Preparadas da tabela Características de Druida. Sempre que esse número aumentar, escolha magias adicionais da lista de magias de Druida até que o número de magias em sua lista corresponda ao número da tabela. As magias escolhidas devem ser de um círculo para o qual você possui espaços de magia. Por exemplo, se você é um Druida de nível 3, sua lista de magias preparadas pode incluir seis magias de 1º ou 2º círculo em qualquer combinação.\nSe outra característica de Druida lhe der magias que você sempre tem preparadas, essas magias não contam para o número de magias que você pode preparar com esta característica, mas essas magias, de outra forma, contam como magias de Druida para você.\n**Mudando Suas Magias Preparadas.** Sempre que completar um Descanso Longo, você pode mudar sua lista de magias preparadas, substituindo qualquer uma das magias por outras magias de Druida para as quais você tem espaços de magia.\n**Atributo de Conjuração.** Sabedoria é seu atributo de conjuração para suas magias de Druida.\n**Foco de Conjuração.** Você pode usar um Foco Druídico como um Foco de Conjuração para suas magias de Druida."
+    },
+    {
+      "nivel": 1,
+      "nome": "Idioma Druídico",
+      "descricao": "Você domina Druídico, o idioma secreto dos Druidas. Ao aprender esse idioma antigo, você também adquiriu a habilidade mágica de se comunicar com animais; você sempre tem a magia *Falar com Animais* preparada.\nVocê pode usar Druídico para deixar mensagens ocultas. Você e outros que conhecem Druídico identificam automaticamente tal mensagem. Outros podem perceber a presença da mensagem com um teste de Inteligência (Investigação) CD 15, mas não podem decifrá-la sem magia."
+    },
+    {
+      "nivel": 1,
+      "nome": "Ordem Primal",
+      "descricao": "Você se dedicou a uma das seguintes funções sagradas à sua escolha.\n**Protetor.** Treinado para a batalha, você adquire proficiência com armas Marciais e treinamento com armadura Média.\n**Xamã.** Você conhece um truque adicional da lista de magias de Druida. Além disso, sua conexão mística com a natureza lhe concede um bônus em seus testes de Inteligência (Arcanismo ou Natureza). O bônus é igual ao seu modificador de Sabedoria (bônus mínimo de +1)."
+    },
+    {
+      "nivel": 2,
+      "nome": "Companheiro Selvagem",
+      "descricao": "Você pode invocar um espírito da natureza que assume a forma de um animal para auxiliá-lo. Como uma ação Usar Magia, você pode gastar um espaço de magia ou um uso de Forma Selvagem para conjurar a magia *Convocar Familiar* sem componentes Materiais.\nAo conjurar a magia deste modo, o familiar é uma criatura Feérica e desaparece ao completar um Descanso Longo."
+    },
+    {
+      "nivel": 2,
+      "nome": "Forma Selvagem",
+      "descricao": "O poder da natureza permite que você assuma a forma de um animal. Como uma Ação Bônus, você multimorfa para uma forma Animal que você aprendeu com esta característica (veja \"Formas Conhecidas\", abaixo). Você fica nessa forma por um número de horas igual à metade do seu nível de Druida, até usar Forma Selvagem novamente, ter a condição Incapacitado ou morrer. Você também pode sair da forma antes como uma Ação Bônus.\n**Quantidade de Usos.** Você pode usar Forma Selvagem duas vezes. Você recupera um uso gasto ao completar um Descanso Curto e restaura todos os usos gastos ao completar um Descanso Longo.\nVocê adquire usos adicionais ao atingir determinados níveis de Druida, conforme mostrado na coluna Forma Selvagem da tabela Características de Druida.\n**Formas Conhecidas.** Você conhece quatro formas Animais com esta característica, escolhidas entre os blocos de estatísticas de Fera com um Nível de Desafio máximo de 1/4 e que não possuem um Deslocamento de Voo (veja o apêndice B para opções de bloco de estatísticas). **Aranha**, **Cavalo de Montaria**, **Lobo** e **Rato** são recomendadas. Sempre que completar um Descanso Longo, você pode substituir uma de suas formas conhecidas por outra forma permitida.\nAo atingir certos níveis de Druida, o número de formas conhecidas e o Nível de Desafio máximo dessas formas aumenta, conforme mostrado na tabela Formas de Feras. Além disso, a partir do nível 8, você pode adotar uma forma com Deslocamento de Voo.\nAo escolher formas conhecidas, você pode procurar no *Livro dos Monstros* ou em outro lugar por Feras elegíveis se o Mestre permitir.\n**Formas de Feras**\n| **Nível de Druida** | **Formas Conhecidas** | **ND Máximo** | **Deslocamento de Voo** |\n|---------------------|-----------------------|---------------|-------------------------|\n| 2                   | 4                     | 1/4           | Não                     |\n| 4                   | 6                     | 1/2           | Não                     |\n| 8                   | 8                     | 1             | Sim                     |\n**Regras Enquanto Multimorfado.** Enquanto estiver em uma forma, você mantém sua personalidade, memórias e capacidade de falar, e as seguintes regras se aplicam:\n**Pontos de Vida Temporários.** Ao assumir uma Forma Selvagem, você adquire um número de Pontos de Vida Temporários igual ao seu nível de Druida.\n**Estatísticas de Jogo.** Suas estatísticas de jogo são substituídas pelo bloco de estatísticas da Fera, mas você mantém seu tipo de criatura, Pontos de Vida, Dados de Vida, valores de Inteligência, Sabedoria e Carisma, características de classe, idiomas e talentos. Você também mantém suas proficiências em perícia e salvaguarda e usa seu Bônus de Proficiência para elas, além de adquirir as proficiências da criatura. Se uma perícia ou modificador de salvaguarda no bloco de estatísticas da Fera for maior que o seu, use o do bloco de estatísticas.\n**Sem Conjuração.** Você não pode conjurar magias, mas a multimorfia não quebra sua Concentração ou interfere em uma magia que você já conjurou.\n**Objetos.** Sua capacidade de manipular objetos é determinada pelos membros da forma, e não pelos seus. Além disso, você escolhe se seu equipamento cai em seu espaço, se funde em sua nova forma ou se é usado por ela. O equipamento vestido funciona normalmente, mas o Mestre decide se é compatível para a nova forma usar um equipamento com base no tamanho e forma da criatura. Seu equipamento não muda de tamanho ou forma para corresponder à nova forma, e qualquer equipamento que a nova forma não possa usar deve cair no chão ou se fundir com a forma. O equipamento que se funde com a forma não tem efeito enquanto você estiver nessa forma."
+    },
+    {
+      "nivel": 3,
+      "nome": "Subclasse de Druida",
+      "descricao": "Você adquire uma subclasse de Druida à sua escolha. As subclasses Círculo da Lua, Círculo da Terra, Círculo das Estrelas e Círculo do Mar são detalhadas a seguir neste capítulo. Uma subclasse é uma especialidade que lhe concede características em determinados níveis de Druida. Durante toda sua jornada, você recebe cada uma das características de sua subclasse que são de seu nível de Druida ou inferior."
+    },
+    {
+      "nivel": 4,
+      "nome": "Aumento no Valor de Atributo",
+      "descricao": "Você adquire o talento Aumento no Valor de Atributo (veja o capítulo 5) ou outro talento à sua escolha para o qual atenda os pré-requisitos. Você adquire essa característica novamente nos níveis 8, 12 e 16 de Druida."
+    },
+    {
+      "nivel": 5,
+      "nome": "Ressurgimento Selvagem",
+      "descricao": "Uma vez em cada um de seus turnos, se você não tiver mais usos de Forma Selvagem, pode recuperar um uso gastando um espaço de magia (nenhuma ação é necessária).\nAlém disso, você pode gastar um uso de Forma Selvagem (nenhuma ação é necessária) para recuperar um espaço de magia de 1º círculo, mas não pode fazê-lo novamente até completar um Descanso Longo."
+    },
+    {
+      "nivel": 7,
+      "nome": "Fúria Elemental",
+      "descricao": "O poder dos elementos flui através de você. Você recebe uma das seguintes opções à sua escolha.\n**Ataque Primal.** Uma vez em cada um dos seus turnos, ao atingir uma criatura com uma jogada de ataque usando uma arma ou um ataque da forma Animal em Forma Selvagem, pode causar 1d8 pontos de dano Elétrico, Gélido, Ígneo ou Trovejante (à sua escolha quando você atinge) adicional ao alvo.\n**Conjuração Poderosa.** Adicione seu modificador de Sabedoria ao dano causado com qualquer truque de Druida."
+    },
+    {
+      "nivel": 15,
+      "nome": "Fúria Elemental Aprimorada",
+      "descricao": "A opção que você escolheu para Fúria Elemental fica mais poderosa, conforme detalhado abaixo.\n**Ataque Primal.** O dano adicional de seu Ataque Primal aumenta para 2d8.\n**Conjuração Poderosa.** Ao conjurar um truque de Druida com um alcance de 3 metros ou mais, o alcance da magia aumenta para 90 metros."
+    },
+    {
+      "nivel": 18,
+      "nome": "Magias Bestiais",
+      "descricao": "Ao usar Forma Selvagem, você pode conjurar magias na forma Animal, exceto magias que tenham um componente Material com um custo especificado ou que consuma seu componente Material."
+    },
+    {
+      "nivel": 19,
+      "nome": "Dádiva Épica",
+      "descricao": "Você adquire o talento Dádiva Épica (veja o capítulo 5) ou outro talento à sua escolha para o qual se qualifica. Dádiva da Viagem Dimensional é recomendada."
+    },
+    {
+      "nivel": 20,
+      "nome": "Arquidruida",
+      "descricao": "A vitalidade da natureza floresce constantemente dentro de você, concedendo-lhe os seguintes benefícios.\n**Forma Selvagem Eterna.** Sempre que você joga Iniciativa e não tem mais usos de Forma Selvagem, você recupera um uso gasto dela.\n**Natureza Xamânica.** Você pode converter usos de Forma Selvagem em um espaço de magia (nenhuma ação é necessária). Escolha um número de seus usos não gastos de Forma Selvagem e transforme-os em um único espaço de magia, com cada uso contribuindo com espaços de magia de 2º círculo. Por exemplo, se você transformar dois usos de Forma Selvagem, você produz um espaço de magia de 4º círculo. Após usar este benefício, você não pode fazê-lo novamente até completar um Descanso Longo.\n**Longevidade.** A magia primitiva que você utiliza permite que você envelheça mais lentamente: para cada dez anos que passam, seu corpo envelhece apenas um.\n**Truques (Magias de Druida de Círculo 0)**\n| **Magia**              | **Escola**   | **Especial** |\n|------------------------|--------------|--------------|\n| *Acudir os Moribundos* | Necromancia  | —            |\n| *Arte Druídica*        | Transmutação | —            |\n| *Bordão Místico*       | Transmutação | —            |\n| *Chicote de Espinhos*  | Transmutação | —            |\n| *Criar Chamas*         | Invocação    | —            |\n| *Elementalismo*        | Transmutação | —            |\n| *Fagulha Estelar*      | Evocação     | —            |\n| *Mensagem*             | Transmutação | —            |\n| *Orientação*           | Adivinhação  | C            |\n| *Rajada de Veneno*     | Necromancia  | —            |\n| *Reparar*              | Transmutação | —            |\n| *Resistência*          | Abjuração    | C            |\n| *Trovão*               | Evocação     | —            |\n**Magias de Druida de 1º Círculo**\n| **Magia**                       | **Escola**   | **Especial** |\n|---------------------------------|--------------|--------------|\n| *Amizade Animal*                | Encantamento | —            |\n| *Bom Fruto*                     | Invocação    | —            |\n| *Criar ou Destruir Água*        | Transmutação | —            |\n| *Curar Ferimentos*              | Abjuração    | —            |\n| *Detectar Magia*                | Adivinhação  | C, R         |\n| *Detectar Veneno e Doença*      | Adivinhação  | C, R         |\n| *Emaranhar*                     | Invocação    | C            |\n| *Enfeitiçar Pessoa*             | Encantamento | —            |\n| *Faca de Gelo*                  | Invocação    | —            |\n| *Falar com Animais*             | Adivinhação  | R            |\n| *Fogo das Fadas*                | Evocação     | C            |\n| *Névoa Obscurecente*            | Invocação    | C            |\n| *Onda Trovejante*               | Evocação     | —            |\n| *Palavra Curativa*              | Abjuração    | —            |\n| *Passos Largos*                 | Transmutação | —            |\n| *Proteção Contra o Bem e o Mal* | Abjuração    | C, M         |\n| *Purificar Alimentos e Bebidas* | Transmutação | R            |\n| *Salto*                         | Transmutação | —            |\n**Magias de Druida de 2º Círculo**\n| **Magia**                      | **Escola**   | **Especial** |\n|--------------------------------|--------------|--------------|\n| *Aprimorar Atributo*           | Transmutação | C            |\n| *Augúrio*                      | Adivinhação  | R, M         |\n| *Aumentar/Reduzir*             | Transmutação | C            |\n| *Auxílio*                      | Abjuração    | —            |\n| *Chama Contínua*               | Evocação     | M            |\n| *Crescer Espinhos*             | Transmutação | C            |\n| *Encontrar Armadilhas*         | Adivinhação  | —            |\n| *Esfera Flamejante*            | Evocação     | C            |\n| *Esquentar Metal*              | Transmutação | C            |\n| *Invocar Fera*                 | Invocação    | C, M         |\n| *Lâmina Flamejante*            | Evocação     | C            |\n| *Localizar Animais ou Plantas* | Adivinhação  | R            |\n| *Localizar Objeto*             | Adivinhação  | C            |\n| *Lufada de Vento*              | Evocação     | C            |\n| *Mensageiro Animal*            | Encantamento | R            |\n| *Paralisar Pessoa*             | Encantamento | C            |\n| *Passo Sem Rastro*             | Abjuração    | C            |\n| *Pele-Casca*                   | Transmutação | —            |\n| *Proteção Contra Veneno*       | Abjuração    | —            |\n| *Raio Lunar*                   | Evocação     | C            |\n| *Restauração Menor*            | Abjuração    | —            |\n| *Sentido Feral*                | Adivinhação  | C, R         |\n| *Visão no Escuro*              | Transmutação | —            |\n**Magias de Druida de 3º Círculo**\n| **Magia**                 | **Escola**   | **Especial** |\n|---------------------------|--------------|--------------|\n| *Arma Elemental*          | Transmutação | C            |\n| *Aura de Vitalidade*      | Abjuração    | C            |\n| *Caminhar Sobre as Águas* | Transmutação | R            |\n| *Convocar Feérico*        | Invocação    | C, M         |\n| *Convocar Relâmpagos*     | Invocação    | C            |\n| *Crescimento de Plantas*  | Transmutação | —            |\n| *Dissipar Magia*          | Abjuração    | —            |\n| *Falar com Plantas*       | Transmutação | —            |\n| *Invocar Animais*         | Invocação    | C            |\n| *Luz do Dia*              | Evocação     | —            |\n| *Mesclar-se às Rochas*    | Transmutação | R            |\n| *Muralha de Vento*        | Evocação     | C            |\n| *Nevasca*                 | Invocação    | C            |\n| *Proteção Contra Energia* | Abjuração    | C            |\n| *Respirar na Água*        | Transmutação | R            |\n| *Revivificar*             | Necromancia  | M            |\n| *Simular Morte*           | Necromancia  | R            |\n**Magias de Druida de 4º Círculo**\n| **Magia**                    | **Escola**   | **Especial** |\n|------------------------------|--------------|--------------|\n| *Confusão*                   | Encantamento | C            |\n| *Controlar Água*             | Transmutação | C            |\n| *Convocar Elemental*         | Invocação    | C, M         |\n| *Dominar Fera*               | Encantamento | C            |\n| *Enfeitiçar Monstro*         | Encantamento | —            |\n| *Escudo Ardente*             | Evocação     | —            |\n| *Fonte do Luar*              | Evocação     | C            |\n| *Inseto Gigante*             | Invocação    | C            |\n| *Invocar Elementais Menores* | Invocação    | C            |\n| *Invocar Seres da Floresta*  | Invocação    | C            |\n| *Localizar Criatura*         | Adivinhação  | C            |\n| *Malogro*                    | Necromancia  | —            |\n| *Moldar Rochas*              | Transmutação | —            |\n| *Movimentação Livre*         | Abjuração    | —            |\n| *Muralha de Fogo*            | Evocação     | C            |\n| *Pele-Rocha*                 | Transmutação | C, M         |\n| *Polimorfia*                 | Transmutação | C            |\n| *Presságio*                  | Adivinhação  | R, M         |\n| *Tempestade Glacial*         | Evocação     | —            |\n| *Terreno Alucinatório*       | Ilusão       | —            |\n| *Vinha Agarradora*           | Invocação    | C            |\n**Magias de Druida de 5º Círculo**\n| **Magia**                   | **Escola**   | **Especial** |\n|-----------------------------|--------------|--------------|\n| *Âncora Planar*             | Abjuração    | M            |\n| *Comunhão com a Natureza*   | Adivinhação  | R            |\n| *De Carne para Pedra*       | Transmutação | C            |\n| *Cone de Frio*              | Evocação     | —            |\n| *Contágio*                  | Necromancia  | —            |\n| *Cúpula Antivida*           | Abjuração    | C            |\n| *Curar Ferimentos em Massa* | Abjuração    | —            |\n| *Despertar*                 | Transmutação | M            |\n| *Invocar Elemental*         | Invocação    | C            |\n| *Missão*                    | Encantamento | —            |\n| *Muralha de Pedra*          | Evocação     | C            |\n| *Passo Arbóreo*             | Invocação    | C            |\n| *Praga de Insetos*          | Invocação    | C            |\n| *Reencarnar*                | Necromancia  | M            |\n| *Restauração Maior*         | Abjuração    | M            |\n| *Vidência*                  | Adivinhação  | C, M         |\n**Magias de Druida de 6º Círculo**\n| **Magia**                | **Escola**   | **Especial** |\n|--------------------------|--------------|--------------|\n| *Banquete de Heróis*     | Invocação    | M            |\n| *Caminhar no Vento*      | Transmutação | —            |\n| *Cura Completa*          | Abjuração    | —            |\n| *Encontrar o Caminho*    | Adivinhação  | C, M         |\n| *Invocar Feérico*        | Invocação    | C            |\n| *Mover Terra*            | Transmutação | C            |\n| *Muralha de Espinhos*    | Invocação    | C            |\n| *Raio Solar*             | Evocação     | C            |\n| *Transporte via Plantas* | Invocação    | —            |\n**Magias de Druida de 7º Círculo**\n| **Magia**              | **Escola**   | **Especial** |\n|------------------------|--------------|--------------|\n| *Inverter a Gravidade* | Transmutação | C            |\n| *Miragem Arcana*       | Ilusão       | —            |\n| *Regeneração*          | Transmutação | —            |\n| *Símbolo*              | Abjuração    | M            |\n| *Tempestade de Fogo*   | Evocação     | —            |\n| *Transição Planar*     | Invocação    | M            |\n**Magias de Druida de 8º Círculo**\n| **Magia**            | **Escola**   | **Especial** |\n|----------------------|--------------|--------------|\n| *Antipatia/Simpatia* | Encantamento | —            |\n| *Controlar o Clima*  | Transmutação | C            |\n| *Explosão Solar*     | Evocação     | —            |\n| *Formas Animais*     | Transmutação | —            |\n| *Nuvem Incendiária*  | Invocação    | C            |\n| *Suplício*           | Encantamento | —            |\n| *Terremoto*          | Transmutação | C            |\n| *Tsunami*            | Invocação    | C            |\n**Magias de Druida de 9º Círculo**\n| **Magia**                 | **Escola**   | **Especial** |\n|---------------------------|--------------|--------------|\n| *Metamorfose*             | Transmutação | C, M         |\n| *Ressurreição Verdadeira* | Necromancia  | M            |\n| *Sexto Sentido*           | Adivinhação  | —            |\n| *Tempestade da Vingança*  | Invocação    | C            |"
+    },
+    {
+      "nivel": 3,
+      "nome": "Formas Animais dos Círculos Druídicos",
+      "descricao": "Você pode canalizar a magia lunar ao assumir uma Forma Selvagem, obtendo os seguintes benefícios.\n**Nível de Desafio.** O Nível de Desafio máximo para a forma é igual ao seu nível de Druida dividido por 3 (arredondado para baixo).\n**Classe de Armadura.** Até sair da forma, sua CA passa a ser 13 + seu modificador de Sabedoria, se esse valor for maior que a CA da Fera.\n**Pontos de Vida Temporários.** Você adquire um número de Pontos de Vida Temporários igual a três vezes o seu nível de Druida."
+    },
+    {
+      "nivel": 3,
+      "nome": "Magias do Círculo da Lua",
+      "descricao": "Ao atingir um nível de Druida detalhado na tabela Magias do Círculo da Lua, você tem a lista de magias preparadas.\nAlém disso, você pode conjurar as magias dessa característica enquanto estiver em uma Forma Selvagem.\n**Magias do Círculo da Lua**\n| **Nível de Druida** | **Magias de Círculo Druídico**                  |\n|---------------------|-------------------------------------------------|\n| 3                   | *Curar Ferimentos, Fagulha Estelar, Raio Lunar* |\n| 5                   | *Invocar Animais*                               |\n| 7                   | *Fonte do Luar*                                 |\n| 9                   | *Curar Ferimentos em Massa*                     |"
+    },
+    {
+      "nivel": 6,
+      "nome": "Formas Animais dos Círculos Druídicos Aprimorada",
+      "descricao": "Enquanto estiver em uma Forma Selvagem, você adquire os seguintes benefícios.\n**Radiância Lunar.** Cada um de seus ataques na Forma Selvagem pode causar seu tipo de dano normal ou dano Radiante. Você escolhe cada vez que acerta com esses ataques.\n**Vigor Aumentado.** Você pode adicionar seu modificador de Sabedoria às suas salvaguardas de Constituição."
+    },
+    {
+      "nivel": 10,
+      "nome": "Passo Lunar",
+      "descricao": "Você se transporta magicamente, reaparecendo em meio a uma explosão de luar. Como uma Ação Bônus, você se teleporta até 9 metros para um espaço desocupado à sua vista e tem Vantagem na próxima jogada de ataque que realizar antes do final deste turno.\nVocê pode usar essa característica um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez) e restaura todos os usos gastos ao completar um Descanso Longo. Você também pode recuperar usos gastando um espaço de magia de 2º círculo ou superior para cada uso que deseja recuperar (nenhuma ação é necessária)."
+    },
+    {
+      "nivel": 14,
+      "nome": "Forma Lunar",
+      "descricao": "O poder da lua permeia você, concedendo os seguintes benefícios.\n**Radiância Lunar Aprimorada.** Uma vez por turno, você pode causar 2d10 pontos de dano Radiante adicional a um alvo que você acerta com o ataque da Forma Selvagem.\n**Luar Compartilhado.** Sempre que usar Passo Lunar, você também pode teleportar uma criatura voluntária. Essa criatura deve estar a até 3 metros de você, e você a teleporta para um espaço desocupado à sua vista a até 3 metros do seu destino."
+    },
+    {
+      "nivel": 3,
+      "nome": "Auxílio da Terra",
+      "descricao": "Como uma ação Usar Magia, você pode gastar um uso de sua Forma Selvagem e escolher um ponto a até 18 metros de você. Flores que concedem vitalidade e espinhos drenadores de vida surgem momentaneamente em uma Esfera de 3 metros de raio, centrada nesse ponto. Cada criatura à sua escolha na Esfera deve realizar uma salvaguarda de Constituição contra a CD para evitar sua magia, sofrendo 2d6 pontos de dano Necrótico se falhar ou metade desse dano em caso de sucesso. Uma criatura à sua escolha na área restaura 2d6 Pontos de Vida.\nO dano e cura aumentam em 1d6 quando você atinge o nível 10 (3d6) e 14 (4d6) de Druida."
+    },
+    {
+      "nivel": 3,
+      "nome": "Magias do Círculo da Terra",
+      "descricao": "Sempre que completar um Descanso Longo, escolha um tipo de terreno: árido, polar, temperado ou tropical. Consulte a tabela abaixo correspondente ao tipo escolhido; você tem a lista de magias preparadas de seu nível de Druida e inferior.\n**Terreno Árido**\n| **Nível do Druida** | **Magias de Círculo Druídico**           |\n|---------------------|------------------------------------------|\n| 3                   | *Mãos Flamejantes, Raio de Fogo, Turvar* |\n| 5                   | *Bola de Fogo*                           |\n| 7                   | *Malogro*                                |\n| 9                   | *Muralha de Pedra*                       |\n**Terreno Polar**\n| **Nível do Druida** | **Magias de Círculo Druídico**                       |\n|---------------------|------------------------------------------------------|\n| 3                   | *Névoa Obscurecente, Paralisar Pessoa, Raio de Gelo* |\n| 5                   | *Nevasca*                                            |\n| 7                   | *Tempestade Glacial*                                 |\n| 9                   | *Cone de Frio*                                       |\n**Terreno Temperado**\n| **Nível do Druida** | **Magias de Círculo Druídico**         |\n|---------------------|----------------------------------------|\n| 3                   | *Passo Nebuloso, Sono, Toque Chocante* |\n| 5                   | *Relâmpago*                            |\n| 7                   | *Movimentação Livre*                   |\n| 9                   | *Passo Arbóreo*                        |\n**Terreno Tropical**\n| **Nível do Druida** | **Magias de Círculo Druídico**    |\n|---------------------|-----------------------------------|\n| 3                   | Bolha Ácida, Raio Nauseante, Teia |\n| 5                   | Nuvem Fétida                      |\n| 7                   | Polimorfia                        |\n| 9                   | Praga de Insetos                  |"
+    },
+    {
+      "nivel": 6,
+      "nome": "Recuperação Natural",
+      "descricao": "Você pode conjurar uma das magias de 1º círculo ou superior que preparou de sua característica Magias de Círculo Druídico sem gastar um espaço de magia, e deve completar um Descanso Longo antes de fazê-lo novamente.\nAlém disso, ao completar um Descanso Curto, pode escolher recuperar espaços de magia gastos. A somatória dos círculos desses espaços deve ser menor ou igual à metade do seu nível como Druida (arredondado para cima), e nenhum deles pode ser de 6º círculo ou superior. Por exemplo, se você for um Druida de nível 6, pode recuperar até três círculos de espaços de magia. Você pode recuperar um espaço de magia de 3º círculo, ou um de 2º círculo e um de 1º círculo, ou três de 1º círculo. Após recuperar espaços de magia com esta característica, você não pode fazê-lo novamente até completar um Descanso Longo."
+    },
+    {
+      "nivel": 10,
+      "nome": "Proteção Natural",
+      "descricao": "Você é imune à condição Envenenado e tem Resistência a um tipo de dano associado à sua escolha atual de terreno na característica Magias de Círculo Druídico, conforme mostrado na tabela Proteção Natural.\n**Proteção Natural**\n| **Tipo de Terreno** | **Resistência** |\n|---------------------|-----------------|\n| Árido               | Ígneo           |\n| Polar               | Gélido          |\n| Temperado           | Elétrico        |\n| Tropical            | Venenoso        |"
+    },
+    {
+      "nivel": 14,
+      "nome": "Santuário Natural",
+      "descricao": "Como uma ação Usar Magia, você pode gastar um uso de sua Forma Selvagem e produzir árvores e vinhas espectrais que aparecem em um Cubo de 4,5 metros de lados no chão a até 36 metros de você. Elas permanecem por 1 minuto ou até você morrer, ou ter a condição Incapacitado. Você e seus aliados têm Cobertura Parcial enquanto estiverem nessa área, e seus aliados adquirem a Resistência atual da sua Proteção Natural enquanto estão lá.\nComo uma Ação Bônus, você pode mover o Cubo até 18 metros para o chão a até 36 metros de você."
+    },
+    {
+      "nivel": 3,
+      "nome": "Forma Estrelada",
+      "descricao": "Como uma Ação Bônus, você pode gastar um uso de sua característica Forma Selvagem para assumir uma forma estrelada em vez de multimorfar.\nEnquanto em sua forma estrelada, você mantém suas estatísticas de jogo, mas seu corpo se torna luminoso, com articulações que brilham como estrelas e linhas brilhantes conectando-as, como em um mapa estelar. Essa forma emite Luz Plena em um raio de 3 metros e Meia-luz por mais 3 metros. A forma dura 10 minutos e encerra se você a dispensar (nenhuma ação é necessária), ter a condição Incapacitado ou se você usar essa característica novamente.\nSempre que você assumir sua forma estrelada, escolha qual das constelações a seguir brilha em seu corpo; sua escolha concede certos benefícios enquanto estiver na forma.\n**Arqueiro.** Uma constelação de um arqueiro aparece em você. Ao ativar e nos turnos subsequentes como uma Ação Bônus, você pode realizar um ataque mágico à distância, disparando uma flecha luminosa que atinge uma criatura a até 18 metros. Em caso de acerto, o ataque causa 1d8 pontos de dano Radiante + seu modificador de Sabedoria.\n**Dragão.** Uma constelação de um dragão sábio aparece em você. Quando realizar um teste de Inteligência ou Sabedoria, ou uma salvaguarda de Constituição para manter a Concentração, você trata um resultado 9 ou menor no d20 como um 10.\n**Taça.** Uma constelação de um cálice vivificante aparece em você. Sempre que você conjurar uma magia usando um espaço de magia que restaure Pontos de Vida em uma criatura, você ou outra criatura a até 9 metros de você pode restaurar Pontos de Vida iguais a 1d8 + seu modificador de Sabedoria."
+    },
+    {
+      "nivel": 3,
+      "nome": "Mapa Estelar",
+      "descricao": "Você cria um mapa estelar como parte de seus estudos celestiais. Ele é um objeto Minúsculo, e você pode usá-lo como Foco de Conjuração para suas magias de Druida. Você determina sua forma jogando na tabela Mapa Estelar ou escolhendo uma.\nEnquanto estiver segurando o mapa, você tem as magias *Orientação* e *Raio Guia* preparadas, e pode conjurar *Raio Guia* sem gastar um espaço de magia. Você pode conjurá-la dessa forma um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez), e restaura todos os usos gastos ao completar um Descanso Longo.\nSe você perder o mapa, pode realizar uma cerimônia de 1 hora para criar magicamente um substituto. Essa cerimônia pode ser realizada durante um Descanso Curto ou Longo e destrói o mapa anterior.\n**Mapa Estelar**\n| **1d6** | **Formato do Mapa**                                        |\n|---------|------------------------------------------------------------|\n| 1       | Um pergaminho com representações das constelações          |\n| 2       | Uma tabuleta de pedra com pequenos buracos perfurados nela |\n| 3       | Uma pele de urso-coruja trabalhada com símbolos estelares  |\n| 4       | Uma coleção de mapas encadernados em uma capa de ébano     |\n| 5       | Um cristal incrustado com padrões estrelados               |\n| 6       | Um disco de vidro retratando constelações                  |"
+    },
+    {
+      "nivel": 6,
+      "nome": "Presságio Cósmico",
+      "descricao": "Sempre que você completar um Descanso Longo, pode consultar seu Mapa Estelar em busca de presságios e jogar um dado. Até completar o próximo Descanso Longo, você tem acesso a uma Reação especial com base no número que obteve:\n**Prosperidade (par)**. Sempre que uma criatura à sua vista a até 9 metros de você realizar um Teste de D20, você pode executar uma Reação para jogar 1d6 e adicionar o resultado jogado ao total.\n**Infortúnio (ímpar).** Sempre que uma criatura à sua vista a até 9 metros de você realizar um Teste de D20, você pode executar uma Reação para jogar 1d6 e subtrair o resultado jogado do total.\nVocê pode usar essa Reação um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez) e restaura todos os usos gastos ao completar um Descanso Longo."
+    },
+    {
+      "nivel": 10,
+      "nome": "Constelações Cintilantes",
+      "descricao": "As constelações da sua Forma Estrelada melhoram. O 1d8 do Arqueiro e da Taça torna-se 2d8, e enquanto o Dragão estiver ativo, você adquire um Deslocamento de Voo de 6 metros e pode pairar.\nAlém disso, no início de cada um dos seus turnos enquanto estiver na sua Forma Estrelada, você pode alterar qual constelação brilha em seu corpo."
+    },
+    {
+      "nivel": 14,
+      "nome": "Repleto de Estrelas",
+      "descricao": "Enquanto estiver em sua Forma Estrelada, você se torna parcialmente incorpóreo e tem Resistência a dano Contundente, Cortante e Perfurante."
+    },
+    {
+      "nivel": 3,
+      "nome": "Ira do Mar",
+      "descricao": "Como uma Ação Bônus, você pode gastar um uso da sua Forma Selvagem para manifestar uma Emanação de 1,5 metro, que toma a forma de respingos de água do oceano ao seu redor por 10 minutos. Ela se encerra caso você a disperse (nenhuma ação é necessária), manifeste-a novamente ou tenha a condição Incapacitado.\nAo manifestar a Emanação e como uma Ação Bônus em seus turnos subsequentes, você pode escolher outra criatura à sua vista na Emanação. O alvo deve ser bem-sucedido em uma salvaguarda de Constituição contra a sua CD para evitar magia ou sofre dano Gélido e, se a criatura for Grande ou menor, é empurrada até 4,5 metros para longe de você. Para determinar esse dano, jogue um número de d6s igual ao seu modificador de Sabedoria (mínimo de um dado)."
+    },
+    {
+      "nivel": 3,
+      "nome": "Magias do Círculo do Mar",
+      "descricao": "Ao atingir um nível de Druida detalhado na tabela Magias do Círculo do Mar, você tem a lista de magias preparadas.\n**Magias do Círculo do Mar**\n| **Nível de Druida** | **Magias de Círculo Druídico**                                                   |\n|---------------------|----------------------------------------------------------------------------------|\n| 3                   | *Despedaçar, Lufada de Vento, Névoa Obscurecente, Onda Trovejante, Raio de Gelo* |\n| 5                   | *Relâmpago, Respirar na Água*                                                    |\n| 7                   | *Controlar Água, Tempestade Glacial*                                             |\n| 9                   | *Invocar Elemental, Paralisar Monstro*                                           |"
+    },
+    {
+      "nivel": 6,
+      "nome": "Afinidade Aquática",
+      "descricao": "O tamanho da Emanação criada pela sua Ira do Mar aumenta para 3 metros.\nAlém disso, você adquire um Deslocamento de Natação igual ao seu Deslocamento."
+    },
+    {
+      "nivel": 10,
+      "nome": "Filho da Tempestade",
+      "descricao": "Sua Ira do Mar confere dois benefícios adicionais enquanto estiver ativa, conforme detalhado abaixo.\n**Voo.** Você adquire um Deslocamento de Voo igual ao seu Deslocamento.\n**Resistência.** Você tem Resistência a dano Elétrico, Gélido e Trovejante."
+    },
+    {
+      "nivel": 14,
+      "nome": "Manifestação Oceânica",
+      "descricao": "Em vez de manifestar a Emanação da Ira do Mar ao seu redor, você pode manifestá-la ao redor de uma criatura voluntária a até 18 metros de você. Essa criatura adquire todos os benefícios da Emanação, usando sua CD para evitar magia e seu modificador de Sabedoria.\nAlém disso, você pode manifestar a Emanação ao redor de si mesmo e da outra criatura ao gastar dois usos da sua Forma Selvagem, em vez de um, ao manifestá-la."
+    }
+  ],
+  "subclasses": [
+    {
+      "nome": "Círculo da Lua",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Formas Animais dos Círculos Druídicos",
+          "descricao": "Você pode canalizar a magia lunar ao assumir uma Forma Selvagem, obtendo os seguintes benefícios.\n**Nível de Desafio.** O Nível de Desafio máximo para a forma é igual ao seu nível de Druida dividido por 3 (arredondado para baixo).\n**Classe de Armadura.** Até sair da forma, sua CA passa a ser 13 + seu modificador de Sabedoria, se esse valor for maior que a CA da Fera.\n**Pontos de Vida Temporários.** Você adquire um número de Pontos de Vida Temporários igual a três vezes o seu nível de Druida."
+        },
+        {
+          "nivel": 3,
+          "nome": "Magias do Círculo da Lua",
+          "descricao": "Ao atingir um nível de Druida detalhado na tabela Magias do Círculo da Lua, você tem a lista de magias preparadas.\nAlém disso, você pode conjurar as magias dessa característica enquanto estiver em uma Forma Selvagem.\n**Magias do Círculo da Lua**\n| **Nível de Druida** | **Magias de Círculo Druídico**                  |\n|---------------------|-------------------------------------------------|\n| 3                   | *Curar Ferimentos, Fagulha Estelar, Raio Lunar* |\n| 5                   | *Invocar Animais*                               |\n| 7                   | *Fonte do Luar*                                 |\n| 9                   | *Curar Ferimentos em Massa*                     |"
+        },
+        {
+          "nivel": 6,
+          "nome": "Formas Animais dos Círculos Druídicos Aprimorada",
+          "descricao": "Enquanto estiver em uma Forma Selvagem, você adquire os seguintes benefícios.\n**Radiância Lunar.** Cada um de seus ataques na Forma Selvagem pode causar seu tipo de dano normal ou dano Radiante. Você escolhe cada vez que acerta com esses ataques.\n**Vigor Aumentado.** Você pode adicionar seu modificador de Sabedoria às suas salvaguardas de Constituição."
+        },
+        {
+          "nivel": 10,
+          "nome": "Passo Lunar",
+          "descricao": "Você se transporta magicamente, reaparecendo em meio a uma explosão de luar. Como uma Ação Bônus, você se teleporta até 9 metros para um espaço desocupado à sua vista e tem Vantagem na próxima jogada de ataque que realizar antes do final deste turno.\nVocê pode usar essa característica um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez) e restaura todos os usos gastos ao completar um Descanso Longo. Você também pode recuperar usos gastando um espaço de magia de 2º círculo ou superior para cada uso que deseja recuperar (nenhuma ação é necessária)."
+        },
+        {
+          "nivel": 14,
+          "nome": "Forma Lunar",
+          "descricao": "O poder da lua permeia você, concedendo os seguintes benefícios.\n**Radiância Lunar Aprimorada.** Uma vez por turno, você pode causar 2d10 pontos de dano Radiante adicional a um alvo que você acerta com o ataque da Forma Selvagem.\n**Luar Compartilhado.** Sempre que usar Passo Lunar, você também pode teleportar uma criatura voluntária. Essa criatura deve estar a até 3 metros de você, e você a teleporta para um espaço desocupado à sua vista a até 3 metros do seu destino."
+        }
+      ]
+    },
+    {
+      "nome": "Círculo da Terra",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Auxílio da Terra",
+          "descricao": "Como uma ação Usar Magia, você pode gastar um uso de sua Forma Selvagem e escolher um ponto a até 18 metros de você. Flores que concedem vitalidade e espinhos drenadores de vida surgem momentaneamente em uma Esfera de 3 metros de raio, centrada nesse ponto. Cada criatura à sua escolha na Esfera deve realizar uma salvaguarda de Constituição contra a CD para evitar sua magia, sofrendo 2d6 pontos de dano Necrótico se falhar ou metade desse dano em caso de sucesso. Uma criatura à sua escolha na área restaura 2d6 Pontos de Vida.\nO dano e cura aumentam em 1d6 quando você atinge o nível 10 (3d6) e 14 (4d6) de Druida."
+        },
+        {
+          "nivel": 3,
+          "nome": "Magias do Círculo da Terra",
+          "descricao": "Sempre que completar um Descanso Longo, escolha um tipo de terreno: árido, polar, temperado ou tropical. Consulte a tabela abaixo correspondente ao tipo escolhido; você tem a lista de magias preparadas de seu nível de Druida e inferior.\n**Terreno Árido**\n| **Nível do Druida** | **Magias de Círculo Druídico**           |\n|---------------------|------------------------------------------|\n| 3                   | *Mãos Flamejantes, Raio de Fogo, Turvar* |\n| 5                   | *Bola de Fogo*                           |\n| 7                   | *Malogro*                                |\n| 9                   | *Muralha de Pedra*                       |\n**Terreno Polar**\n| **Nível do Druida** | **Magias de Círculo Druídico**                       |\n|---------------------|------------------------------------------------------|\n| 3                   | *Névoa Obscurecente, Paralisar Pessoa, Raio de Gelo* |\n| 5                   | *Nevasca*                                            |\n| 7                   | *Tempestade Glacial*                                 |\n| 9                   | *Cone de Frio*                                       |\n**Terreno Temperado**\n| **Nível do Druida** | **Magias de Círculo Druídico**         |\n|---------------------|----------------------------------------|\n| 3                   | *Passo Nebuloso, Sono, Toque Chocante* |\n| 5                   | *Relâmpago*                            |\n| 7                   | *Movimentação Livre*                   |\n| 9                   | *Passo Arbóreo*                        |\n**Terreno Tropical**\n| **Nível do Druida** | **Magias de Círculo Druídico**    |\n|---------------------|-----------------------------------|\n| 3                   | Bolha Ácida, Raio Nauseante, Teia |\n| 5                   | Nuvem Fétida                      |\n| 7                   | Polimorfia                        |\n| 9                   | Praga de Insetos                  |"
+        },
+        {
+          "nivel": 6,
+          "nome": "Recuperação Natural",
+          "descricao": "Você pode conjurar uma das magias de 1º círculo ou superior que preparou de sua característica Magias de Círculo Druídico sem gastar um espaço de magia, e deve completar um Descanso Longo antes de fazê-lo novamente.\nAlém disso, ao completar um Descanso Curto, pode escolher recuperar espaços de magia gastos. A somatória dos círculos desses espaços deve ser menor ou igual à metade do seu nível como Druida (arredondado para cima), e nenhum deles pode ser de 6º círculo ou superior. Por exemplo, se você for um Druida de nível 6, pode recuperar até três círculos de espaços de magia. Você pode recuperar um espaço de magia de 3º círculo, ou um de 2º círculo e um de 1º círculo, ou três de 1º círculo. Após recuperar espaços de magia com esta característica, você não pode fazê-lo novamente até completar um Descanso Longo."
+        },
+        {
+          "nivel": 10,
+          "nome": "Proteção Natural",
+          "descricao": "Você é imune à condição Envenenado e tem Resistência a um tipo de dano associado à sua escolha atual de terreno na característica Magias de Círculo Druídico, conforme mostrado na tabela Proteção Natural.\n**Proteção Natural**\n| **Tipo de Terreno** | **Resistência** |\n|---------------------|-----------------|\n| Árido               | Ígneo           |\n| Polar               | Gélido          |\n| Temperado           | Elétrico        |\n| Tropical            | Venenoso        |"
+        },
+        {
+          "nivel": 14,
+          "nome": "Santuário Natural",
+          "descricao": "Como uma ação Usar Magia, você pode gastar um uso de sua Forma Selvagem e produzir árvores e vinhas espectrais que aparecem em um Cubo de 4,5 metros de lados no chão a até 36 metros de você. Elas permanecem por 1 minuto ou até você morrer, ou ter a condição Incapacitado. Você e seus aliados têm Cobertura Parcial enquanto estiverem nessa área, e seus aliados adquirem a Resistência atual da sua Proteção Natural enquanto estão lá.\nComo uma Ação Bônus, você pode mover o Cubo até 18 metros para o chão a até 36 metros de você."
+        }
+      ]
+    },
+    {
+      "nome": "Círculo das Estrelas",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Forma Estrelada",
+          "descricao": "Forma Estelar\nCaracterística de 2º nível do Círculo das Estrelas\nCom uma ação bônus, você pode gastar um uso da sua Forma\nSelvagem para assumir uma forma estelar em vez de se\ntransformar em uma besta.\n43\nOpções de Personagens\nEnquanto em sua forma estelar, você mantém as suas\nestatísticas de jogo, mas seu corpo se torna luminoso; suas\njuntas cintilam como estrelas, e linhas brilhantes as\nconectam como em uma carta estelar. Essa forma emite luz\nplena em um raio de 3m e penumbra por mais 3m adicionais.\nA forma dura 10 minutos. Ela se encerra antecipadamente se\nvocê dissipá-la (nenhuma ação é necessária), fica\nincapacitado, morrer ou utilizar essa habilidade novamente.\nSempre que você assume a sua forma estelar, escolha qual\ndas constelações a seguir brilham em seu corpo; sua escolha\nfornece a você certos benefícios enquanto nessa forma.\nArqueiro. Uma constelação de um arqueiro aparece em\nvocê. Quando ativa essa forma, e como uma ação bônus em\ncada um de seus turnos subsequentes enquanto ela durar,\nvocê pode realizar um ataque com magia à distância, atirando\numa flecha luminosa que tenha como alvo uma criatura a té\n18m de você. Em um acerto, o ataque provoca dano radiante\nigual a 1d8 + seu modificador de Sabedoria.\nCálice. Uma constelação de um cálice doador de vida\naparece em você. Sempre que gastar um espaço de magia\npara conjurar uma magia que restaure pontos de vida de uma\ncriautra, você ou outra criatura a até 9m de você pode\nrecuperar pontos de vida em uma quantia igual a 1d8 + seu\nmodificador de Sabedoria.\nDragão. Uma constelação de um dragão sagaz aparece em\nvocê. Quando você realizar um teste de Inteligência ou de\nSabedoria ou uma salvaguarda de Constituição para manter\na concentração em uma magia, você pode considerar um\nresultado de 9 ou menos no d20 como um 10.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            43
+          ]
+        },
+        {
+          "nivel": 3,
+          "nome": "Mapa Estelar",
+          "descricao": "Mapa Estelar\nCaracterística de 2º nível do Círculo das Estrelas\nVocê criou uma carta estelar como parte de seus estudos\ncelestiais. Ela é um objeto minúsculo e pode servir como foco\nde conjuração para suas magias de druida. Você determina a\nforma desse item rolando na tabela de Mapa Estelar ou\nescolhendo uma. Enquanto segurando esse mapa, você tem\nos seguintes benefícios:\nVocê conhece o truque Orientação.\nVocê tem a magia Raio Guia preparada. Ela é considerada\numa magia de druida para você, e não conta no número de\nmagias que você pode preparar.\nComo uma ação, você pode conjurar Raio Guia sem gastar um espaço de\nmagia. Você pode fazer isso um número de vezes igual ao\nseu modificador de proficiência, e recupera os usos ao\nterminar um descanso longo.\nSe você perder o mapa, você pode realizar uma cerimônia\nmágica com duração de 1 hora para criar um substituto. Essa\ncerimônia pode ser realizada durante um descanso curto ou\nlongo, e destrói o mapa anterior.\nMapa Estelar\nd6\nForma do Mapa\n1\nUm pergaminho coberto de representações de\nconstelações.\n2 Uma placa de pedra com pequenos buracos perfurados\nnela.\n3\nUma pele de urso-coruja entalhada com marcas em\nrelevo.\n4\nUma coleção de mapas encadernada em uma capa de\nébano.\n5\nUm cristal que projeta padrões estelares quando\nposicionado diante da luz.\n6\nDiscos de vidro que representam constelações.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            43
+          ]
+        },
+        {
+          "nivel": 6,
+          "nome": "Presságio Cósmico",
+          "descricao": "Presságio Cósmico\nCaracterística de 6º nível do Círculo das Estrelas\nSempre que encerrar um descanso longo, você pode\nconsultar seu Mapa Estelar por presságios. Quando fizer\nisso, jogue um dado. Até o fim do seu próximo descanso\nlongo, você ganha acesso a uma reação especial baseada se\nvocê tirou um número par ou ímpar no dado.\nProsperidade (Par). Sempre que uma criatura a até 9m de\nvocê que você possa ver estiver prestes a fazer uma jogada de\nataque, salvaguarda ou teste de habilidade, você pode usar\nsua reação para rolar um d6 e adicionar o número rolado ao\ntotal.\nInfortúnio (Ímpar). Sempre que uma criatura a até 9m de\nvocê que você possa ver estiver prestes a fazer uma jogada de\nataque, salvaguarda ou teste de habilidade, você pode usar\nsua reação para rolar um d6 e subtrair o número rolado do\ntotal.\nVocê pode usar esta reação um número de vezes igual ao\nseu bônus de proficiência, e você recupera todos os usos ao\nfinal de um descanso longo.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            44
+          ]
+        },
+        {
+          "nivel": 10,
+          "nome": "Constelações Cintilantes",
+          "descricao": "Constelações Cintilantes\nCaracterística de 10º nível do Círculo das Estrelas\nA constelação de sua Forma Estelar é aprimorada. O 1d8 da\nconstelação do Arqueiro e do Cálice se tornam 2d8, e\nenquanto a constelação do Dragão estiver ativa, você adquire\num deslocamento de voo de 6m e pode flutuar.\nAlém disso, no começo de cada um de seus turnos\nenquanto estiver na Forma estelar, você poderá trocar qual\nconstelação brilhará em seu corpo.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            44
+          ]
+        },
+        {
+          "nivel": 14,
+          "nome": "Repleto de Estrelas",
+          "descricao": "Totalmente Estrelado\nCaracterística de 14º nível do Círculo das Estrelas\nEnquanto em sua Forma Estelar você se torna parcialmente\nincorpóreo, ganhando resistência a dano contundente,\ncortante e perfurante.\nCírculo do Fogo Selvagem\n\"Eu não seria capaz de lhe contar quantas vezes eu\nqueimei tudo até o chão e comecei de novo.\"\nTasha\nDruidas dentro do Círculo do Fogo Selvagem compreendem\nque a destruição às vezes é precursora da criação, tal como\nquando um fogo florestal promove o crescimento posterior.\nEsses druidas se ligam a um espírito primitivo que carrega\ntanto a destruição quanto o poder criativo, permitindo aos\ndruidas criarem chamas controladas que queimam uma\ncoisa para dar vida a outra.\nMagias de Círculo\nCaracterística de 2º nível do Círculo do Fogo Selvagem\nVocê criou um vínculo com um espírito de fogo selvagem,\numa criatura primitiva de criação e destruição. Sua ligação\ncom esse espírito fornece a você acesso a algumas magias\nquando você alcança certos níveis nessa classe, conforme\nmostrado na tabela de Magias do Círculo do Fogo Selvagem.\nAssim que você ganha acesso a essas magias, elas sempre\nserão consideradas como preparadas por você, e não contam\ndentro do número de magias que você pode preparar por dia.\nSe através disso você adquirir uma magia que não esteja na\nlista de magias de druida, agora ela passa a ser considerada\numa magia de druida para você.\nMagias do Círculo do Fogo Selvagem\nNível de\nDruida\nMagias\n2°\nMãos Flamejantes, Curar Ferimentos\n3º\nEsfera Flamejante, Raio Ardente\n5º\nCrescimento de Plantas, Revivificar\n7º\nAura de Devoção, Escudo Ardente\n9º\nColuna de Chamas, Curar Ferimentos em\nMassa",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Círculo do Mar",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Ira do Mar",
+          "descricao": "Como uma Ação Bônus, você pode gastar um uso da sua Forma Selvagem para manifestar uma Emanação de 1,5 metro, que toma a forma de respingos de água do oceano ao seu redor por 10 minutos. Ela se encerra caso você a disperse (nenhuma ação é necessária), manifeste-a novamente ou tenha a condição Incapacitado.\nAo manifestar a Emanação e como uma Ação Bônus em seus turnos subsequentes, você pode escolher outra criatura à sua vista na Emanação. O alvo deve ser bem-sucedido em uma salvaguarda de Constituição contra a sua CD para evitar magia ou sofre dano Gélido e, se a criatura for Grande ou menor, é empurrada até 4,5 metros para longe de você. Para determinar esse dano, jogue um número de d6s igual ao seu modificador de Sabedoria (mínimo de um dado)."
+        },
+        {
+          "nivel": 3,
+          "nome": "Magias do Círculo do Mar",
+          "descricao": "Ao atingir um nível de Druida detalhado na tabela Magias do Círculo do Mar, você tem a lista de magias preparadas.\n**Magias do Círculo do Mar**\n| **Nível de Druida** | **Magias de Círculo Druídico**                                                   |\n|---------------------|----------------------------------------------------------------------------------|\n| 3                   | *Despedaçar, Lufada de Vento, Névoa Obscurecente, Onda Trovejante, Raio de Gelo* |\n| 5                   | *Relâmpago, Respirar na Água*                                                    |\n| 7                   | *Controlar Água, Tempestade Glacial*                                             |\n| 9                   | *Invocar Elemental, Paralisar Monstro*                                           |"
+        },
+        {
+          "nivel": 6,
+          "nome": "Afinidade Aquática",
+          "descricao": "O tamanho da Emanação criada pela sua Ira do Mar aumenta para 3 metros.\nAlém disso, você adquire um Deslocamento de Natação igual ao seu Deslocamento."
+        },
+        {
+          "nivel": 10,
+          "nome": "Filho da Tempestade",
+          "descricao": "Sua Ira do Mar confere dois benefícios adicionais enquanto estiver ativa, conforme detalhado abaixo.\n**Voo.** Você adquire um Deslocamento de Voo igual ao seu Deslocamento.\n**Resistência.** Você tem Resistência a dano Elétrico, Gélido e Trovejante."
+        },
+        {
+          "nivel": 14,
+          "nome": "Manifestação Oceânica",
+          "descricao": "Em vez de manifestar a Emanação da Ira do Mar ao seu redor, você pode manifestá-la ao redor de uma criatura voluntária a até 18 metros de você. Essa criatura adquire todos os benefícios da Emanação, usando sua CD para evitar magia e seu modificador de Sabedoria.\nAlém disso, você pode manifestar a Emanação ao redor de si mesmo e da outra criatura ao gastar dois usos da sua Forma Selvagem, em vez de um, ao manifestá-la."
+        }
+      ]
+    },
+    {
+      "nome": "Círculo dos Esporos",
+      "caracteristicas": [
+        {
+          "nivel": 2,
+          "nome": "Magias de Círculo",
+          "descricao": "Magias de Círculo\nCaracterística de 2° Nível do Círculo dos Esporos\nSua ligação simbólica com os fungos e sua habilidade de\ntransitar entre o cíclo da vida e da morte fornece a você\nacesso a certas magias. No 2° Nível, você aprende o truque\nToque Necrótico.\nNo 3°, 5°, 7° e 9° níveis, você ganha acesso às magias\nlistadas na tabela de Magias do círculo dos Esporos. Assim\nque você ganha acesso a essas magias, elas sempre serão\nconsideradas como preparadas por você, e não contam\ndentro do número de magias que você pode preparar por dia.\nSe através disso você adquirir uma magia que não esteja na\nlista de magias de druida, agora ela passa a ser considerada\numa magia de druida para você.\nMagias do Círculo dos Esporos\nNível de Druida\nMagias\n2º\nToque Necrótico\n3º\nCegueira/ Surdez, Repouso\nTranquilo\n5º\nAnimar Mortos, Forma Gasosa\n7º\nMalogro, Confusão\n9º\nNévoa Mortal, Praga",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            42
+          ]
+        },
+        {
+          "nivel": 2,
+          "nome": "Aura de Esporos",
+          "descricao": "Aura de Esporos\nCaracterística de 2° Nível do Círculo dos Esporos\nVocê é cercado por esporos necróticos invisíveis, que são\ninofensivos até que você os libere em uma criatura próxima.\nQuando uma criatura que você possa ver se move para um\nespaço a 3m ou menos de você ou começa seu turno nessa\ndistância, você pode usar sua reação para causar 1d4 de dano\nnecrótico para essa criatura, a menos que ela seja\nbemsucedida em uma salvaguarda de Constituição contra\nsua CD de magia. O dano necrótico aumenta para 1d6 no 6°\nnível, 1d8 no 10° nível, e 1d10 no 14° nível.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            42
+          ]
+        },
+        {
+          "nivel": 2,
+          "nome": "Entidade simbiótica",
+          "descricao": "Entidade simbiótica\nCaracterística de 2° Nível do Círculo dos Esporos\nVocê ganha a habilidade de canalizar a magia em seus\nesporos. Como uma ção, você pode gastar um uso de sua\nForma selvagem para despertar esses esporos, em vez de se\ntransformar em uma criatura do tipo fera, e você ganha 4\npontos de vida temporários para cada nível nessa classe.\nEnquanto esta característica estiver ativa, você ganha os\nseguintes benefícios:\nQuando você provoca dano com a Aura de Esporos, jogue\no dado de dano uma segunda vez e adicione esse valor ao\ntotal de dano.\nSeus ataques corpo a corpo provocam 1d6 de dano\nnecrótico extra a qualquer alvo que você acertar.\nEsses benefícios duram por 10 minutos, até que você perca\ntodos esses pontos de vida temporários, ou até que use sua\nForma Selvagem novamente.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            42
+          ]
+        },
+        {
+          "nivel": 6,
+          "nome": "Infestação fúngica",
+          "descricao": "Infestação fúngica\nCaracterística de 6° Nível do Círculo dos Esporos\nSeus esporos ganham a habilidade de infestar um corpo e\nanimá-lo. Se uma fera ou humanóide de tamanho Pequeno\nou Médio a até 3m de você morrer, você pode usar sua reação\npara animá-la, fazendo com que imediatamente se levante\ncom 1 Ponto de Vida. A criatura utiliza o bloco de estatísticas\ndo zumbi do Manual dos Monstros. Ela permanece animada\npor 1 hora, tempo após o qual ela colapsa e morre. Em\ncombate, o turno do zumbi é realizado logo após o seu. Ele\nobedece seus comandos mentais, e a única ação que ele pode\nrealizar é a de Ataque, realizando um ataque corpo-acorpo.\nVocê pode usar essa característica um número de vezes igual\nao seu modificador de Sabedoria (Mínimo de 1), e você\nrecupera todos os usos ao terminar um descanso longo.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            42
+          ]
+        },
+        {
+          "nivel": 10,
+          "nome": "Expansão de Esporos",
+          "descricao": "Expansão de Esporos\nCaracterística de 10° Nível do Círculo dos Esporos\nVocê adquire a habilidade de semear uma área com esporos\nmortais. Como uma ação bônus enquanto sua Entidade\nsimbiótica estiver ativa, você pode espalhar esporos a até 9m\nde distância, onde eles pairam em um cubo de 3m por 1\nminuto. Os esporos desaparecem antes se você usar essa\ncaracterística novamente, se dissipá-los com uma ação bônus,\nou se sua Entidade simbiótica não estiver mais ativa.\n42\nOpções de Personagens\nSempre que uma criatura mover-se para esse cubo ou\ncomeçar seu turno lá, a criatura recebe o dano de sua Aura\nde Esporos, a menos que seja bem-sucedida em uma\nsalvaguarda de Constituição contra sua CD de magia. Uma\ncriatura não pode receber esse dano mais do que uma vez\npor turno.\nEnquanto o cubo de esporos durar, você não pode utilizar a\nreação da Aura de esporos.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            42
+          ]
+        },
+        {
+          "nivel": 14,
+          "nome": "Corpo fúngico",
+          "descricao": "Corpo fúngico\nCaracterística de 14° Nível do Círculo dos Esporos\nOs esporos fúngicos em seu corpo o alteram: você não pode\nmais ser cegado, ensurdecido, amedrontado, ou envenenado,\ne qualquer acerto crítico conta você será considerado um\nacerto normal, exceto se você estiver incapacitado.\nCírculo das Estrelas\n\"E o que dizer sobre os lugares obscuros entre as\nestrelas? Percebe que é onde as coisas boas\nestão?\" - Tasha\nO Círculo das Estrelas permite que os druidas retirem seus\npoderes da luz estelar. Estes druidas tem rastreado padrões\ncelestiais desde tempos imemoriais, descobrindo segredos\nescondidos entre as constelações. Ao revelar e entender\nesses segredos, o Círculo das Estrelas procura controlar o\npoder do Cosmo.\nMuitos druidas deste círculo mantém registros das\nconstelações e dos efeitos das estrelas no mundo. Alguns\ngrupos documentam essas observações em zonas\nmegalíticas que servem como bibliotecas enigmáticas de\nconhecimento. Estes receptáculos podem tomar a forma de\ncírculos de pedra, pirâmides, petróglifos, e templos\nsubterrâneos - qualquer construção durável o suficiente para\nproteger os conhecimentos sagrados do círculo até mesmo\nde um grande cataclisma.\nMapa Estelar\nCaracterística de 2º nível do Círculo das Estrelas\nVocê criou uma carta estelar como parte de seus estudos\ncelestiais. Ela é um objeto minúsculo e pode servir como foco\nde conjuração para suas magias de druida. Você determina a\nforma desse item rolando na tabela de Mapa Estelar ou\nescolhendo uma. Enquanto segurando esse mapa, você tem\nos seguintes benefícios:\nVocê conhece o truque Orientação.\nVocê tem a magia Raio Guia preparada. Ela é considerada\numa magia de druida para você, e não conta no número de\nmagias que você pode preparar.\nVocê pode conjurar Raio Guia sem gastar um espaço de\nmagia. Você pode fazer isso um número de vezes igual ao\nseu modificador de proficiência, e recupera os usos ao\nterminar um descanso longo.\nSe você perder o mapa, você pode realizar uma cerimônia\nmágica com duração de 1 hora para criar um substituto. Essa\ncerimônia pode ser realizada durante um descanso curto ou\nlongo, e destrói o mapa anterior.\nMapa Estelar\nd6\nForma do Mapa\n1\nUm pergaminho coberto de representações de\nconstelações.\n2 Uma placa de pedra com pequenos buracos perfurados\nnela.\n3\nUma pele de urso-coruja entalhada com marcas em\nrelevo.\n4\nUma coleção de mapas encadernada em uma capa de\nébano.\n5\nUm cristal que projeta padrões estelares quando\nposicionado diante da luz.\n6\nDiscos de vidro que representam constelações.\nForma Estelar\nCaracterística de 2º nível do Círculo das Estrelas\nCom uma ação bônus, você pode gastar um uso da sua Forma\nSelvagem para assumir uma forma estelar em vez de se\ntransformar em uma besta.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            43
+          ]
+        }
+      ],
+      "fonte": "Caldeirão de Tudo de Tasha"
+    },
+    {
+      "nome": "Círculo do Fogo Selvagem",
+      "caracteristicas": [
+        {
+          "nivel": 2,
+          "nome": "Magias de Círculo",
+          "descricao": "Magias de Círculo\nCaracterística de 2º nível do Círculo do Fogo Selvagem\nVocê criou um vínculo com um espírito de fogo selvagem,\numa criatura primitiva de criação e destruição. Sua ligação\ncom esse espírito fornece a você acesso a algumas magias\nquando você alcança certos níveis nessa classe, conforme\nmostrado na tabela de Magias do Círculo do Fogo Selvagem.\nAssim que você ganha acesso a essas magias, elas sempre\nserão consideradas como preparadas por você, e não contam\ndentro do número de magias que você pode preparar por dia.\nSe através disso você adquirir uma magia que não esteja na\nlista de magias de druida, agora ela passa a ser considerada\numa magia de druida para você.\nMagias do Círculo do Fogo Selvagem\nNível de\nDruida\nMagias\n2°\nMãos Flamejantes, Curar Ferimentos\n3º\nEsfera Flamejante, Raio Ardente\n5º\nCrescimento de Plantas, Revivificar\n7º\nAura de Devoção, Escudo Ardente\n9º\nColuna de Chamas, Curar Ferimentos em\nMassa\n44\nOpções de Personagens",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            44
+          ]
+        },
+        {
+          "nivel": 2,
+          "nome": "Invocar Espírito do Fogo Selvagem",
+          "descricao": "Invocar Espírito do Fogo Selvagem\nCaracterística de 2º nível do Círculo do Fogo Selvagem\nVocê pode invocar o espírito primitivo conectado a sua alma.\nComo uma ação, você pode gastar um uso de sua Forma\nSelvagem para invocar seu espírito do fogo selvagem, em vez\nde assumir a forma de uma fera.\nO espírito aparece em um espaço desocupado a sua\nescolha que você possa ver a até 9m de você. Quando o\nespírito aparece, cada criatura a até 3m dele (exceto você)\ndeve se bem-sucedido em uma salvaguarda de Destreza\ncontra sua CD de magia ou sofre 2d6 de dano ígneo.\nO espírito é amigável a você e seus companheiros e\nobedece aos seus comandos. Veja as estatísticas de jogo\ndessa criatura no bloco de estatísticas do Espírito do Fogo\nSelvagem, que usa seu bônus de proficiência (BP) em várias\ncoisas. Você determina a aparência do seu espírito. Alguns\nespíritos assumem uma forma humanóide feita de galhos\nretorcidos envolvidos em chamas, enquanto outros parecem\ncomo feras feitas de chamas.\nEm combate, o espírito compartilha sua contagem de\niniciativa, mas ela executa seu turno logo após o seu. A única\nação que ele faz em seu turno é a ação de Esquiva, a menos\nque você o comande com sua ação bônus em seu turno para\nque ele realize outra ação. Essa ação pode ser uma do seu\nbloco de estatísticas ou qualquer outra. Se você estiver\nincapacitado, o espírito pode executar qualquer ação a sua\nescolha, não apenas a de Esquiva.\nO espírito manifesta-se por 1 hora, até ser reduzido a 0\npontos de vida, até que você utilize essa característica para\ninvocar o espírito novamente, ou até que você morra.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            45
+          ]
+        },
+        {
+          "nivel": 6,
+          "nome": "Vínculo aprimorado",
+          "descricao": "Vínculo aprimorado\nCaracterística de 6º nível do Círculo do Fogo Selvagem\nO vínculo com seu espírito do fogo selvagem aprimora suas\nmagias de restauração e destruição. Sempre que você\nconjurar uma magia que provoca dano de fogo, ou que\nrestaure pontos de vida enquanto seu espírito do fogo\nselvagem estiver invocado, jogue 1d8, e você ganha um bônus\nigual ao número rolado para uma jogada de dano ou de cura\ndessa magia.\nEm adição, quando você conjura uma magia com um\nalcance que não seja pessoal, a magia pode se originar do seu\nespírito do fogo selvagem.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            45
+          ]
+        },
+        {
+          "nivel": 10,
+          "nome": "Cauterizar chamas",
+          "descricao": "Cauterizar chamas\nCaracterística de 10º nível do Círculo do Fogo Selvagem\nVocê ganha a habilidade de transformar a morte em chamas\nmágicas que podem curar ou incinerar. Quando uma criatura\nPequena ou maior morre a até 9m de você ou de seu espírito\ndo fogo selvagem, uma chama espectral inofensiva brota do\nespaço da criatura morta e brilha ali por 1 minuto. Quando\numa criatura que você possa ver entra nesse espaço, você\npode usar sua reação para extinguir a chama espectral ali e\ncurar ou dar dano de fogo nessa criatura. O valor dessa cura\nou dano é igual 2d10 + seu modificador de Sabedoria.\nVocê pode usar essa reação um número de vezes igual ao\nseu bônus de proficiência,, e você recupera todos os seus\nusos em quando você termina um descanso longo.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            45
+          ]
+        },
+        {
+          "nivel": 14,
+          "nome": "Renovação ardente",
+          "descricao": "Renovação ardente\nCaracterística de 14º nível do Círculo do Fogo Selvagem\nO vínculo com seu espírito do fogo selvagem pode salvar você\nda morte. Se o espírito estiver a até 36m de você quando você\nfor reduzido a 0 pontos de vida e cair inconsciente, você pode\nfazer com que o espírito caia a 0 pontos de vida. Você então\nrecupera metade dos seus pontos de vida e imediatamente se\nlevanta. Assim que usar essa característica, você não pode\nutilizá-la novamente até terminar um descanso longo.\n45\nEspírito do Fogo\nSelvagem\nElemental Pequeno\nClasse de Armadura 13 (armadura natural)\nPontos de Vida 5 + cinco vezes seu nível de druida\nDeslocamento 9m, Voo 9m (levitação).\nFOR\nDES\nCON\nINT\nSAB\nCAR\n10 (+0) 14 (+2) 14 (+2) 13 (+1) 15 (+2) 15 (+2)\nImunidade a dano Ígneo.\nImunidade a condições enfeitiçado, amedrontado,\nagarrado, caído, impedido.\nSentidos Visão no Escuro 18m, Percepção passiva\n12.\nIdiomas Compreende os idiomas que você fala.\nNível de Desafio —\nBônus de Proficiência (BP) Igual ao seu.\nSemente de fogo. Ataque com arma à distância: seu\nmodificador de ataque com magia para acertar,\nalcance de 18m, um alvo que você possa ver.\nAcerto 1d6 + BP de dano de fogo.\nTeletransporte feérico. O espírito e cada criatura\nvoluntária a sua escolha a até 1,5m dele se\nteletransporta a até 4,5m para um espaço\ndesocupado que você possa ver. Então cada\ncriatura a até 1,5m do espaço que o espírito deixou\ndeve ser bem sucedida em uma salvaguarda de\nDestreza contra sua CD de magia ou sofre 1d6 +\nBP de dano de fogo.\nOpções de Personagens",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            45
+          ]
+        }
+      ],
+      "fonte": "Caldeirão de Tudo de Tasha"
+    },
+    {
+      "nome": "Círculo dos Sonhos",
+      "caracteristicas": [
+        {
+          "nivel": 2,
+          "nome": "Bálsamo da Corte do Verão",
+          "descricao": "No 2°\nnível, você fica imbuído das bênçãos da Corte\nde Verão. Vocé é uma fonte de energia que oferece um\ndescanso para ferimentos. Você tem uma infusão de\nenergia feérica representada por um número de d6\nigual ao seu nível dru.ida.\nComo uma ação de bônus, você pode escolher uma\ncriatura que possa ver dentro de 36 metros de alcance\ne gastar uma série desses dados igual à metade do\nseu nível druida ou menos. Role os dados gastos e\nadicione-os. O alvo recupera um número de pontos de\nvida igual ao total. O alvo também ganha um ponto de\nvida temporário por dado gasto. Você recupera todos\nos dados gastos quando terminar um descanso longo."
+        },
+        {
+          "nivel": 6,
+          "nome": "Lar de Luz e Sombra",
+          "descricao": "No 6°\nnível, sua casa pode estar onde quer que esteja.\nDurante um descanso curto ou longo, você pode\ninvocar o poder sombrio da Corte do Crepúsculo para\najudar a proteger seu descanso. No início do seu\ndescanso, você toca um ponto no espaço, e surge uma\nesfera de magia invisível de 9 metros de raio, centrada\nnesse ponto. A cobertura total bloqueia a esfera.\nEnquanto estiver dentro da esfera, você e seus\naliados ganham um bônus de +5 em Destreza\n(Furtividade) e Sabedoria (Percepção), e qualquer luz\ndentro da esfera (uma fogueira, tochas ou similares)\nnão são visíveis de fora dela. A esfera desaparece ao\nfinal do descanso ou quando saírem da esfera."
+        },
+        {
+          "nivel": 10,
+          "nome": "Caminhos Ocultos",
+          "descricao": "A partir do 10°\nnível, você pode usar os\ncaminhos escondidos e mágicos que algumas fadas\nusam para atravessar o espaço em um piscar de\nolhos. Como uma ação de bônus no seu turno, você\npode se teleportar até 18 metros para um espaço\ndesocupado que possa ver. Alternativamente, pode\nusar sua ação para teleportar uma criatura disposta\nque você toque até 9 metros para um espaço"
+        },
+        {
+          "nivel": 14,
+          "nome": "Caminhante dos Sonhos",
+          "descricao": "No 14°\nnível, a magia da Agrestia das Fadas lhe\nconcede a capacidade de viajar mentalmente ou\nfisicamente através dos países dos sonhos.\nQuando terminar um pequeno descanso, você pode\nconjurar uma das seguintes magias, sem gastar um\nespaço de magia ou exigir componentes materiais:\nsonho (com você atuando como o mensageiro),\nvidência ou círculo de teleporte.\nEste uso do círculo de teleporte é especial. Ao invés\nde abrir um portal para um círculo de teleporte\npermanente, ele abre um portal para o último local\nonde terminou um descanso longo no seu plano\nde existência atual. Se você não descansou muito\nno seu plano atual, a magia falhará, mas não será\ndesperdiçada.\nDepois de usar esta característica, não pode usá-la\nnovamente até terminar um descanso longo."
+        }
+      ],
+      "fonte": "Guia de Xanathar para Todas as Coisas"
+    },
+    {
+      "nome": "Círculo do Pastor",
+      "caracteristicas": [
+        {
+          "nivel": 2,
+          "nome": "Fala da Floresta",
+          "descricao": "No 2°\nnível, você ganha a capacidade de conversar\ncom bestas e muitos feéricos.\nVocê aprende a falar, ler e escrever Silvestre.\nAlém disso, os animais podem entender o seu\ndiscurso, e você ganha a capacidade de decifrar\nseus ruídos e movimentos. A maioria dos animais\nnão tem inteligência para transmitir ou entender\nconceitos sofisticados, mas uma besta amigável pode\ntransmitir o que viu ou ouviu no passado recente.\nEsta habilidade não lhe concede amizade com bestas,\nembora você possa combinar essa habilidade com\nDRUIDA DO CIRCULO DO PASTOR\npresentes para angariar favores com eles como faria\ncom qualquer PdM."
+        },
+        {
+          "nivel": 2,
+          "nome": "Totem Espiritual",
+          "descricao": "A partir do 2°\nnível, você pode chamar espíritos da\nnatureza para influenciar o mundo ao seu redor. Com\numa ação bônus, você pode invocar magicamente um\nespírito incorpóreo até um ponto que possa ver em até\n18 metros de alcance. O espírito cria uma aura em\num raio de 9 metros em torno desse ponto. Ele conta\ncomo nem uma criatura nem um objeto, embora tenha\na aparência espectral da criatura que representa.\nCorno urna ação bônus, você pode mover o espírito\naté 18 metros em um ponto que possa ver.\nO espírito persiste por 1 minuto ou até você ficar\nincapacitado. Depois de usar essa característica, não\npode usá-la novamente até terminar um descanso\ncurto ou longo.\nO efeito da aura do espírito depende do tipo de\nespírito que você convoca das opções abaixo:\nEspírito do Urso. O espírito do urso concede a\nvocê e seus aliados seu poder e resistência. Cada\ncriatura de sua escolha na aura quando o espírito\naparecer ganha pontos de vida temporários iguais a 5\n+ seu nível de druida. Além disso, você e seus aliados\nganham vantagem em testes de Força e testes de\nresistência de Força enquanto permanecerem na aura.\nEspírito do Falcão. O espírito do falcão é um\ncaçador consumado, ajudando você e seus aliados\ncom sua visão afiada. Quando uma criatura fizer\num teste de ataque contra um alvo na aura do\nespírito, você pode usar sua reação para conceder\nvantagem a esse teste. Além disso, você e seus aliados\ntêm vantagem em testes de Sabedoria (Percepção)\nenquanto estiverem na aura.\nEspírito do Unicórnio. O espírito do unicórnio\nconcede proteção aos que estão nas proximidades.\nVocê e seus aliados ganham vantagem em todos os\ntestes de habilidades feitos para detectar criaturas\ndentro aura do espírito. Além do mais, se você\nconjurar uma magia usando um espaço de magia que\nrestaure pontos de vida para qualquer criatura dentro\nou fora da aura, cada criatura de sua escolha na aura\ntambém recupera pontos de vida iguais ao seu nível\ndruida."
+        },
+        {
+          "nivel": 6,
+          "nome": "Invocador Poderoso",
+          "descricao": "A partir do 6°\nnível, bestas e feéricos que você conjure\nsão mais resistentes do que o normal. Qualquer besta\nou feérico convocado ou criado por uma magia que\ntenha usado ganha os seguintes beneficias:\n• A criatura surge com mais pontos de vida do que\no normal: 2 pontos de vida adicionais por cada\nDado de Vida que ela tenha.\n• O dano de suas armas naturais será considerado\nmágico com o objetivo de superar a imunidade e\nresistência a ataques e danos não mágicos."
+        },
+        {
+          "nivel": 10,
+          "nome": "Guardião Espiritual",
+          "descricao": "A partir do 10°\nnível, o seu Espírito Totêmico protege\nos animais e feéricos que invoque com sua magia.\nQuando uma besta ou feérico que tenha convocado ou\ncriado com uma magia termina seu turno na aura do\nEspírito Totêmico, essa criatura recupera pontos de\nvida iguais a metade do nível de druida."
+        },
+        {
+          "nivel": 14,
+          "nome": "Convocação Fiel",
+          "descricao": "A partir do 14°\nnível, os espíritos da natureza com\nos quais você comunga o protegem quando estiver\nmais indefeso. Se você for reduzido a O pontos de\nvida ou estiver incapacitado contra sua vontade, pode\nganhar imediatamente os beneficias da magia conjurar\nanimais, como se fosse conjurado usando um espaço\nde magias do nível 9. Convoca quatro bestas de sua\nescolha, desde que sejam de um nível de desafio 2 ou\ninferior. Os animais conjurados aparecem em até de\n6 metros de alcance. Se eles não recebem nenhum\ncomando seu, eles o protegem contra danos e atacam\nseus inimigos. A magia dura 1 hora, não requer\nnenhuma concentração, ou até que a descarte (não é\nnecessária nenhuma ação).\nDepois de usar esta caracteristica, não pode usá-la\nnovamente até terminar um descanso longo."
+        }
+      ],
+      "fonte": "Guia de Xanathar para Todas as Coisas"
+    }
+  ],
+  "lista_magias": {},
+  "texto_completo": "# Druida\n\n### Um Sacerdote da Natureza de Poder Primal\n\n**Traços Básicos de Druida**\n\n| **Atributo Primário**             | **Sabedoria**                                                                                                                            |\n|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|\n| **Dado de Ponto de Vida**         | D8 por nível de Druida                                                                                                                   |\n| **Proficiência em Salvaguarda**   | Inteligência e Sabedoria                                                                                                                 |\n| **Proficiência em Perícias**      | *Escolha 2:* Arcanismo, Lidar com Animais, Intuição, Medicina, Natureza, Percepção, Religião ou Sobrevivência.                           |\n| **Proficiências com Armas**       | armas Simples                                                                                                                            |\n| **Proficiências com Ferramentas** | Kit de Herbalismo                                                                                                                        |\n| **Treinamento com Armadura**      | armadura Leve e Escudos                                                                                                                  |\n| **Equipamento Inicial**           | *Escolha A ou B:* (A) Armadura de Couro, Escudo, Foice, Foco Druídico (Cajado), Kit de Explorador, Kit de Herbalismo, 9 PO; ou (B) 50 PO |\n\nDruidas pertencem a ordens antigas que invocam as forças da natureza. Utilizando a magia dos animais, plantas e dos quatro elementos, os Druidas curam, multimorfam-se em animais e controlam a destruição elemental.\n\nReverenciando a natureza acima de tudo, Druidas obtêm sua magia da natureza, de uma divindade da natureza ou de ambos, e tipicamente se unem a outros Druidas para realizar ritos que marcam a passagem das estações e outros ciclos naturais.\n\nDruidas se preocupam com o delicado equilíbrio ecológico que sustenta a vida animal e vegetal e com a necessidade de as pessoas viverem em harmonia com a natureza. Muitas vezes, os Druidas protegem locais sagrados ou vigiam regiões de natureza intocada, mas quando um grande perigo surge, eles assumem um papel mais ativo como aventureiros que combatem a ameaça.\n\n## Tornando-se um Druida…\n\n### Como um Personagem de Nível 1\n\n-   Adquira todos os traços da tabela Traços Básicos de Druida.\n-   Adquira as características de nível 1 do Druida, apresentadas na tabela Características de Druida.\n\n### Como um Personagem Multiclasse\n\n-   Adquira as seguintes características da tabela Traços Básicos de Druida: Dado de Ponto de Vida e treinamento com armadura Leve e Escudos.\n-   Adquira as características de nível 1 de Druida, apresentadas na tabela Características de Druida. Veja também regras de multiclasse no capítulo 2 para determinar seus espaços de magia disponíveis.\n\n| **Nível** | **Bônus de Proficiência** | **Características**                       | **Forma Selvagem** | **Truques** | **Magias Preparadas** | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** |\n|-----------|---------------------------|-------------------------------------------|--------------------|-------------|-----------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|\n| 1         | +2                        | Conjuração, Idioma Druídico, Ordem Primal | —                  | 2           | 4                     | 2     | —     | —     | —     | —     | —     | —     | —     | —     |\n| 2         | +2                        | Companheiro Selvagem, Forma Selvagem      | 2                  | 2           | 5                     | 3     | —     | —     | —     | —     | —     | —     | —     | —     |\n| 3         | +2                        | Subclasse de Druida                       | 2                  | 2           | 6                     | 4     | 2     | —     | —     | —     | —     | —     | —     | —     |\n| 4         | +2                        | Aumento no Valor de Atributo              | 2                  | 3           | 7                     | 4     | 3     | —     | —     | —     | —     | —     | —     | —     |\n| 5         | +3                        | Ressurgimento Selvagem                    | 2                  | 3           | 9                     | 4     | 3     | 2     | —     | —     | —     | —     | —     | —     |\n| 6         | +3                        | Característica de Subclasse               | 3                  | 3           | 10                    | 4     | 3     | 3     | —     | —     | —     | —     | —     | —     |\n| 7         | +3                        | Fúria Elemental                           | 3                  | 3           | 11                    | 4     | 3     | 3     | 1     | —     | —     | —     | —     | —     |\n| 8         | +3                        | Aumento no Valor de Atributo              | 3                  | 3           | 12                    | 4     | 3     | 3     | 2     | —     | —     | —     | —     | —     |\n| 9         | +4                        | —                                         | 3                  | 3           | 14                    | 4     | 3     | 3     | 3     | 1     | —     | —     | —     | —     |\n| 10        | +4                        | Característica de Subclasse               | 3                  | 4           | 15                    | 4     | 3     | 3     | 3     | 2     | —     | —     | —     | —     |\n| 11        | +4                        | —                                         | 3                  | 4           | 16                    | 4     | 3     | 3     | 3     | 2     | 1     | —     | —     | —     |\n| 12        | +4                        | Aumento no Valor de Atributo              | 3                  | 4           | 16                    | 4     | 3     | 3     | 3     | 2     | 1     | —     | —     | —     |\n| 13        | +5                        | —                                         | 3                  | 4           | 17                    | 4     | 3     | 3     | 3     | 2     | 1     | 1     | —     | —     |\n| 14        | +5                        | Característica de Subclasse               | 3                  | 4           | 17                    | 4     | 3     | 3     | 3     | 2     | 1     | 1     | —     | —     |\n| 15        | +5                        | Fúria Elemental Aprimorada                | 3                  | 4           | 18                    | 4     | 3     | 3     | 3     | 2     | 1     | 1     | 1     | —     |\n| 16        | +5                        | Aumento no Valor de Atributo              | 3                  | 4           | 18                    | 4     | 3     | 3     | 3     | 2     | 1     | 1     | 1     | —     |\n| 17        | +6                        | —                                         | 4                  | 4           | 19                    | 4     | 3     | 3     | 3     | 2     | 1     | 1     | 1     | 1     |\n| 18        | +6                        | Magias Bestiais                           | 4                  | 4           | 20                    | 4     | 3     | 3     | 3     | 3     | 1     | 1     | 1     | 1     |\n| 19        | +6                        | Dádiva Épica                              | 4                  | 4           | 21                    | 4     | 3     | 3     | 3     | 3     | 2     | 1     | 1     | 1     |\n| 20        | +6                        | Arquidruida                               | 4                  | 4           | 22                    | 4     | 3     | 3     | 3     | 3     | 2     | 2     | 1     | 1     |\n\n## Características de Classe de Druida\n\nComo Druida, você recebe as seguintes características de classe ao alcançar os níveis especificados de Druida. Essas características estão apresentadas na tabela Características de Druida.\n\n### Nível 1: Conjuração\n\nVocê aprendeu a conjurar magias através do estudo das forças místicas da natureza. Veja o capítulo 7 para as regras de conjuração. As informações abaixo detalham como você usa essas regras com magias de Druida, que aparecem na lista de magias de Druida mais adiante na descrição da classe.\n\n**Truques.** Você conhece dois truques à sua escolha da lista de magias de Druida. *Arte Druídica* e *Criar Chamas* são recomendadas.\n\nSempre que você alcança um nível de Druida, pode substituir um de seus truques por outro truque à sua escolha da lista de magias de Druida.\n\nAo atingir os níveis 4 e 10 de Druida, você aprende mais um truque à sua escolha da lista de magias de Druida, conforme mostrado na coluna Truques da tabela Características de Druida.\n\n**Espaços de Magia.** A tabela Características de Druida mostra quantos espaços de magia você tem para conjurar suas magias de 1º círculo ou superior. Você restaura todos os espaços gastos ao completar um Descanso Longo.\n\n**Magias Preparadas de 1º Círculo ou Superior.** Você prepara a lista de magias de 1º círculo ou superior que estão disponíveis para você conjurar com esta característica. Para começar, escolha quatro magias de 1º círculo da lista de magias de Druida. *Amizade Animal*, *Curar Ferimentos*, *Fogo das Fadas* e *Onda Trovejante* são recomendadas.\n\nO número de magias em sua lista aumenta à medida que você alcança níveis de Druida, conforme mostrado na coluna Magias Preparadas da tabela Características de Druida. Sempre que esse número aumentar, escolha magias adicionais da lista de magias de Druida até que o número de magias em sua lista corresponda ao número da tabela. As magias escolhidas devem ser de um círculo para o qual você possui espaços de magia. Por exemplo, se você é um Druida de nível 3, sua lista de magias preparadas pode incluir seis magias de 1º ou 2º círculo em qualquer combinação.\n\nSe outra característica de Druida lhe der magias que você sempre tem preparadas, essas magias não contam para o número de magias que você pode preparar com esta característica, mas essas magias, de outra forma, contam como magias de Druida para você.\n\n**Mudando Suas Magias Preparadas.** Sempre que completar um Descanso Longo, você pode mudar sua lista de magias preparadas, substituindo qualquer uma das magias por outras magias de Druida para as quais você tem espaços de magia.\n\n**Atributo de Conjuração.** Sabedoria é seu atributo de conjuração para suas magias de Druida.\n\n**Foco de Conjuração.** Você pode usar um Foco Druídico como um Foco de Conjuração para suas magias de Druida.\n\n### Nível 1: Idioma Druídico\n\nVocê domina Druídico, o idioma secreto dos Druidas. Ao aprender esse idioma antigo, você também adquiriu a habilidade mágica de se comunicar com animais; você sempre tem a magia *Falar com Animais* preparada.\n\nVocê pode usar Druídico para deixar mensagens ocultas. Você e outros que conhecem Druídico identificam automaticamente tal mensagem. Outros podem perceber a presença da mensagem com um teste de Inteligência (Investigação) CD 15, mas não podem decifrá-la sem magia.\n\n### Nível 1: Ordem Primal\n\nVocê se dedicou a uma das seguintes funções sagradas à sua escolha.\n\n**Protetor.** Treinado para a batalha, você adquire proficiência com armas Marciais e treinamento com armadura Média.\n\n**Xamã.** Você conhece um truque adicional da lista de magias de Druida. Além disso, sua conexão mística com a natureza lhe concede um bônus em seus testes de Inteligência (Arcanismo ou Natureza). O bônus é igual ao seu modificador de Sabedoria (bônus mínimo de +1).\n\n### Nível 2: Companheiro Selvagem\n\nVocê pode invocar um espírito da natureza que assume a forma de um animal para auxiliá-lo. Como uma ação Usar Magia, você pode gastar um espaço de magia ou um uso de Forma Selvagem para conjurar a magia *Convocar Familiar* sem componentes Materiais.\n\nAo conjurar a magia deste modo, o familiar é uma criatura Feérica e desaparece ao completar um Descanso Longo.\n\n### Nível 2: Forma Selvagem\n\nO poder da natureza permite que você assuma a forma de um animal. Como uma Ação Bônus, você multimorfa para uma forma Animal que você aprendeu com esta característica (veja \"Formas Conhecidas\", abaixo). Você fica nessa forma por um número de horas igual à metade do seu nível de Druida, até usar Forma Selvagem novamente, ter a condição Incapacitado ou morrer. Você também pode sair da forma antes como uma Ação Bônus.\n\n**Quantidade de Usos.** Você pode usar Forma Selvagem duas vezes. Você recupera um uso gasto ao completar um Descanso Curto e restaura todos os usos gastos ao completar um Descanso Longo.\n\nVocê adquire usos adicionais ao atingir determinados níveis de Druida, conforme mostrado na coluna Forma Selvagem da tabela Características de Druida.\n\n**Formas Conhecidas.** Você conhece quatro formas Animais com esta característica, escolhidas entre os blocos de estatísticas de Fera com um Nível de Desafio máximo de 1/4 e que não possuem um Deslocamento de Voo (veja o apêndice B para opções de bloco de estatísticas). **Aranha**, **Cavalo de Montaria**, **Lobo** e **Rato** são recomendadas. Sempre que completar um Descanso Longo, você pode substituir uma de suas formas conhecidas por outra forma permitida.\n\nAo atingir certos níveis de Druida, o número de formas conhecidas e o Nível de Desafio máximo dessas formas aumenta, conforme mostrado na tabela Formas de Feras. Além disso, a partir do nível 8, você pode adotar uma forma com Deslocamento de Voo.\n\nAo escolher formas conhecidas, você pode procurar no *Livro dos Monstros* ou em outro lugar por Feras elegíveis se o Mestre permitir.\n\n**Formas de Feras**\n\n| **Nível de Druida** | **Formas Conhecidas** | **ND Máximo** | **Deslocamento de Voo** |\n|---------------------|-----------------------|---------------|-------------------------|\n| 2                   | 4                     | 1/4           | Não                     |\n| 4                   | 6                     | 1/2           | Não                     |\n| 8                   | 8                     | 1             | Sim                     |\n\n**Regras Enquanto Multimorfado.** Enquanto estiver em uma forma, você mantém sua personalidade, memórias e capacidade de falar, e as seguintes regras se aplicam:\n\n**Pontos de Vida Temporários.** Ao assumir uma Forma Selvagem, você adquire um número de Pontos de Vida Temporários igual ao seu nível de Druida.\n\n**Estatísticas de Jogo.** Suas estatísticas de jogo são substituídas pelo bloco de estatísticas da Fera, mas você mantém seu tipo de criatura, Pontos de Vida, Dados de Vida, valores de Inteligência, Sabedoria e Carisma, características de classe, idiomas e talentos. Você também mantém suas proficiências em perícia e salvaguarda e usa seu Bônus de Proficiência para elas, além de adquirir as proficiências da criatura. Se uma perícia ou modificador de salvaguarda no bloco de estatísticas da Fera for maior que o seu, use o do bloco de estatísticas.\n\n**Sem Conjuração.** Você não pode conjurar magias, mas a multimorfia não quebra sua Concentração ou interfere em uma magia que você já conjurou.\n\n**Objetos.** Sua capacidade de manipular objetos é determinada pelos membros da forma, e não pelos seus. Além disso, você escolhe se seu equipamento cai em seu espaço, se funde em sua nova forma ou se é usado por ela. O equipamento vestido funciona normalmente, mas o Mestre decide se é compatível para a nova forma usar um equipamento com base no tamanho e forma da criatura. Seu equipamento não muda de tamanho ou forma para corresponder à nova forma, e qualquer equipamento que a nova forma não possa usar deve cair no chão ou se fundir com a forma. O equipamento que se funde com a forma não tem efeito enquanto você estiver nessa forma.\n\n### Nível 3: Subclasse de Druida\n\nVocê adquire uma subclasse de Druida à sua escolha. As subclasses Círculo da Lua, Círculo da Terra, Círculo das Estrelas e Círculo do Mar são detalhadas a seguir neste capítulo. Uma subclasse é uma especialidade que lhe concede características em determinados níveis de Druida. Durante toda sua jornada, você recebe cada uma das características de sua subclasse que são de seu nível de Druida ou inferior.\n\n### Nível 4: Aumento no Valor de Atributo\n\nVocê adquire o talento Aumento no Valor de Atributo (veja o capítulo 5) ou outro talento à sua escolha para o qual atenda os pré-requisitos. Você adquire essa característica novamente nos níveis 8, 12 e 16 de Druida.\n\n### Nível 5: Ressurgimento Selvagem\n\nUma vez em cada um de seus turnos, se você não tiver mais usos de Forma Selvagem, pode recuperar um uso gastando um espaço de magia (nenhuma ação é necessária).\n\nAlém disso, você pode gastar um uso de Forma Selvagem (nenhuma ação é necessária) para recuperar um espaço de magia de 1º círculo, mas não pode fazê-lo novamente até completar um Descanso Longo.\n\n### Nível 7: Fúria Elemental\n\nO poder dos elementos flui através de você. Você recebe uma das seguintes opções à sua escolha.\n\n**Ataque Primal.** Uma vez em cada um dos seus turnos, ao atingir uma criatura com uma jogada de ataque usando uma arma ou um ataque da forma Animal em Forma Selvagem, pode causar 1d8 pontos de dano Elétrico, Gélido, Ígneo ou Trovejante (à sua escolha quando você atinge) adicional ao alvo.\n\n**Conjuração Poderosa.** Adicione seu modificador de Sabedoria ao dano causado com qualquer truque de Druida.\n\n### Nível 15: Fúria Elemental Aprimorada\n\nA opção que você escolheu para Fúria Elemental fica mais poderosa, conforme detalhado abaixo.\n\n**Ataque Primal.** O dano adicional de seu Ataque Primal aumenta para 2d8.\n\n**Conjuração Poderosa.** Ao conjurar um truque de Druida com um alcance de 3 metros ou mais, o alcance da magia aumenta para 90 metros.\n\n### Nível 18: Magias Bestiais\n\nAo usar Forma Selvagem, você pode conjurar magias na forma Animal, exceto magias que tenham um componente Material com um custo especificado ou que consuma seu componente Material.\n\n### Nível 19: Dádiva Épica\n\nVocê adquire o talento Dádiva Épica (veja o capítulo 5) ou outro talento à sua escolha para o qual se qualifica. Dádiva da Viagem Dimensional é recomendada.\n\n### Nível 20: Arquidruida\n\nA vitalidade da natureza floresce constantemente dentro de você, concedendo-lhe os seguintes benefícios.\n\n**Forma Selvagem Eterna.** Sempre que você joga Iniciativa e não tem mais usos de Forma Selvagem, você recupera um uso gasto dela.\n\n**Natureza Xamânica.** Você pode converter usos de Forma Selvagem em um espaço de magia (nenhuma ação é necessária). Escolha um número de seus usos não gastos de Forma Selvagem e transforme-os em um único espaço de magia, com cada uso contribuindo com espaços de magia de 2º círculo. Por exemplo, se você transformar dois usos de Forma Selvagem, você produz um espaço de magia de 4º círculo. Após usar este benefício, você não pode fazê-lo novamente até completar um Descanso Longo.\n\n**Longevidade.** A magia primitiva que você utiliza permite que você envelheça mais lentamente: para cada dez anos que passam, seu corpo envelhece apenas um.\n\n**Truques (Magias de Druida de Círculo 0)**\n\n| **Magia**              | **Escola**   | **Especial** |\n|------------------------|--------------|--------------|\n| *Acudir os Moribundos* | Necromancia  | —            |\n| *Arte Druídica*        | Transmutação | —            |\n| *Bordão Místico*       | Transmutação | —            |\n| *Chicote de Espinhos*  | Transmutação | —            |\n| *Criar Chamas*         | Invocação    | —            |\n| *Elementalismo*        | Transmutação | —            |\n| *Fagulha Estelar*      | Evocação     | —            |\n| *Mensagem*             | Transmutação | —            |\n| *Orientação*           | Adivinhação  | C            |\n| *Rajada de Veneno*     | Necromancia  | —            |\n| *Reparar*              | Transmutação | —            |\n| *Resistência*          | Abjuração    | C            |\n| *Trovão*               | Evocação     | —            |\n\n**Magias de Druida de 1º Círculo**\n\n| **Magia**                       | **Escola**   | **Especial** |\n|---------------------------------|--------------|--------------|\n| *Amizade Animal*                | Encantamento | —            |\n| *Bom Fruto*                     | Invocação    | —            |\n| *Criar ou Destruir Água*        | Transmutação | —            |\n| *Curar Ferimentos*              | Abjuração    | —            |\n| *Detectar Magia*                | Adivinhação  | C, R         |\n| *Detectar Veneno e Doença*      | Adivinhação  | C, R         |\n| *Emaranhar*                     | Invocação    | C            |\n| *Enfeitiçar Pessoa*             | Encantamento | —            |\n| *Faca de Gelo*                  | Invocação    | —            |\n| *Falar com Animais*             | Adivinhação  | R            |\n| *Fogo das Fadas*                | Evocação     | C            |\n| *Névoa Obscurecente*            | Invocação    | C            |\n| *Onda Trovejante*               | Evocação     | —            |\n| *Palavra Curativa*              | Abjuração    | —            |\n| *Passos Largos*                 | Transmutação | —            |\n| *Proteção Contra o Bem e o Mal* | Abjuração    | C, M         |\n| *Purificar Alimentos e Bebidas* | Transmutação | R            |\n| *Salto*                         | Transmutação | —            |\n\n**Magias de Druida de 2º Círculo**\n\n| **Magia**                      | **Escola**   | **Especial** |\n|--------------------------------|--------------|--------------|\n| *Aprimorar Atributo*           | Transmutação | C            |\n| *Augúrio*                      | Adivinhação  | R, M         |\n| *Aumentar/Reduzir*             | Transmutação | C            |\n| *Auxílio*                      | Abjuração    | —            |\n| *Chama Contínua*               | Evocação     | M            |\n| *Crescer Espinhos*             | Transmutação | C            |\n| *Encontrar Armadilhas*         | Adivinhação  | —            |\n| *Esfera Flamejante*            | Evocação     | C            |\n| *Esquentar Metal*              | Transmutação | C            |\n| *Invocar Fera*                 | Invocação    | C, M         |\n| *Lâmina Flamejante*            | Evocação     | C            |\n| *Localizar Animais ou Plantas* | Adivinhação  | R            |\n| *Localizar Objeto*             | Adivinhação  | C            |\n| *Lufada de Vento*              | Evocação     | C            |\n| *Mensageiro Animal*            | Encantamento | R            |\n| *Paralisar Pessoa*             | Encantamento | C            |\n| *Passo Sem Rastro*             | Abjuração    | C            |\n| *Pele-Casca*                   | Transmutação | —            |\n| *Proteção Contra Veneno*       | Abjuração    | —            |\n| *Raio Lunar*                   | Evocação     | C            |\n| *Restauração Menor*            | Abjuração    | —            |\n| *Sentido Feral*                | Adivinhação  | C, R         |\n| *Visão no Escuro*              | Transmutação | —            |\n\n**Magias de Druida de 3º Círculo**\n\n| **Magia**                 | **Escola**   | **Especial** |\n|---------------------------|--------------|--------------|\n| *Arma Elemental*          | Transmutação | C            |\n| *Aura de Vitalidade*      | Abjuração    | C            |\n| *Caminhar Sobre as Águas* | Transmutação | R            |\n| *Convocar Feérico*        | Invocação    | C, M         |\n| *Convocar Relâmpagos*     | Invocação    | C            |\n| *Crescimento de Plantas*  | Transmutação | —            |\n| *Dissipar Magia*          | Abjuração    | —            |\n| *Falar com Plantas*       | Transmutação | —            |\n| *Invocar Animais*         | Invocação    | C            |\n| *Luz do Dia*              | Evocação     | —            |\n| *Mesclar-se às Rochas*    | Transmutação | R            |\n| *Muralha de Vento*        | Evocação     | C            |\n| *Nevasca*                 | Invocação    | C            |\n| *Proteção Contra Energia* | Abjuração    | C            |\n| *Respirar na Água*        | Transmutação | R            |\n| *Revivificar*             | Necromancia  | M            |\n| *Simular Morte*           | Necromancia  | R            |\n\n**Magias de Druida de 4º Círculo**\n\n| **Magia**                    | **Escola**   | **Especial** |\n|------------------------------|--------------|--------------|\n| *Confusão*                   | Encantamento | C            |\n| *Controlar Água*             | Transmutação | C            |\n| *Convocar Elemental*         | Invocação    | C, M         |\n| *Dominar Fera*               | Encantamento | C            |\n| *Enfeitiçar Monstro*         | Encantamento | —            |\n| *Escudo Ardente*             | Evocação     | —            |\n| *Fonte do Luar*              | Evocação     | C            |\n| *Inseto Gigante*             | Invocação    | C            |\n| *Invocar Elementais Menores* | Invocação    | C            |\n| *Invocar Seres da Floresta*  | Invocação    | C            |\n| *Localizar Criatura*         | Adivinhação  | C            |\n| *Malogro*                    | Necromancia  | —            |\n| *Moldar Rochas*              | Transmutação | —            |\n| *Movimentação Livre*         | Abjuração    | —            |\n| *Muralha de Fogo*            | Evocação     | C            |\n| *Pele-Rocha*                 | Transmutação | C, M         |\n| *Polimorfia*                 | Transmutação | C            |\n| *Presságio*                  | Adivinhação  | R, M         |\n| *Tempestade Glacial*         | Evocação     | —            |\n| *Terreno Alucinatório*       | Ilusão       | —            |\n| *Vinha Agarradora*           | Invocação    | C            |\n\n**Magias de Druida de 5º Círculo**\n\n| **Magia**                   | **Escola**   | **Especial** |\n|-----------------------------|--------------|--------------|\n| *Âncora Planar*             | Abjuração    | M            |\n| *Comunhão com a Natureza*   | Adivinhação  | R            |\n| *De Carne para Pedra*       | Transmutação | C            |\n| *Cone de Frio*              | Evocação     | —            |\n| *Contágio*                  | Necromancia  | —            |\n| *Cúpula Antivida*           | Abjuração    | C            |\n| *Curar Ferimentos em Massa* | Abjuração    | —            |\n| *Despertar*                 | Transmutação | M            |\n| *Invocar Elemental*         | Invocação    | C            |\n| *Missão*                    | Encantamento | —            |\n| *Muralha de Pedra*          | Evocação     | C            |\n| *Passo Arbóreo*             | Invocação    | C            |\n| *Praga de Insetos*          | Invocação    | C            |\n| *Reencarnar*                | Necromancia  | M            |\n| *Restauração Maior*         | Abjuração    | M            |\n| *Vidência*                  | Adivinhação  | C, M         |\n\n**Magias de Druida de 6º Círculo**\n\n| **Magia**                | **Escola**   | **Especial** |\n|--------------------------|--------------|--------------|\n| *Banquete de Heróis*     | Invocação    | M            |\n| *Caminhar no Vento*      | Transmutação | —            |\n| *Cura Completa*          | Abjuração    | —            |\n| *Encontrar o Caminho*    | Adivinhação  | C, M         |\n| *Invocar Feérico*        | Invocação    | C            |\n| *Mover Terra*            | Transmutação | C            |\n| *Muralha de Espinhos*    | Invocação    | C            |\n| *Raio Solar*             | Evocação     | C            |\n| *Transporte via Plantas* | Invocação    | —            |\n\n**Magias de Druida de 7º Círculo**\n\n| **Magia**              | **Escola**   | **Especial** |\n|------------------------|--------------|--------------|\n| *Inverter a Gravidade* | Transmutação | C            |\n| *Miragem Arcana*       | Ilusão       | —            |\n| *Regeneração*          | Transmutação | —            |\n| *Símbolo*              | Abjuração    | M            |\n| *Tempestade de Fogo*   | Evocação     | —            |\n| *Transição Planar*     | Invocação    | M            |\n\n**Magias de Druida de 8º Círculo**\n\n| **Magia**            | **Escola**   | **Especial** |\n|----------------------|--------------|--------------|\n| *Antipatia/Simpatia* | Encantamento | —            |\n| *Controlar o Clima*  | Transmutação | C            |\n| *Explosão Solar*     | Evocação     | —            |\n| *Formas Animais*     | Transmutação | —            |\n| *Nuvem Incendiária*  | Invocação    | C            |\n| *Suplício*           | Encantamento | —            |\n| *Terremoto*          | Transmutação | C            |\n| *Tsunami*            | Invocação    | C            |\n\n**Magias de Druida de 9º Círculo**\n\n| **Magia**                 | **Escola**   | **Especial** |\n|---------------------------|--------------|--------------|\n| *Metamorfose*             | Transmutação | C, M         |\n| *Ressurreição Verdadeira* | Necromancia  | M            |\n| *Sexto Sentido*           | Adivinhação  | —            |\n| *Tempestade da Vingança*  | Invocação    | C            |\n\n## Subclasses de Druida\n\nUma subclasse de Druida é uma especialização que concede características em certos níveis de Druida, conforme especificado na subclasse. Os druidas formam associações livres, que chamam de círculos. Esta seção apresenta as subclasses Círculo da Lua, Círculo da Terra, Círculo das Estrelas e Círculo do Mar.\n\n## Círculo da Lua\n\n*Assuma Formas Animais para Proteger a Vida Selvagem*\n\nDruidas do Círculo da Lua canalizam a magia lunar para se transformarem. A ordem se reúne sob a lua para compartilhar informações e realizar rituais.\n\nAssim como a lua é mutável, um Druida desse círculo pode espreitar como um grande felino em uma noite, sobrevoar as copas das árvores como uma águia no dia seguinte e, depois, atravessar a vegetação como um urso para afastar um monstro invasor. A vida selvagem corre no sangue do Druida.\n\n### Nível 3: Formas Animais dos Círculos Druídicos\n\nVocê pode canalizar a magia lunar ao assumir uma Forma Selvagem, obtendo os seguintes benefícios.\n\n**Nível de Desafio.** O Nível de Desafio máximo para a forma é igual ao seu nível de Druida dividido por 3 (arredondado para baixo).\n\n**Classe de Armadura.** Até sair da forma, sua CA passa a ser 13 + seu modificador de Sabedoria, se esse valor for maior que a CA da Fera.\n\n**Pontos de Vida Temporários.** Você adquire um número de Pontos de Vida Temporários igual a três vezes o seu nível de Druida.\n\n### Nível 3: Magias do Círculo da Lua\n\nAo atingir um nível de Druida detalhado na tabela Magias do Círculo da Lua, você tem a lista de magias preparadas.\n\nAlém disso, você pode conjurar as magias dessa característica enquanto estiver em uma Forma Selvagem.\n\n**Magias do Círculo da Lua**\n\n| **Nível de Druida** | **Magias de Círculo Druídico**                  |\n|---------------------|-------------------------------------------------|\n| 3                   | *Curar Ferimentos, Fagulha Estelar, Raio Lunar* |\n| 5                   | *Invocar Animais*                               |\n| 7                   | *Fonte do Luar*                                 |\n| 9                   | *Curar Ferimentos em Massa*                     |\n\n### Nível 6: Formas Animais dos Círculos Druídicos Aprimorada\n\nEnquanto estiver em uma Forma Selvagem, você adquire os seguintes benefícios.\n\n**Radiância Lunar.** Cada um de seus ataques na Forma Selvagem pode causar seu tipo de dano normal ou dano Radiante. Você escolhe cada vez que acerta com esses ataques.\n\n**Vigor Aumentado.** Você pode adicionar seu modificador de Sabedoria às suas salvaguardas de Constituição.\n\n### Nível 10: Passo Lunar\n\nVocê se transporta magicamente, reaparecendo em meio a uma explosão de luar. Como uma Ação Bônus, você se teleporta até 9 metros para um espaço desocupado à sua vista e tem Vantagem na próxima jogada de ataque que realizar antes do final deste turno.\n\nVocê pode usar essa característica um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez) e restaura todos os usos gastos ao completar um Descanso Longo. Você também pode recuperar usos gastando um espaço de magia de 2º círculo ou superior para cada uso que deseja recuperar (nenhuma ação é necessária).\n\n### Nível 14: Forma Lunar\n\nO poder da lua permeia você, concedendo os seguintes benefícios.\n\n**Radiância Lunar Aprimorada.** Uma vez por turno, você pode causar 2d10 pontos de dano Radiante adicional a um alvo que você acerta com o ataque da Forma Selvagem.\n\n**Luar Compartilhado.** Sempre que usar Passo Lunar, você também pode teleportar uma criatura voluntária. Essa criatura deve estar a até 3 metros de você, e você a teleporta para um espaço desocupado à sua vista a até 3 metros do seu destino.\n\n## Círculo da Terra\n\n*Celebre a Conexão com o Mundo Natural*\n\nO Círculo da Terra é composto por místicos e sábios que preservam conhecimentos e rituais ancestrais. Esses Druidas se reúnem em círculos sagrados de árvores ou pedras para sussurrar segredos primordiais em druídico. Os membros mais sábios do círculo atuam como sumos sacerdotes de suas comunidades.\n\n### Nível 3: Auxílio da Terra\n\nComo uma ação Usar Magia, você pode gastar um uso de sua Forma Selvagem e escolher um ponto a até 18 metros de você. Flores que concedem vitalidade e espinhos drenadores de vida surgem momentaneamente em uma Esfera de 3 metros de raio, centrada nesse ponto. Cada criatura à sua escolha na Esfera deve realizar uma salvaguarda de Constituição contra a CD para evitar sua magia, sofrendo 2d6 pontos de dano Necrótico se falhar ou metade desse dano em caso de sucesso. Uma criatura à sua escolha na área restaura 2d6 Pontos de Vida.\n\nO dano e cura aumentam em 1d6 quando você atinge o nível 10 (3d6) e 14 (4d6) de Druida.\n\n### Nível 3: Magias do Círculo da Terra\n\nSempre que completar um Descanso Longo, escolha um tipo de terreno: árido, polar, temperado ou tropical. Consulte a tabela abaixo correspondente ao tipo escolhido; você tem a lista de magias preparadas de seu nível de Druida e inferior.\n\n**Terreno Árido**\n\n| **Nível do Druida** | **Magias de Círculo Druídico**           |\n|---------------------|------------------------------------------|\n| 3                   | *Mãos Flamejantes, Raio de Fogo, Turvar* |\n| 5                   | *Bola de Fogo*                           |\n| 7                   | *Malogro*                                |\n| 9                   | *Muralha de Pedra*                       |\n\n**Terreno Polar**\n\n| **Nível do Druida** | **Magias de Círculo Druídico**                       |\n|---------------------|------------------------------------------------------|\n| 3                   | *Névoa Obscurecente, Paralisar Pessoa, Raio de Gelo* |\n| 5                   | *Nevasca*                                            |\n| 7                   | *Tempestade Glacial*                                 |\n| 9                   | *Cone de Frio*                                       |\n\n**Terreno Temperado**\n\n| **Nível do Druida** | **Magias de Círculo Druídico**         |\n|---------------------|----------------------------------------|\n| 3                   | *Passo Nebuloso, Sono, Toque Chocante* |\n| 5                   | *Relâmpago*                            |\n| 7                   | *Movimentação Livre*                   |\n| 9                   | *Passo Arbóreo*                        |\n\n**Terreno Tropical**\n\n| **Nível do Druida** | **Magias de Círculo Druídico**    |\n|---------------------|-----------------------------------|\n| 3                   | Bolha Ácida, Raio Nauseante, Teia |\n| 5                   | Nuvem Fétida                      |\n| 7                   | Polimorfia                        |\n| 9                   | Praga de Insetos                  |\n\n### Nível 6: Recuperação Natural\n\nVocê pode conjurar uma das magias de 1º círculo ou superior que preparou de sua característica Magias de Círculo Druídico sem gastar um espaço de magia, e deve completar um Descanso Longo antes de fazê-lo novamente.\n\nAlém disso, ao completar um Descanso Curto, pode escolher recuperar espaços de magia gastos. A somatória dos círculos desses espaços deve ser menor ou igual à metade do seu nível como Druida (arredondado para cima), e nenhum deles pode ser de 6º círculo ou superior. Por exemplo, se você for um Druida de nível 6, pode recuperar até três círculos de espaços de magia. Você pode recuperar um espaço de magia de 3º círculo, ou um de 2º círculo e um de 1º círculo, ou três de 1º círculo. Após recuperar espaços de magia com esta característica, você não pode fazê-lo novamente até completar um Descanso Longo.\n\n### Nível 10: Proteção Natural\n\nVocê é imune à condição Envenenado e tem Resistência a um tipo de dano associado à sua escolha atual de terreno na característica Magias de Círculo Druídico, conforme mostrado na tabela Proteção Natural.\n\n**Proteção Natural**\n\n| **Tipo de Terreno** | **Resistência** |\n|---------------------|-----------------|\n| Árido               | Ígneo           |\n| Polar               | Gélido          |\n| Temperado           | Elétrico        |\n| Tropical            | Venenoso        |\n\n### Nível 14: Santuário Natural\n\nComo uma ação Usar Magia, você pode gastar um uso de sua Forma Selvagem e produzir árvores e vinhas espectrais que aparecem em um Cubo de 4,5 metros de lados no chão a até 36 metros de você. Elas permanecem por 1 minuto ou até você morrer, ou ter a condição Incapacitado. Você e seus aliados têm Cobertura Parcial enquanto estiverem nessa área, e seus aliados adquirem a Resistência atual da sua Proteção Natural enquanto estão lá.\n\nComo uma Ação Bônus, você pode mover o Cubo até 18 metros para o chão a até 36 metros de você.\n\n## Círculo das Estrelas\n\n*Domine os Segredos Ocultos nas Constelações*\n\nO Círculo das Estrelas segue os padrões celestiais desde tempos imemoriais, descobrindo segredos ocultos entre as constelações. Ao compreender esses segredos, os druidas deste círculo buscam dominar os poderes do cosmos.\n\n### Nível 3: Forma Estrelada\n\nComo uma Ação Bônus, você pode gastar um uso de sua característica Forma Selvagem para assumir uma forma estrelada em vez de multimorfar.\n\nEnquanto em sua forma estrelada, você mantém suas estatísticas de jogo, mas seu corpo se torna luminoso, com articulações que brilham como estrelas e linhas brilhantes conectando-as, como em um mapa estelar. Essa forma emite Luz Plena em um raio de 3 metros e Meia-luz por mais 3 metros. A forma dura 10 minutos e encerra se você a dispensar (nenhuma ação é necessária), ter a condição Incapacitado ou se você usar essa característica novamente.\n\nSempre que você assumir sua forma estrelada, escolha qual das constelações a seguir brilha em seu corpo; sua escolha concede certos benefícios enquanto estiver na forma.\n\n**Arqueiro.** Uma constelação de um arqueiro aparece em você. Ao ativar e nos turnos subsequentes como uma Ação Bônus, você pode realizar um ataque mágico à distância, disparando uma flecha luminosa que atinge uma criatura a até 18 metros. Em caso de acerto, o ataque causa 1d8 pontos de dano Radiante + seu modificador de Sabedoria.\n\n**Dragão.** Uma constelação de um dragão sábio aparece em você. Quando realizar um teste de Inteligência ou Sabedoria, ou uma salvaguarda de Constituição para manter a Concentração, você trata um resultado 9 ou menor no d20 como um 10.\n\n**Taça.** Uma constelação de um cálice vivificante aparece em você. Sempre que você conjurar uma magia usando um espaço de magia que restaure Pontos de Vida em uma criatura, você ou outra criatura a até 9 metros de você pode restaurar Pontos de Vida iguais a 1d8 + seu modificador de Sabedoria.\n\n### Nível 3: Mapa Estelar\n\nVocê cria um mapa estelar como parte de seus estudos celestiais. Ele é um objeto Minúsculo, e você pode usá-lo como Foco de Conjuração para suas magias de Druida. Você determina sua forma jogando na tabela Mapa Estelar ou escolhendo uma.\n\nEnquanto estiver segurando o mapa, você tem as magias *Orientação* e *Raio Guia* preparadas, e pode conjurar *Raio Guia* sem gastar um espaço de magia. Você pode conjurá-la dessa forma um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez), e restaura todos os usos gastos ao completar um Descanso Longo.\n\nSe você perder o mapa, pode realizar uma cerimônia de 1 hora para criar magicamente um substituto. Essa cerimônia pode ser realizada durante um Descanso Curto ou Longo e destrói o mapa anterior.\n\n**Mapa Estelar**\n\n| **1d6** | **Formato do Mapa**                                        |\n|---------|------------------------------------------------------------|\n| 1       | Um pergaminho com representações das constelações          |\n| 2       | Uma tabuleta de pedra com pequenos buracos perfurados nela |\n| 3       | Uma pele de urso-coruja trabalhada com símbolos estelares  |\n| 4       | Uma coleção de mapas encadernados em uma capa de ébano     |\n| 5       | Um cristal incrustado com padrões estrelados               |\n| 6       | Um disco de vidro retratando constelações                  |\n\n### Nível 6: Presságio Cósmico\n\nSempre que você completar um Descanso Longo, pode consultar seu Mapa Estelar em busca de presságios e jogar um dado. Até completar o próximo Descanso Longo, você tem acesso a uma Reação especial com base no número que obteve:\n\n**Prosperidade (par)**. Sempre que uma criatura à sua vista a até 9 metros de você realizar um Teste de D20, você pode executar uma Reação para jogar 1d6 e adicionar o resultado jogado ao total.\n\n**Infortúnio (ímpar).** Sempre que uma criatura à sua vista a até 9 metros de você realizar um Teste de D20, você pode executar uma Reação para jogar 1d6 e subtrair o resultado jogado do total.\n\nVocê pode usar essa Reação um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez) e restaura todos os usos gastos ao completar um Descanso Longo.\n\n### Nível 10: Constelações Cintilantes\n\nAs constelações da sua Forma Estrelada melhoram. O 1d8 do Arqueiro e da Taça torna-se 2d8, e enquanto o Dragão estiver ativo, você adquire um Deslocamento de Voo de 6 metros e pode pairar.\n\nAlém disso, no início de cada um dos seus turnos enquanto estiver na sua Forma Estrelada, você pode alterar qual constelação brilha em seu corpo.\n\n### Nível 14: Repleto de Estrelas\n\nEnquanto estiver em sua Forma Estrelada, você se torna parcialmente incorpóreo e tem Resistência a dano Contundente, Cortante e Perfurante.\n\n## Círculo do Mar\n\n*Torne-se Um com as Marés e Tempestades*\n\nDruidas do Círculo do Mar canalizam as forças tempestuosas dos oceanos e das tormentas. Alguns se veem como encarnações da ira da natureza, buscando vingança contra aqueles que destroem o meio ambiente. Outros procuram uma unidade mística com a natureza ao sintonizarem-se com o fluxo e refluxo das marés, seguindo a correnteza e as ondas, ouvindo os sussurros e rugidos indecifráveis dos ventos.\n\n### Nível 3: Ira do Mar\n\nComo uma Ação Bônus, você pode gastar um uso da sua Forma Selvagem para manifestar uma Emanação de 1,5 metro, que toma a forma de respingos de água do oceano ao seu redor por 10 minutos. Ela se encerra caso você a disperse (nenhuma ação é necessária), manifeste-a novamente ou tenha a condição Incapacitado.\n\nAo manifestar a Emanação e como uma Ação Bônus em seus turnos subsequentes, você pode escolher outra criatura à sua vista na Emanação. O alvo deve ser bem-sucedido em uma salvaguarda de Constituição contra a sua CD para evitar magia ou sofre dano Gélido e, se a criatura for Grande ou menor, é empurrada até 4,5 metros para longe de você. Para determinar esse dano, jogue um número de d6s igual ao seu modificador de Sabedoria (mínimo de um dado).\n\n### Nível 3: Magias do Círculo do Mar\n\nAo atingir um nível de Druida detalhado na tabela Magias do Círculo do Mar, você tem a lista de magias preparadas.\n\n**Magias do Círculo do Mar**\n\n| **Nível de Druida** | **Magias de Círculo Druídico**                                                   |\n|---------------------|----------------------------------------------------------------------------------|\n| 3                   | *Despedaçar, Lufada de Vento, Névoa Obscurecente, Onda Trovejante, Raio de Gelo* |\n| 5                   | *Relâmpago, Respirar na Água*                                                    |\n| 7                   | *Controlar Água, Tempestade Glacial*                                             |\n| 9                   | *Invocar Elemental, Paralisar Monstro*                                           |\n\n### Nível 6: Afinidade Aquática\n\nO tamanho da Emanação criada pela sua Ira do Mar aumenta para 3 metros.\n\nAlém disso, você adquire um Deslocamento de Natação igual ao seu Deslocamento.\n\n### Nível 10: Filho da Tempestade\n\nSua Ira do Mar confere dois benefícios adicionais enquanto estiver ativa, conforme detalhado abaixo.\n\n**Voo.** Você adquire um Deslocamento de Voo igual ao seu Deslocamento.\n\n**Resistência.** Você tem Resistência a dano Elétrico, Gélido e Trovejante.\n\n### Nível 14: Manifestação Oceânica\n\nEm vez de manifestar a Emanação da Ira do Mar ao seu redor, você pode manifestá-la ao redor de uma criatura voluntária a até 18 metros de você. Essa criatura adquire todos os benefícios da Emanação, usando sua CD para evitar magia e seu modificador de Sabedoria.\n\nAlém disso, você pode manifestar a Emanação ao redor de si mesmo e da outra criatura ao gastar dois usos da sua Forma Selvagem, em vez de um, ao manifestá-la.",
+  "tabela_forma_selvagem": [
+    {
+      "nivel": 1,
+      "formas_max": 2,
+      "nd_max": "—",
+      "limitacoes": "Apenas através de Companheiro Selvagem",
+      "recuperacao": "Descanso Longo"
+    },
+    {
+      "nivel": 2,
+      "formas_max": 2,
+      "nd_max": "1/4",
+      "limitacoes": "Sem velocidade de voo ou natação",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 3,
+      "formas_max": 2,
+      "nd_max": "1/4",
+      "limitacoes": "Sem velocidade de voo ou natação",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 4,
+      "formas_max": 2,
+      "nd_max": "1/2",
+      "limitacoes": "Sem velocidade de voo",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 5,
+      "formas_max": 3,
+      "nd_max": "1/2",
+      "limitacoes": "Sem velocidade de voo",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 6,
+      "formas_max": 3,
+      "nd_max": "1/2",
+      "limitacoes": "Sem velocidade de voo",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 7,
+      "formas_max": 3,
+      "nd_max": "1/2",
+      "limitacoes": "Sem velocidade de voo",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 8,
+      "formas_max": 3,
+      "nd_max": "1",
+      "limitacoes": "Sem limitação",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 9,
+      "formas_max": 3,
+      "nd_max": "1",
+      "limitacoes": "Sem limitação",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 10,
+      "formas_max": 3,
+      "nd_max": "1",
+      "limitacoes": "Sem limitação",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 11,
+      "formas_max": 4,
+      "nd_max": "1",
+      "limitacoes": "Sem limitação",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 12,
+      "formas_max": 4,
+      "nd_max": "1",
+      "limitacoes": "Sem limitação",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 13,
+      "formas_max": 4,
+      "nd_max": "1",
+      "limitacoes": "Sem limitação",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 14,
+      "formas_max": 4,
+      "nd_max": "1",
+      "limitacoes": "Sem limitação",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 15,
+      "formas_max": 4,
+      "nd_max": "1",
+      "limitacoes": "Sem limitação",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 16,
+      "formas_max": 4,
+      "nd_max": "1",
+      "limitacoes": "Sem limitação",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 17,
+      "formas_max": 4,
+      "nd_max": "1",
+      "limitacoes": "Sem limitação",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 18,
+      "formas_max": 4,
+      "nd_max": "1",
+      "limitacoes": "Sem limitação",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 19,
+      "formas_max": 4,
+      "nd_max": "1",
+      "limitacoes": "Sem limitação",
+      "recuperacao": "Descanso Longo (1 uso em Curto)"
+    },
+    {
+      "nivel": 20,
+      "formas_max": "Ilimitado",
+      "nd_max": "1",
+      "limitacoes": "Sem limitação",
+      "recuperacao": "Sem custo (Arquidruida)"
+    }
+  ]
+}

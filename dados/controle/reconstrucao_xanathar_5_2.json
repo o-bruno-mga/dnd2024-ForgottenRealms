@@ -1,0 +1,161 @@
+{
+  "rebuilt": 156,
+  "failed": [],
+  "report": [
+    {
+      "subclasse": "Caminho do Guardião Ancestral",
+      "status": "OK",
+      "caracteristicas": 4
+    },
+    {
+      "subclasse": "Caminho do Arauto da Tempestade",
+      "status": "OK",
+      "caracteristicas": 4
+    },
+    {
+      "subclasse": "Caminho do Fanático",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Colégio do Glamour",
+      "status": "OK",
+      "caracteristicas": 4
+    },
+    {
+      "subclasse": "Colégio das Espadas",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Colégio dos Sussurros",
+      "status": "OK",
+      "caracteristicas": 4
+    },
+    {
+      "subclasse": "O Celestial",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Lâmina Maldita",
+      "status": "OK",
+      "caracteristicas": 6
+    },
+    {
+      "subclasse": "Domínio da Forja",
+      "status": "OK",
+      "caracteristicas": 6
+    },
+    {
+      "subclasse": "Domínio da Sepultura",
+      "status": "OK",
+      "caracteristicas": 6
+    },
+    {
+      "subclasse": "Círculo dos Sonhos",
+      "status": "OK",
+      "caracteristicas": 4
+    },
+    {
+      "subclasse": "Círculo do Pastor",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Alma Divina",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Magia Sombria",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Feitiçaria Tempestuosa",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Arqueiro Arcano",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Cavaleiro",
+      "status": "OK",
+      "caracteristicas": 7
+    },
+    {
+      "subclasse": "Samurai",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Investigador",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Mestre dos Mecanismos",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Batedor",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Espadachim",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Magia de Guerra",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Mestre Embriagado",
+      "status": "OK",
+      "caracteristicas": 4
+    },
+    {
+      "subclasse": "Kensei",
+      "status": "OK",
+      "caracteristicas": 4
+    },
+    {
+      "subclasse": "Alma Solar",
+      "status": "OK",
+      "caracteristicas": 4
+    },
+    {
+      "subclasse": "Juramento da Conquista",
+      "status": "OK",
+      "caracteristicas": 6
+    },
+    {
+      "subclasse": "Juramento da Redenção",
+      "status": "OK",
+      "caracteristicas": 6
+    },
+    {
+      "subclasse": "Andarilho das Sombras",
+      "status": "OK",
+      "caracteristicas": 6
+    },
+    {
+      "subclasse": "Andarilho do Horizonte",
+      "status": "OK",
+      "caracteristicas": 5
+    },
+    {
+      "subclasse": "Matador de Monstros",
+      "status": "OK",
+      "caracteristicas": 6
+    }
+  ]
+}

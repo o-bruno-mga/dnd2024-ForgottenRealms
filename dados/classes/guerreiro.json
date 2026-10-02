@@ -1,0 +1,643 @@
+{
+  "nome": "Guerreiro",
+  "tracos_basicos": {
+    "Atributo Primário": "Força ou Destreza",
+    "Dado de Ponto de Vida": "D10 por nível de Guerreiro",
+    "Proficiência em Salvaguardas": "Força e Constituição",
+    "Proficiências em Perícias": "Escolha 2: Acrobacia, Atletismo, História, Intimidação, Intuição, Lidar com Animais, Percepção, Persuasão ou Sobrevivência",
+    "Proficiências com Armas": "Armas Simples e Marciais",
+    "Treinamento com Armadura": "Armaduras Leves, Médias e Pesadas e Escudos",
+    "Equipamento Inicial": "Escolha A, B ou C: (A) Cota de Malha, Espada Grande, Mangual, 8 Azagaias, Kit de Explorador de Masmorras e 4 PO; (B) Armadura de Couro Batido, Cimitarra, Espada Curta, Arco Longo, 20 Flechas, Aljava, Kit de Explorador de Masmorras e 11 PO; ou (C) 155 PO"
+  },
+  "tabela_caracteristicas": [
+    {
+      "Nível": "1",
+      "Bônus de Proficiência": "+2",
+      "Características": "Estilo de Luta, Maestria em Arma, Recuperar Fôlego",
+      "Recuperar Fôlego": "2",
+      "Maestria em Arma": "3"
+    },
+    {
+      "Nível": "2",
+      "Bônus de Proficiência": "+2",
+      "Características": "Mente Tática, Surto de Ação",
+      "Recuperar Fôlego": "2",
+      "Maestria em Arma": "3"
+    },
+    {
+      "Nível": "3",
+      "Bônus de Proficiência": "+2",
+      "Características": "Subclasse de Guerreiro",
+      "Recuperar Fôlego": "2",
+      "Maestria em Arma": "3"
+    },
+    {
+      "Nível": "4",
+      "Bônus de Proficiência": "+2",
+      "Características": "Aumento no Valor de Atributo",
+      "Recuperar Fôlego": "3",
+      "Maestria em Arma": "4"
+    },
+    {
+      "Nível": "5",
+      "Bônus de Proficiência": "+3",
+      "Características": "Ajuste Tático, Ataque Extra",
+      "Recuperar Fôlego": "3",
+      "Maestria em Arma": "4"
+    },
+    {
+      "Nível": "6",
+      "Bônus de Proficiência": "+3",
+      "Características": "Aumento no Valor de Atributo",
+      "Recuperar Fôlego": "3",
+      "Maestria em Arma": "4"
+    },
+    {
+      "Nível": "7",
+      "Bônus de Proficiência": "+3",
+      "Características": "Característica de Subclasse",
+      "Recuperar Fôlego": "3",
+      "Maestria em Arma": "4"
+    },
+    {
+      "Nível": "8",
+      "Bônus de Proficiência": "+3",
+      "Características": "Aumento no Valor de Atributo",
+      "Recuperar Fôlego": "3",
+      "Maestria em Arma": "4"
+    },
+    {
+      "Nível": "9",
+      "Bônus de Proficiência": "+4",
+      "Características": "Indomável, Mestre Tático",
+      "Recuperar Fôlego": "3",
+      "Maestria em Arma": "4"
+    },
+    {
+      "Nível": "10",
+      "Bônus de Proficiência": "+4",
+      "Características": "Característica de Subclasse",
+      "Recuperar Fôlego": "4",
+      "Maestria em Arma": "5"
+    },
+    {
+      "Nível": "11",
+      "Bônus de Proficiência": "+4",
+      "Características": "Dois Ataques Extras",
+      "Recuperar Fôlego": "4",
+      "Maestria em Arma": "5"
+    },
+    {
+      "Nível": "12",
+      "Bônus de Proficiência": "+4",
+      "Características": "Aumento no Valor de Atributo",
+      "Recuperar Fôlego": "4",
+      "Maestria em Arma": "5"
+    },
+    {
+      "Nível": "13",
+      "Bônus de Proficiência": "+5",
+      "Características": "Ataques Estudados, Indomável",
+      "Recuperar Fôlego": "4",
+      "Maestria em Arma": "5"
+    },
+    {
+      "Nível": "14",
+      "Bônus de Proficiência": "+5",
+      "Características": "Aumento no Valor de Atributo",
+      "Recuperar Fôlego": "4",
+      "Maestria em Arma": "5"
+    },
+    {
+      "Nível": "15",
+      "Bônus de Proficiência": "+5",
+      "Características": "Característica de Subclasse",
+      "Recuperar Fôlego": "4",
+      "Maestria em Arma": "5"
+    },
+    {
+      "Nível": "16",
+      "Bônus de Proficiência": "+5",
+      "Características": "Aumento no Valor de Atributo",
+      "Recuperar Fôlego": "4",
+      "Maestria em Arma": "6"
+    },
+    {
+      "Nível": "17",
+      "Bônus de Proficiência": "+6",
+      "Características": "Indomável, Surto de Ação",
+      "Recuperar Fôlego": "4",
+      "Maestria em Arma": "6"
+    },
+    {
+      "Nível": "18",
+      "Bônus de Proficiência": "+6",
+      "Características": "Característica de Subclasse",
+      "Recuperar Fôlego": "4",
+      "Maestria em Arma": "6"
+    },
+    {
+      "Nível": "19",
+      "Bônus de Proficiência": "+6",
+      "Características": "Dádiva Épica",
+      "Recuperar Fôlego": "4",
+      "Maestria em Arma": "6"
+    },
+    {
+      "Nível": "20",
+      "Bônus de Proficiência": "+6",
+      "Características": "Três Ataques Extras",
+      "Recuperar Fôlego": "4",
+      "Maestria em Arma": "6"
+    }
+  ],
+  "caracteristicas": [
+    {
+      "nivel": 1,
+      "nome": "Estilo de Luta",
+      "descricao": "Você aprimorou suas proezas marciais e tem um talento de Estilo de Luta à sua escolha (veja também o capítulo 5). Defensivo é o recomendado.\nSempre que atinge um nível de Guerreiro, você pode substituir o talento que escolheu por um talento diferente de Estilo de Luta."
+    },
+    {
+      "nivel": 1,
+      "nome": "Maestria em Arma",
+      "descricao": "Seu treinamento com armas permite que você utilize as propriedades de maestria com três tipos de armas Simples ou Marciais à sua escolha. Sempre que completar um Descanso Longo, você pode praticar movimentos com armas e alterar uma dessas escolhas de armas.\nAo alcançar certos níveis de Guerreiro, você adquire a habilidade de usar as propriedades de maestria de mais tipos de armas, conforme mostrado na coluna Maestria em Armas da tabela Características de Guerreiro."
+    },
+    {
+      "nivel": 1,
+      "nome": "Recuperar Fôlego",
+      "descricao": "Você tem uma reserva limitada de resistência física e mental que pode usar. Como uma Ação Bônus, você pode usá-la para recuperar Pontos de Vida iguais a 1d10 mais seu nível de Guerreiro.\nVocê pode usar essa característica duas vezes. Você recupera um uso gasto quando completa um Descanso Curto e restaura todos os usos gastos quando completa um Descanso Longo.\nAo atingir certos níveis de Guerreiro, você adquire mais usos dessa característica, conforme mostrado na coluna Recuperar Fôlego da tabela Características de Guerreiro."
+    },
+    {
+      "nivel": 2,
+      "nome": "Mente Tática",
+      "descricao": "Você tem uma mente para táticas dentro e fora do campo de batalha. Ao falhar em um teste de atributo, você pode gastar um uso de seu Recuperar Fôlego para tentar alcançar a vitória. Em vez de recuperar Pontos de Vida, você joga 1d10 e adiciona o resultado ao teste de atributo, potencialmente transformando-o em sucesso. Se o teste ainda assim falhar, esse uso do Recuperar Fôlego não é gasto."
+    },
+    {
+      "nivel": 2,
+      "nome": "Surto de Ação",
+      "descricao": "Você pode se esforçar além de seus limites normais por um momento. No seu turno, você pode executar uma ação adicional, exceto a ação Usar Magia.\nApós usar esta característica, você não pode usá-la novamente até completar um Descanso Curto ou Longo. A partir do nível 17, você pode usá-lo duas vezes antes de um descanso, mas apenas uma vez em um turno."
+    },
+    {
+      "nivel": 3,
+      "nome": "Subclasse de Guerreiro",
+      "descricao": "Você adquire uma subclasse de Guerreiro à sua escolha. As subclasses Campeão, Cavaleiro Místico, Combatente Psíquico e Mestre da Batalha estão detalhadas após a descrição desta classe. Uma subclasse é uma especialidade que concede a você características em determinados níveis de Guerreiro. Pelo resto de sua jornada, você adquire cada uma das características de sua subclasse de seu nível de Guerreiro ou menor."
+    },
+    {
+      "nivel": 4,
+      "nome": "Aumento no Valor de Atributo",
+      "descricao": "Você adquire o talento Aumento no Valor de Atributo (veja o capítulo 5) ou outro talento à sua escolha para o qual atenda os pré-requisitos. Você adquire essa característica novamente nos níveis 6, 8, 12, 14 e 16 de Guerreiro."
+    },
+    {
+      "nivel": 5,
+      "nome": "Ajuste Tático",
+      "descricao": "Sempre que executar uma Ação Bônus para seu Recuperar Fôlego, você pode mover-se até metade do seu Deslocamento sem provocar Ataques de Oportunidade."
+    },
+    {
+      "nivel": 5,
+      "nome": "Ataque Extra",
+      "descricao": "Você pode atacar duas vezes, em vez de uma, sempre que executar a ação Atacar no seu turno."
+    },
+    {
+      "nivel": 9,
+      "nome": "Indomável",
+      "descricao": "Ao falhar em uma salvaguarda, você pode jogá-la novamente adicionando um bônus igual ao seu nível de Guerreiro. Você deve usar o novo resultado e não pode usar essa característica novamente até completar um Descanso Longo.\nA partir do nível 13, você pode usar essa característica duas vezes antes de um Descanso Longo e três vezes antes de um Descanso Longo ao atingir o nível 17."
+    },
+    {
+      "nivel": 9,
+      "nome": "Mestre Tático",
+      "descricao": "Ao atacar com uma arma cuja propriedade de maestria você pode usar, você pode substituir essa propriedade pela propriedade Empurrar, Drenar ou Lentidão para esse ataque."
+    },
+    {
+      "nivel": 11,
+      "nome": "Dois Ataques Extras",
+      "descricao": "Você pode atacar três vezes, em vez de uma, sempre que executar a ação Atacar no seu turno."
+    },
+    {
+      "nivel": 13,
+      "nome": "Ataques Estudados",
+      "descricao": "Você estuda seus oponentes e aprende com cada ataque que realiza. Se você realizar uma jogada de ataque contra uma criatura e errar, você tem Vantagem em sua próxima jogada de ataque contra essa criatura antes do final do seu próximo turno."
+    },
+    {
+      "nivel": 19,
+      "nome": "Dádiva Épica",
+      "descricao": "Você adquire o talento Dádiva Épica (veja o capítulo 5) ou outro talento à sua escolha para o qual se qualifica. Dádiva da Proeza em Combate é recomendada."
+    },
+    {
+      "nivel": 20,
+      "nome": "Três Ataques Extras",
+      "descricao": "Você pode atacar quatro vezes, em vez de uma, sempre que executar a ação Atacar no seu turno."
+    }
+  ],
+  "subclasses": [
+    {
+      "nome": "Campeão",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Atleta Extraordinário",
+          "descricao": "Graças ao seu atletismo, você tem Vantagem em jogadas de Iniciativa e testes de Força (Atletismo).\nAlém disso, imediatamente após obter um Acerto Crítico, você pode se mover até metade do seu Deslocamento sem provocar Ataques de Oportunidade."
+        },
+        {
+          "nivel": 3,
+          "nome": "Crítico Aprimorado",
+          "descricao": "Suas jogadas de ataque com armas e Ataques Desarmados obtém Acerto Crítico em jogadas com resultados 19 ou 20 no d20."
+        },
+        {
+          "nivel": 7,
+          "nome": "Estilo de Luta Adicional",
+          "descricao": "Você adquire outro talento de Estilo de Luta à sua escolha."
+        },
+        {
+          "nivel": 10,
+          "nome": "Combatente Heroico",
+          "descricao": "A emoção da batalha leva você à vitória. Durante o combate, você pode se conceder Inspiração Heroica sempre que começar seu turno sem ela."
+        },
+        {
+          "nivel": 15,
+          "nome": "Crítico Superior",
+          "descricao": "Suas jogadas de ataque com armas e Ataques Desarmados agora obtém Acerto Crítico em jogadas com resultados 18 a 20 no d20."
+        },
+        {
+          "nivel": 18,
+          "nome": "Sobrevivente",
+          "descricao": "Você atinge o auge da resiliência em batalha, concedendo-lhe os seguintes benefícios.\n**Desafie a Morte.** Você tem Vantagem em Salvaguardas Contra Morte. Além disso, ao obter um 18–20 em uma Salvaguarda Contra Morte, você obtém um 20 como resultado.\n**Regeneração Heroica.** No início de cada um dos seus turnos, você recupera Pontos de Vida iguais a 5 mais seu modificador de Constituição se estiver Sangrando e ter ao menos 1 Ponto de Vida."
+        }
+      ]
+    },
+    {
+      "nome": "Cavaleiro Místico",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Conjuração",
+          "descricao": "Você aprendeu a conjurar magias. Veja o capítulo 7 para as regras sobre conjuração de magias. As informações abaixo detalham como você usa essas regras como um Cavaleiro Místico.\n**Truques.** Você conhece dois truques à sua escolha da lista de magias de Mago. *Raio de Gelo* e *Toque Chocante* são recomendados. Sempre que você atinge um nível de Guerreiro, pode substituir um desses truques por outro truque à sua escolha da lista de magias de Mago.\nAo atingir o nível 10 de Guerreiro, você aprende mais um truque de Mago à sua escolha.\n**Espaços de Magia.** A tabela Conjuração de Cavaleiro Místico apresenta quantos espaços de magia você tem para conjurar suas magias de 1º círculo ou superior. Você restaura todos os espaços gastos ao completar um Descanso Longo.\n**Atributo de Conjuração.** Inteligência é seu atributo de conjuração para suas magias de Mago.\n**Foco de Conjuração.** Você pode usar um Foco Arcano como um Foco de Conjuração para suas magias de Mago."
+        },
+        {
+          "nivel": 3,
+          "nome": "Vínculo com Arma",
+          "descricao": "Você aprende um ritual que cria um vínculo mágico entre você e uma arma. Você realiza o ritual ao longo de 1 hora, o que pode ser concluído durante um Descanso Curto. A arma deve estar ao seu alcance durante todo o ritual e, ao concluí-lo, você toca a arma e estabelece o vínculo. O vínculo falha se outro Guerreiro estiver ligado à arma ou se a arma for um item mágico com o qual outra pessoa está sintonizada.\nApós ter vinculado uma arma a si, ela não pode ser desarmada de você, a menos que você tenha a condição Incapacitado. Se ela estiver no mesmo plano de existência, você pode invocar essa arma como uma Ação Bônus, teleportando-a instantaneamente para sua mão.\nVocê pode ter até dois vínculos com armas, mas pode invocar apenas uma de cada vez com uma Ação Bônus. Se você tentar se vincular com uma terceira arma, você deve quebrar o vínculo com uma das outras duas."
+        },
+        {
+          "nivel": 7,
+          "nome": "Magia de Guerra",
+          "descricao": "Ao executar a ação Atacar no seu turno, você pode substituir um dos ataques por uma conjuração de um de seus truques de Mago que tenha um tempo de conjuração de uma ação."
+        },
+        {
+          "nivel": 10,
+          "nome": "Golpe Místico",
+          "descricao": "Você aprende a usar seus ataques com armas para reduzir a resistência de uma criatura às suas magias. Ao atingir uma criatura com um ataque usando uma arma, essa criatura sofre Desvantagem na próxima salvaguarda que realizar contra uma magia que você conjurar antes do final do seu próximo turno."
+        },
+        {
+          "nivel": 15,
+          "nome": "Investida Mística",
+          "descricao": "Ao usar seu Surto de Ação, você pode se teleportar até 9 metros para um espaço desocupado à sua vista. Você pode se teleportar antes ou depois da ação adicional."
+        },
+        {
+          "nivel": 18,
+          "nome": "Magia de Guerra Aprimorada",
+          "descricao": "Ao executar a ação Atacar no seu turno, você pode substituir dois ataques pela conjuração de uma das suas magias de Mago de 1º ou 2º círculo que tenha um tempo de conjuração de uma ação."
+        }
+      ]
+    },
+    {
+      "nome": "Combatente Psíquico",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Poder Psiônico",
+          "descricao": "Poder Psíquico\nCaracterística de 3º Nível do Guerreiro Psiônico\nVocê abriga uma fonte de energia psíquica dentro de você.\nEssa energia é representada por seu dado de Energia\nPsíquica, que são d6. Você possui um número de dados de\nEnergia Psíquica equivalente ao dobro de seu bônus de\nproficiência, e eles alimentam vários de seus poderes\npsiônicos, que são detalhados abaixo.\nAlguns de seus poderes gastam os dados de Energia\nPsíquica que eles utilizam, conforme especificado em sua\ndescrição, e você não pode utilizar um poder se ele exigir que\nvocê use um dado, mas você não tiver nenhum disponível.\nVocê recupera todos os dados de Energia Psíquica gastos\nquando termina um descanso longo. Adicionalmente, como\numa ação bônus, você pode recuperar um dado de Energia\nPsíquica gasto, mas só poderá fazer isso novamente após um\ndescanso curto ou longo. Quando você alcança certos níveis\nnessa classe, o valor do seu dado de Energia Psiônica\naumenta: no 5º nível (d8), no 11º nível (d10), e no 17º nível\n(d12).\nOs poderes abaixo utilizam o seu dado de Energia\nPsíquica.\nCampo protetor. Quando você ou uma criatura que você\npossa ver a até 9m de você receber dano, você pode usar sua\nreação para gastar um dado de Energia Psíquica e reduzir a\nquantidade de dano sofrido pelo resultado mais o seu\nmodificador de Inteligência (mínimo de 1), conforme você\ncria um escudo de energia telecinética momentâneo.\nGolpe Psiônico. Você pode impulsionar suas armas com\nenergia psíquica. Uma vez por turno, imediatamente após\nvocê acertar um alvo a até 9m de você com um ataque e\nprovocar dano nele com uma arma, você pode gastar um\ndado de Energia Psíquica, rolando ele e provocando uma\nquantidade de dano de energia ao alvo igual ao resultado do\ndado mais o valor do seu modificador de Inteligência.\nMovimento Telecinético. Você pode mover um objeto ou\numa criatura com sua mente. Como uma ação, você foca em\num objeto solto que seja de tamanho Grande ou menor, ou\numa criatura voluntária que não seja você mesmo. Se você\npuder ver o alvo e ele estiver a até 9m de você, você pode\nmovê-lo por até 9m para um espaço desocupado dentro da\nsua visão. Alternativamente, se for um objeto Minúsculo, você\npode movê-lo para ou a parir de sua mão. De qualquer\nmaneira, você pode mover o alvo horizontalmente,\nverticalmente, ou ambos. Uma vez que realize essa ação, você\nnão pode repetí-la até que termine um descanso curto ou\nlongo, a menos que gaste um dado de Energia Psíquica para\nisso.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            59
+          ]
+        },
+        {
+          "nivel": 7,
+          "nome": "Adepto Telecinético",
+          "descricao": "Adepto telecinético\nCaracterística de 7º Nível do Guerreiro Psiônico Você\ndominou novas formas de usar suas habilidades telecinéticas,\ndescritas abaixo.\nSalto telecinético. Como uma ação bônus, você pode\nimpulsionar seu corpo com sua mente. Você ganha um\ndeslocamento de vôo igual ao dobro do seu deslocamento\nterrestre até o final do turno atual. Uma vez que realize essa\nação bônus, você não pode repeti-la até que termine um\ndescanso curto ou longo, a menos que gaste um dado de\nEnergia Psíquica para isso.\nEmpurrão telecinético. Quando você provoca dano a um\nalvo com seu Golpe Psiônico, você pode forçar o alvo a fazer\numa salvaguarda de Força com CD igual a 8 + seu bônus de\nproficiência + seu modificador de Inteligência. Se a\nsalvaguarda falhar, você pode derrubar o alvo, ou movê-lo por\naté 3m horizontalmente em qualquer direção.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            59
+          ]
+        },
+        {
+          "nivel": 10,
+          "nome": "Resguardo Mental",
+          "descricao": "Mente protegida\nCaracterística de 10º Nível do Guerreiro Psiônico\nA energia psíquica fluindo através de você reforçou sua\nmente. Você tem resistência a dano psíquico. Além disso, se\nvocê iniciar seu turno amedrontado ou enfeitiçado, você pode\ngastar um dado de Energia Psíquica e encerrar todo efeito\nsobre você que se encaixe nessas condições.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            59
+          ]
+        },
+        {
+          "nivel": 15,
+          "nome": "Baluarte de Energia",
+          "descricao": "Baluarte Telecinético\nCaracterística de 15º Nível do Guerreiro Psiônico\nVocê pode proteger a si mesmo e aos outros com energia\ntelecinética. Como uma ação bônus, você pode escolher\ncriaturas que você possa ver a até 9m de você (incluindo\nvocê), até uma quantia de criaturas igual ao seu modificador\nde Inteligência (mínimo de uma criatura). Cada uma das\ncriaturas escolhidas é protegida por meia cobertura por 1\nminuto ou até que você esteja incapacitado. Uma vez que\nvocê realize essa ação bônus, você não pode fazer isso\nnovamente até que você termine um descanso curto ou longo,\na menos que gaste um dado de Energia Psíquica para isso.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            59
+          ]
+        },
+        {
+          "nivel": 18,
+          "nome": "Mestre Telecinético",
+          "descricao": "Mestre Telecinético\nCaracterística de 18º Nível do Guerreiro Psiônico\nSua habilidade para mover criaturas e objetos com sua\nmente é igualada por todos. Você pode conjurar a magia\nTelecinésia, sem a necessidade de componentes, e seu\natributo de conjuração para essa habilidade é Inteligência.\nEm cada um dos seus turnos enquanto você se concentra na\nmagia, incluindo o turno em que a conjura, você pode realizar\num ataque com arma como uma ação bônus. Uma vez que\nvocê conjura a magia através dessa característica, você não\npoderá fazer isso novamente até terminar um descanso\nlongo, a menos que gaste um dado de Energia Psíquica para\nisso.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            59
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Mestre da Batalha",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Estudioso da Guerra",
+          "descricao": "Você adquire proficiência com um tipo de Ferramentas de Artesão à sua escolha e adquire proficiência em uma perícia à sua escolha das perícias disponíveis para Guerreiros no nível 1."
+        },
+        {
+          "nivel": 3,
+          "nome": "Superioridade em Combate",
+          "descricao": "Sua experiência em combate aprimorou suas técnicas de luta, permitindo que você aprenda manobras com base em dados especiais chamados Dados de Superioridade.\n**Manobras.** Você aprende três manobras à sua escolha na seção \"Opções de Manobras\" mais adiante na descrição desta subclasse. Muitas manobras aprimoram, de alguma forma, um ataque. Você pode usar apenas uma manobra por ataque.\nVocê aprende duas manobras adicionais à sua escolha quando atinge os níveis 7, 10 e 15 de Guerreiro. Cada vez que aprende novas manobras, você também pode substituir uma manobra que você conhece por uma diferente.\n**Dados de Superioridade.** Você tem quatro Dados de Superioridade, os quais são d8s. Um Dado de Superioridade é gasto ao usá-lo. Você restaura todos os Dados de Superioridade gastos quando completa um Descanso Curto ou Longo.\nVocê adquire um Dado de Superioridade adicional ao atingir os níveis 7 (cinco dados no total) e 15 (seis dados no total) de Guerreiro.\n**Salvaguardas.** Se uma manobra exigir uma salvaguarda, a CD é igual a 8 mais seu modificador de Força ou Destreza (à sua escolha) e seu Bônus de Proficiência."
+        },
+        {
+          "nivel": 7,
+          "nome": "Conheça Seu Inimigo",
+          "descricao": "Como uma Ação Bônus, você pode examinar certos pontos fortes e fracos de uma criatura à sua vista a até 9 metros de você; você sabe se essa criatura tem Imunidades, Resistências ou Vulnerabilidades, e se a criatura tiver alguma, você sabe quais são.\nApós usar essa característica, você não pode fazer isso novamente até completar um Descanso Longo. Você também pode recuperar um uso da característica gastando um Dado de Superioridade (nenhuma ação é necessária)."
+        },
+        {
+          "nivel": 10,
+          "nome": "Superioridade em Combate Aprimorada",
+          "descricao": "Seu Dado de Superioridade se torna um d10."
+        },
+        {
+          "nivel": 15,
+          "nome": "Implacável",
+          "descricao": "Uma vez por turno, ao usar uma manobra, você pode jogar 1d8 e usar o resultado em vez de gastar um Dado de Superioridade."
+        },
+        {
+          "nivel": 18,
+          "nome": "Superioridade em Combate Suprema",
+          "descricao": "Seu Dado de Superioridade se torna um d12."
+        }
+      ],
+      "opcoes_manobra": [
+        {
+          "nome": "Aparar",
+          "descricao": "Ao receber dano de outra criatura em uma jogada de ataque corpo a corpo, você pode executar uma Reação e gastar um Dado de Superioridade para reduzir o dano pelo número obtido no Dado de Superioridade mais seu modificador de Força ou Destreza (à sua escolha)."
+        },
+        {
+          "nome": "Ataque Ameaçador",
+          "descricao": "Ao atingir uma criatura com uma jogada de ataque, você pode gastar um Dado de Superioridade para tentar amedrontar o alvo. Adicione o resultado do Dado de Superioridade à jogada de dano do ataque. O alvo deve ser bem-sucedido em uma salvaguarda de Sabedoria ou tem a condição Amedrontado até o final do seu próximo turno."
+        },
+        {
+          "nome": "Ataque de Varredura",
+          "descricao": "Ao atingir uma criatura com uma jogada de ataque corpo a corpo usando uma arma ou um Ataque Desarmado, você pode gastar um Dado de Superioridade para tentar causar dano a outra criatura. Escolha outra criatura a até 1,5 metro do alvo original e ao seu alcance. Se a jogada de ataque original atingir a segunda criatura, ela sofre dano igual ao resultado do Dado de Superioridade. O dano é do mesmo tipo causado pelo ataque original."
+        },
+        {
+          "nome": "Ataque Estendido",
+          "descricao": "Como uma Ação Bônus, você pode gastar um Dado de Superioridade e executar a ação Correr. Se você se mover pelo menos 1,5 metro em linha reta imediatamente antes de realizar um ataque corpo a corpo como parte da ação Atacar neste turno, pode adicionar o resultado do Dado de Superioridade à jogada de dano do ataque."
+        },
+        {
+          "nome": "Ataque para Distrair",
+          "descricao": "Ao atingir uma criatura com uma jogada de ataque, você pode gastar um Dado de Superioridade para distrair o alvo. Adicione o resultado do Dado de Superioridade à jogada de dano do ataque. A próxima jogada de ataque contra o alvo por um atacante diferente de você tem Vantagem se o ataque for realizado antes do início do seu próximo turno."
+        },
+        {
+          "nome": "Ataque Preciso",
+          "descricao": "Ao errar uma jogada de ataque, você pode gastar um Dado de Superioridade e adicionar resultado à jogada de ataque, fazendo potencialmente o ataque acertar."
+        },
+        {
+          "nome": "Ataque Provocante",
+          "descricao": "Ao atingir uma criatura com uma jogada de ataque, você pode gastar um Dado de Superioridade para provocar o alvo a atacá-lo. Adicione o resultado do Dado de Superioridade à jogada de dano do ataque. O alvo deve ser bem-sucedido em uma salvaguarda de Sabedoria ou tem Desvantagem em jogadas de ataque contra alvos diferentes de você até o final do seu próximo turno."
+        },
+        {
+          "nome": "Avaliação Tática",
+          "descricao": "Ao realizar um teste de Inteligência (História ou Investigação) ou um teste de Sabedoria (Intuição), você pode gastar um Dado de Superioridade e adicionar o resultado ao teste de atributo."
+        },
+        {
+          "nome": "Contra-ataque",
+          "descricao": "Quando uma criatura erra uma jogada de ataque corpo a corpo contra você, você pode executar uma Reação e gastar um Dado de Superioridade para realizar uma jogada de ataque corpo a corpo com uma arma ou um Ataque Desarmado contra a criatura. Se você acertar, adicione o resultado do Dado de Superioridade ao dano do ataque."
+        },
+        {
+          "nome": "Desarme",
+          "descricao": "Ao atingir uma criatura com uma jogada de ataque, você pode gastar um Dado de Superioridade para tentar desarmar o alvo. Adicione o resultado do Dado de Superioridade à jogada de dano do ataque. O alvo deve ser bem-sucedido em uma salvaguarda de Força ou soltar um objeto à sua escolha que esteja segurando, com o objeto caindo no espaço dele."
+        },
+        {
+          "nome": "Emboscada",
+          "descricao": "Ao realizar um teste de Destreza (Furtividade) ou jogar Iniciativa, você pode gastar um Dado de Superioridade e adicionar o resultado ao teste, a menos que tenha a condição Incapacitado."
+        },
+        {
+          "nome": "Encontrão",
+          "descricao": "Ao atingir uma criatura com uma jogada de ataque usando uma arma ou um Ataque Desarmado, você pode gastar um Dado de Superioridade para tentar fazer o alvo recuar. Adicione o resultado do Dado de Superioridade à jogada de dano do ataque. Se o alvo for Grande ou menor, ele deve ser bem-sucedido em uma salvaguarda de Força ou é empurrado até 4,5 metros para longe de você."
+        },
+        {
+          "nome": "Finta",
+          "descricao": "Como uma Ação Bônus, você pode gastar um Dado de Superioridade para fintar, escolhendo uma criatura a até 1,5 metro de você como seu alvo. Você tem Vantagem em sua próxima jogada de ataque contra esse alvo neste turno. Se o ataque acertar, adicione o resultado do Dado de Superioridade à jogada de dano do ataque."
+        },
+        {
+          "nome": "Gato Por Lebre",
+          "descricao": "Ao estar a até 1,5 metro de uma criatura no seu turno, você pode gastar um Dado de Superioridade e trocar de lugar com essa criatura, desde que você gaste pelo menos 1,5 metro de movimento e a criatura seja voluntária e não tenha a condição Incapacitado. Este movimento não provoca Ataques de Oportunidade. Jogue o Dado de Superioridade. Até o início do seu próximo turno, você ou a outra criatura (à sua escolha) adquire um bônus de CA igual ao número do resultado."
+        },
+        {
+          "nome": "Golpe do Comandante",
+          "descricao": "Ao executar a ação Atacar no seu turno, você pode substituir um de seus ataques para instruir um de seus companheiros a atacar. Ao fazer isso, escolha uma criatura voluntária que possa vê-lo ou ouvi-lo e gaste um Dado de Superioridade. Essa criatura pode usar imediatamente a Reação dela para realizar um ataque com uma arma ou um Ataque Desarmado, adicionando o resultado do Dado de Superioridade à jogada de dano do ataque em caso de acerto."
+        },
+        {
+          "nome": "Manobrar",
+          "descricao": "Ao atingir uma criatura com uma jogada de ataque, você pode gastar um Dado de Superioridade para manobrar um de seus companheiros para outra posição. Adicione o resultado do Dado de Superioridade à jogada de dano do ataque e escolha uma criatura voluntária que possa vê-lo ou ouvi-lo. Essa criatura pode usar a Reação dela para se mover até metade do Deslocamento sem provocar Ataques de Oportunidade do alvo de seu ataque."
+        },
+        {
+          "nome": "Movimentação Evasiva",
+          "descricao": "Como uma Ação Bônus, você pode gastar um Dado de Superioridade e executar a ação Desengajar. Você também joga o dado e adiciona o número obtido à sua CA até o início do seu próximo turno."
+        },
+        {
+          "nome": "Presença de Autoridade",
+          "descricao": "Ao realizar um teste de Carisma (Atuação, Intimidação ou Persuasão), você pode gastar um Dado de Superioridade e adicionar o resultado ao teste."
+        },
+        {
+          "nome": "Prostrar",
+          "descricao": "Ao atingir uma criatura com uma jogada de ataque usando uma arma ou um Ataque Desarmado, você pode gastar um Dado de Superioridade e adicionar o resultado à jogada de dano do ataque. Se o alvo for Grande ou menor, ele deve ser bem-sucedido em uma salvaguarda de Força ou tem a condição Caído."
+        },
+        {
+          "nome": "Recuperar Energia",
+          "descricao": "Como uma Ação Bônus, você pode gastar um Dado de Superioridade para encorajar a determinação de um companheiro. Escolha um aliado seu a até 9 metros de você que possa vê-lo ou ouvi-lo. Essa criatura adquire Pontos de Vida Temporários igual ao resultado do Dado de Superioridade mais metade do seu nível de Guerreiro (arredondado para baixo)."
+        }
+      ]
+    },
+    {
+      "nome": "Cavaleiro Rúnico",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Proficiências Bônus",
+          "descricao": "Proficiências Bônus\nCaracterística de 3° Nível de Cavaleiro Rúnico\nVocê ganha proficiência com ferramentas de artesão e\naprende a falar, ler e escrever em gigante.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            60
+          ]
+        },
+        {
+          "nivel": 3,
+          "nome": "Poderio Gigante",
+          "descricao": "Poderio Gigante\nCaracterística de 3° Nível de Cavaleiro Rúnico\nVocê aprendeu como imbuir a si mesmo com o poder dos\ngigantes. Como uma ação bônus, você magicamente ganha os\nseguintes benefícios, que duram por 1 minuto:\nCaso seu tamanho seja menor do que Grande, você se\ntorna Grande, junto com qualque coisa que estiver\nvestindo.\nSe não houver espaço para crescer, seu tamanho não muda.\nVocê tem vantagem em testes de Força e salvaguardas de\nForça. Uma vez por turno, um de seus ataques com arma ou\num ataque desarmado podem provocar 1d6 de dano\nadicional ao alvo em um acerto.\nVocê pode usar esta habilidade um número de vezes igual\nao seu bônus de proficiência, e recupera todos os seus usos\nao terminar um descanso longo.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            61
+          ]
+        },
+        {
+          "nivel": 3,
+          "nome": "Entalhador de Runas",
+          "descricao": "Entalhador de Runas\nHabilidade de 3° Nível de Cavaleiro Rúnico\nVocê pode usar runas mágicas para aprimorar seu\nequipamento. Ao ganhar essa habilidade você aprende a\ninscrever duas runas à sua escolha dentre as runas descritas\nabaixo, e cada vez que você ganhar um nível nesta classe,\nvocê pode substituir uma runa que conheça por uma\ndiferente advinda desta característica. Quando você alcança\ncertos níveis nessa classe, você aprende runas adicionais,\nconforme mostrado na tabela de Runas Conhecidas.\nRunas Conhecidas\nNível de Guerreiro\nNúmero de Runas\n3º\n2\n7º\n3\n10º\n4\n15º\n5\nSempre que terminar um descanso longo você pode tocar\numa quantidade de objetos igual ao número de runas que\nvocê conhece e gravar uma runa diferente em cada um deles.\nPara que isso seja possível, este objeto deve ser uma arma,\narmadura, escudo ou uma joia, ou alguma outra coisa que\nvocê possa vestir ou carregar em uma mão. Sua runa\npermanece em um objeto até você terminar outro descanso\nlongo, e um objeto pode conter apenas uma runa por vez.\nAs seguintes runas estão disponíveis quando você aprender\numa runa. Se uma runa possuir algum requisito de nível, você\ndeve estar pelo menos no nível mínimo exigido para aprendê-\nla. Se uma runa pedir por uma salvaguarda, a CD de magia\nda runa será 8 + bônus de proficiência + modificador de\nConstituição.\nRuna da Nuvem. A magia desta runa simula a magia\nenganadora utilizada por alguns gigantes das nuvens.\nEnquanto estiver usando ou carregando um item com essa\nruna gravada, você tem vantagem nos testes de Destreza\n(Prestidigitação) e Carisma (Enganação).\nAdicionalmente, quando você ou uma criatura a até 9\nmetros for acertada por um ataque, você pode usar sua\nreação para invocar a runa e escolher outra criatura a até 9m\nde você, que não seja o atacante. A criaura escolhida se torna\no alvo do ataque, utilizando a mesma jogada. Essa magia\npode transferir o efeito do ataque independente do alcance\noriginal dele. Ao invocar esta runa você não poderá fazer isso\nnovamente até terminar um descanso curto ou longo.\nRuna do Fogo. A magia desta runa canaliza a maestria da\nperícia dos ferreiros gigantes de fogo. Enquanto estiver\nusando ou carregando um item com uma runa dessas\ngravada seu bônus de proficiência é dobrado para qualquer\nteste que utilizar ferramentas.\nAlém disso, ao acertar um ataque com arma em uma\ncriatura, você pode invocar a runa para conjurar grilhões\nincandescentes: o alvo recebe 2d6 de dano de fogo e deve ser\nbem-sucedido em uma salvaguarda de Força ou ficará\nimpedido por 1 minuto. Enquanto estiver impedido pelas\ncorrentes, o alvo sofre 2d6 de dano de fogo no começo de\ncada um dos turnos dele. O alvo pode repetir a salvaguarda\nno final de cada um dos turnos dele, e os grilhões\ndesaparecem caso ele seja bem-sucedido. Ao invocar esta\nruna você não poderá fazer isso novamente até terminar um\ndescanso curto ou longo.\n60\nOpções de Personagens\nRuna do Gelo. A magia desta runa evoca o poder daqueles\nque vivem na vastidão invernal, como os gigantes do gelo.\nEnquanto estiver usando ou carregando um item com uma\nruna dessas gravada você tem vantagem nos testes de\nSabedoria (Lidar com Animais) e Carisma (Intimidação).\nAlém disso, você pode invocar a runa como uma ação\nbônus para aumentar sua resistência. Por 10 minutos, você\nganha um bônus de +2 para todos os testes de habilidade e\nsalvaguarda que utilizem Força ou Constituição. Ao invocar\nesta runa você não poderá fazer isso novamente até terminar\num descanso curto ou longo.\nRuna da Pedra. A magia desta runa canaliza a\nintrospecção associada aos gigantes de pedra. Enquanto\nestiver usando ou carregando um item com uma dessas\nrunas gravada você tem vantagem nos testes de Sabedoria\n(Intuição) e adquire visão no escuro com alcance de 36m.\nAdicionalmente, quando uma criatura que você possa ver\ntermina o turno dela a até 9 metros de você, você pode usar\nsua reação para invocar a runa e forçar a criatura a fazer uma\nsalvaguarda de Sabedoria. A menos que seja bem-sucedida, a\ncriatura fica enfeitiçada por você por 1 minuto. Enquanto\nestiver enfeitiça desta forma, a criatura tem deslocamento 0 e\nfica incapacitada, caindo em um coma estupor cheio de\nsonhos. A criatura repete a salvaguarda ao final de cada um\ndos turnos dela, encerrando o efeito em caso de sucesso. Ao\ninvocar esta runa você não poderá fazer isso novamente até\nterminar um descanso curto ou longo.\nRuna da Colina. (7º nível ou superior) A magia desta\nruna confere uma resistência semelhante à de um gigante da\ncolina. Enquanto estiver usando ou carregando um item com\numa dessas runas gravada você tem vantagem em\nsalvaguardas contra ser envenenado e tem resistência contra\ndano venenoso.\nAlém disso, você pode invocar a runa com uma ação bônus,\nganhando resistência a dano cortante, perfurante e\ncontundente por 1 minuto. Ao invocar esta runa você não\npoderá fazer isso novamente até terminar um descanso curto\nou longo.\nRuna da Tempestade. (7º nível ou superior) Ao usar esta\nruna você pode vislumbrar o futuro como um vidente dos\ngigantes da tempestade. Enquanto estiver usando ou\ncarregando um item com uma dessas runas gravada você tem\nvantagem nos testes de Inteligência (Arcanismo) e não pode\nser surpreendido, desde que não esteja incapacitado.\nAlém disso, você pode invocar a runa com uma ação bônus\npara entrar em um estado profético por 1 minuto ou até ser\nincapacitado. Enquanto estiver neste estado, quando você ou\noutra criatura que você possa ver a até 18m da sua posição\nfizer uma jogada de ataque, salvaguarda ou teste de\nhabilidade, você pode usar sua reação para dar vantagem ou\ndesvantagem nesta rolagem. Ao invocar esta runa você não\npoderá fazer isso novamente até terminar um descanso curto\nou longo.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            60
+          ]
+        },
+        {
+          "nivel": 10,
+          "nome": "Grande Estatura",
+          "descricao": "Grande Estatura\nCaracterística de 10° Nível de Cavaleiro Rúnico\nA magia das runas o afetou permanentemente. Quando\nganhar esta característica, role 3d4. Você cresce em altura o\nresultado total x 2,5 em centímetros.\nAlém disso, o dano extra provocado pelo seu Poderio\nGigante aumenta para 1d8.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            61
+          ]
+        },
+        {
+          "nivel": 15,
+          "nome": "Mestre das Runas",
+          "descricao": "Mestre das Runas\nCaracterística de 15° Nível de Cavaleiro Rúnico\nVocê agora pode invocar cada runa que conhece duas vezes\nao invés de uma e recupera todos os seus usos com um\ndescanso curto ou longo.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            61
+          ]
+        },
+        {
+          "nivel": 7,
+          "nome": "Escudo Rúnico",
+          "descricao": "Escudo Rúnico\nCaracterística de 7° Nível de Cavaleiro Rúnico\nVocê aprende a invocar sua magia rúnica para proteger\nseus aliados. Quando outra criatura que você possa ver a até\n18m de você for atingida por um ataque, você pode usar sua\nreação para forçar o atacante a jogar novamente o d20 e ficar\ncom o novo resultado. Você pode usar esta habilidade um\nnúmero de vezes igual ao seu bônus de proficiência, e\nrecupera todos os seus usos ao terminar um descanso longo.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            61
+          ]
+        },
+        {
+          "nivel": 18,
+          "nome": "Colosso Rúnico",
+          "descricao": "Colosso Rúnico\nCaracterística de 18° Nível de Cavaleiro Rúnico\nVocê aprendeu como amplificar sua transformação\nmotivada pelas runas. Como resultado, o dano extra que você\nprovoca com o Poderio Gigante aumenta para 1d10.\nAdicionalmente, quando você utilizar essa característica,\nseu tamanho pode aumentar para Enorme e, enquanto neste\ntamanho, seu alcance é ampliado em 1,5m.\nEstilos de Mestres de\nBatalha\nUma opção de Arquétipo Marcial do Livro do Jogador, o\nmestre de batalha exemplifica o quão versátil um guerreiro\npode ser. O conjunto de manobras que você escolhe, quando\ncombinado com o estilo de luta e talentos, permite que você\ncrie uma grande variedade de guerreiros, cada qual com sua\nprópria assinatura e estilo de jogo. Abaixo estão algumas\nrecomendações de como construir um Mestre de Batalha\npara refletir esses vários tipos de guerreiros.\nCada um desses estilos contém sugestões a partir do\nmaterial do Livro do Jogador, exceto por aqueles em itálico,\nindicando uma opção introduzida neste livro.\nArqueiro\nEstilo de Luta: Arquearia.\nManobras: Ataque para Distrair, Ataque preciso, Desarme.\nTalento: Mestre-Atirador.\nVocê prefere lidar com seus inimigos de longe, confiando\nem uma flecha, azagaia ou bala de funda bem colocada, para\nencerrar uma luta sem retaliação. Você confia em sua mira e\nprovavelmente é adepto do provérbio de que \"quem vive pela\nespada morre pelo arco\".\nGuarda-costas\nEstilo de Luta: Interceptador, Protetivo.\nManobras: Engodo, Ataque para Desarmar, Ataque\nimobilizante.\nTalentos: Alerta, Analítico, Sentinela, Vigoroso.\nAmor, dinheiro ou alguma outra obrigação motivou você a\ncolocar seu próprio corpo entre o perigo e aquele que jurou\nproteger. Você desenvolveu a habilidade de farejar possíveis\nameaças e proteger outros através de situações perigosas.\nBrigão\nEstilo de luta: Luta às cegas , Combate com duas armas,\nCombate desarmado. Manobras: Emboscar, Ataque para\ndesarmar, Finta, Encontrão, Derrubar. Talentos: Atleta,\nImobilizador, Valentão de Taverna, Resiliente, Vigoroso,\nMestre em Escudos.\nQuando garrafas começam a ser quebradas e cadeiras\nvoam, você está em seu ambiente. Você ama uma boa briga, e\nvocê provavelmente vai tomar partido nela. Você pode ter ou\nnão um treinamento formal, e enquanto os outros dizem que\nvocê joga sujo, você permanece vivo.\nDuelista\nEstilo de luta: Duelismo, Combate com duas armas.\nManobras: Ataque Preciso, Contra-ataque, Finta,\nMovimentação evasiva, Aparar, Ataque estendido.\nTalentos: Duelista defensivo, Atacante selvagem,\nEspecialista ambidestro, Analítico, Mestre das armas.\nVocê leva o duelo como uma tradição orgulhosa, um teste\nde perícia e rciocínio que traz honra para aqueles que\nderrotam um inimigo enquanto respeitam a arte. Sua busca\npor aprimoramento é uma paixão consumidora, e você bebe\nda maestria daqueles que vieram antes de você enquanto\ntrabalha para aperfeiçoar sua forma.",
+          "fonte": "Caldeirão de Tudo de Tasha",
+          "paginas": [
+            62
+          ]
+        }
+      ],
+      "fonte": "Caldeirão de Tudo de Tasha"
+    },
+    {
+      "nome": "Arqueiro Arcano",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Tradição do Arqueiro Arcano",
+          "descricao": "No 3°\nnível, você aprende a teoria mágica de alguns\ndos segredos da natureza - típicos para praticantes\ndesta tradição marcial élfica. Você escolhe ganhar\nproficiência entre as pericias Arcanismo ou\nNatureza, e você escolhe aprender entre os truques\nprestidigitação ou druidismo."
+        },
+        {
+          "nivel": 3,
+          "nome": "Disparo Arcano",
+          "descricao": "No 3°\nnível, você aprende a liberar efeitos mágicos\nespeciais com alguns de seus tiros. Quando você\nganha essa característica, aprende duas opções\nde Disparo Arcano da sua escolha (ver \"Opções de\nDisparo Arcano\" abaixo) .\nUma vez por turno quando você dispara uma flecha\nmágica de um arco curto ou arco longo como parte\nda ação atacar, pode adicionar uma das opções de\nDisparo Arcano para essa flecha. Você decide usar\nessa opção quando a flecha acerta uma criatura,\na menos que a opção não envolva uma rolagem de\nataque. Você tem dois usos dessa característica, e\nrecupera todos os usos quando terminar um descanso\ncurto ou longo.\nVocê ganha urna opção adicional de Disparo\nArcano de sua escolha quando alcança certos níveis\nnesta classe: 7°\ne 18°\n. Cada opção também\nmelhora quando se tornar um Guerreiro do 1 8°\nnível."
+        },
+        {
+          "nivel": 7,
+          "nome": "Flecha Mágica",
+          "descricao": "No 7°\nnível, você ganha a capacidade de infundir\nflechas com magia. Sempre que disparar uma\nflecha não mágica de um arco curto ou arco longo,\npode torná-la mágico para o propósito de superar a\nresistência e a imunidade não mágica para ataques e\ndanos. A magia desaparece da flecha imediatamente\napós acertar ou errar o alvo."
+        },
+        {
+          "nivel": 10,
+          "nome": "Tiro Curvado",
+          "descricao": "No 7°\nnível, você aprende a direcionar uma flecha sem\ndestino em direção a um novo alvo. Quando realiza\num ataque com uma flecha mágica e erra, pode usar\numa ação bõnus para rolar novamente a jogada de\nataque contra um alvo diferente dentro de 18 metros\ndo alvo original."
+        },
+        {
+          "nivel": 15,
+          "nome": "Sempre Pronto para o Tiro",
+          "descricao": "A partir do 1 5°\nnível, o seu tiro com arco mágico está\ndisponível sempre que a batalha começar. Se você\nrolar a iniciativa e não tiver utilizações de Tiro Arcano\nrestantes, recupera uma utilização.\nÜ PÇÔES DE DISPARO ARCANO\nA característica do Disparo Arcano permite que você\nescolha opções para ela em certos níveis. As opções\nsão apresentadas aqui em ordem alfabética. Todas\nelas são efeitos mágicos, e cada um está associado a\numa das escolas de magia.\nSe uma opção requer um teste de resistência, o\nteste do Disparo Arcano é CD igual a 8 + seu bõnus de\nproficiência + seu modificador de Inteligência.\nC A P Í T U L O l I O P Ç Õ E S D E P E R S O N A U Z A Ç A O"
+        }
+      ],
+      "fonte": "Guia de Xanathar para Todas as Coisas"
+    },
+    {
+      "nome": "Cavaleiro",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Proficiência Adicional",
+          "descricao": "Quando você escolhe esse arquétipo no 3°\nnível, você\nganha proficiência em uma das seguintes habilidades\nde sua escolha: Lidar com Animais, História, Intuição,\nAtuação ou Persuasão. Alternativamente, você\naprende um idioma de sua escolha."
+        },
+        {
+          "nivel": 3,
+          "nome": "Nascido para a Sela",
+          "descricao": "A partir do 3º\nnível, seu domínio como cavaleiro\ntoma-se evidente. Você tem vantagem em testes\nde resistência para evitar cair da sua montaria. Se\nvocê cair de sua montaria e não descer mais do\nque 3 metros, poderá cair em pé se você não estiver\nincapacitado.\nFinalmente, montar ou desmontar uma criatura\ncusta a ti apenas 1 ,5 metros de deslocamento, em vez\nde metade do seu deslocamento.\nCAPÍTU LO l l OPÇÕES DE PUSONA L llAÇAO\nCAVALEI ROS, SAM U RAI S, E H I STÓRIA\nEnquanto cavaleiros e samurais existem no mundo real,\nnossas inspirações para ambos os arquétipos de combate\nsão tiradas da cultura popular (contos populares, filmes e\nquadrinhos), e não da história. Nossa intenção é capturar o\nelemento cinematográfico e heróico de ambos os arquétipos\nno jogo, em vez de criar uma representação histórica precisa."
+        },
+        {
+          "nivel": 3,
+          "nome": "Marca Inabalável",
+          "descricao": "No início do 3º\nnível, você pode ameaçar seus\ninimigos, frustrar seus ataques e puni-los por causar\ndano aos outros. Quando atingir uma criatura com\num ataque de arma corpo-a-corpo, pode marcar a\ncriatura até o final do seu próximo turno. Este efeito\nacaba prematuramente se você estiver incapacitado ou\ncaso morra, ou se alguém marcar a criatura.\nEnquanto estiver dentro de 1 ,5 metros de alcance,\numa criatura marcada por você tem desvantagem em\nqualquer ataque que não o tenha como alvo.\nAlém disso, se uma criatura marcada por você\ncausar dano a alguém além de ti, você pode fazer\num ataque armado especial corpo-a-corpo contra\na criatura marcada como uma ação bônus no seu\npróximo turno. Você tem vantagem no ataque, e se ele\natingir, a arma de ataque causa dano extra pro alvo\nigual metade do seu nível de guerreiro.\nIndependentemente do número de criaturas que\nvocê marcar, só poderá fazer esse ataque especial um\nnúmero de vezes igual a seu modificador de Força\n(mínimo de uma vez) e recupera suas utilizações\nquando terminar um descanso longo."
+        },
+        {
+          "nivel": 7,
+          "nome": "Manobra Protetora",
+          "descricao": "No 7°\nnível, você aprende a afastar os golpes que\no sejam direcionado, a sua montaria e a outras\ncriaturas próximas. Se você ou uma criatura que\npossa ver a 1 , 5 metros de alcance for atingida por\num ataque, poderá rolar 1 d8 como uma reação caso\nesteja empunhando uma arma corpo-a-corpo ou um\nescudo. Role um dado e adicione o número rolado\npara a CA do alvo contra esse ataque. E se o ataque\nainda atingir, o alvo tem resistência contra o dano do\nataque.\nVocê pode usar essa característica um número\nde vezes igual ao seu modificador de Constituição\n(mínimo de uma vez), e recupera todas as utilizações\ngastas quando terminar um descanso longo."
+        },
+        {
+          "nivel": 10,
+          "nome": "Mantenha a Linha",
+          "descricao": "No 10°\nnível, você se toma um mestre em travar\nseus inimigos. Criaturas provocam um ataque de\noportunidade a você quando eles se movem 1 , 5 metros\nou mais, enquanto dentro do seu alcance, e se você\natingir uma criatura com um ataque de �portunidade,\no deslocamento do alvo é reduzido {'>ara ó até o final do\nturno atual."
+        },
+        {
+          "nivel": 15,
+          "nome": "Investida Implacável",
+          "descricao": "A partir do 15°\n, você pode controlar seus inimigos\nmais facilmente, se estiver montado ou não. Caso se\ndesloque pelo menos 3 metros em linha reta antes\nde atacar uma criatura e acertá-la com o seu ataque,\nesse alvo deve ser bem-sucedido em um teste de\nresistência de Força (CD 8 + seu bônus de proficiência\n+ seu modificador de Força) ou será derrnbado ao\nchão. Você pode usar essa característica apenas uma\nvez em cada um de seus turnos."
+        },
+        {
+          "nivel": 18,
+          "nome": "Defensor Mestre",
+          "descricao": "A partir do 18°\nnível, você responde ao perigo com\nextraordinária agilidade. Em combate, obtêm uma\nreação especial que pode realizar uma vez no turno\nde cada criatura exceto em seu turno. Você pode usar\nessa reação especial somente para fazer um ataque de\noportunidade, e não pode usá-lo no mesmo turno qual\nrealizou uma reação normal."
+        }
+      ],
+      "fonte": "Guia de Xanathar para Todas as Coisas"
+    },
+    {
+      "nome": "Samurai",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Espírito Guerreiro",
+          "descricao": "A partir do 3°\nnível, seu ímpeto em batalha pode o\nresguardar e ajudá-lo a atingir o êxito. Como uma\nação bônus em seu turno, pode se dar vantagem em\njogadas de ataque usando armas até o final do seu\nturno. Quando fizer isso, também ganhará 5 pontos\nde vida temporários. O número de pontos de vida\ntemporário aumenta quando atingir determinados\nníveis nessa classe, incrementado para 10 no 10°\nnível\ne 15 no 15º\nnível.\nVocê pode usar essa característica três vezes, e\nrecupera todas as utilizações quando terminar um\ndescanso longo."
+        },
+        {
+          "nivel": 7,
+          "nome": "Cortesão Elegante",
+          "descricao": "A partir do 7º\nnível, sua disciplina e atenção a\ndetalhes permite que se destaque em situações\nsociais. Sempre que fizer um teste de Carisma\n(Persuasão), ganha um bônus para o teste igual ao seu\nmodificador Sabedoria.\nSeu autocontrole também o faz ª1U}àr proficiência\nem teste de resistência d abeãoria C so já poss a�\nessa proficiência, em Vez disso, ganhe prqfi.eiência em\nteste de resistência d fnteligénci ou de Carisma (sua\nes 01ha)"
+        },
+        {
+          "nivel": 10,
+          "nome": "Espírito Incansável",
+          "descricao": "A partir do 10º\nnível, quando rolar iniciativa e não\ntiver nenhuma utilização de Espirita da Batalha\nrestante, recupera uma utilização."
+        },
+        {
+          "nivel": 15,
+          "nome": "Golpe Rápido",
+          "descricao": "A partir do 15°\nnível, você aprende a trocar a precisão\ndos seus ataques por um golpe veloz. Se escolher fazer\numa ação de Ataque no seu turno e tiver vantagem\nem um ataque contra um dos alvos, pode renunciar\nà vantagem desse rolamento para fazer um ataque\narmado adicional contra esse alvo. Você pode fazer\nisso somente uma vez por turno."
+        },
+        {
+          "nivel": 18,
+          "nome": "Força Diante da Morte",
+          "descricao": "A partir do 18°\nnível, seu espírito guerreiro pode\natrasar o abraço da morte. Se receber um dano que o\nreduz a O pontos de vida e não te matar por definitivo,\npoderá usar sua reação para atrasar o efeito de cair\ninconsciente, e pode imediatamente realizar mais um\nturno extra, interrompendo o turno atual. Enquanto\ntiver O pontos de vida durante o turno extra, sofrer\nferimentos provoca fracasso no teste de resistência\ncontra a morte, o que normalmente acontece, e três\nfracassos no teste de resistência contra a morte ainda\npodem mata-lo. Quando o turno extra se encerrar,\nvocê cai inconsciente se ainda estiver com O pontos de\nvida.\nDepois que utilizar essa característica, não poderá\nutilizar novamente até que termine um descanso\nlongo."
+        }
+      ],
+      "fonte": "Guia de Xanathar para Todas as Coisas"
+    }
+  ],
+  "lista_magias": {}
+}

@@ -1,0 +1,471 @@
+{
+  "classe": "Artífice",
+  "lista_magias": {
+    "Truques": [
+      {
+        "nome": "Acudir os Moribundos",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Bolha Ácida",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Chicote Elétrico",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Chicote de Espinhos",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Criar Fogueira",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Golpe Trovejante",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Luz",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Luzes Dançantes",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Lâmina Estrondosa",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Lâmina da Chama Esverdeada",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Mensagem",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Mãos Mágicas",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Orientação",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Pedra Encantada",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Picada Congelante",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Prestidigitação",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Raio de Fogo",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Raio de Gelo",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Rajada Venenosa",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Reparar",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Resistência",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Rompante de Espadas",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Toque Chocante",
+        "escola": "",
+        "especial": ""
+      }
+    ],
+    "1º Círculo": [
+      {
+        "nome": "Absorver Elementos",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Alarme",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Beberagem Cáustica de Tasha",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Catapulta",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Curar Ferimentos",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Detectar Magia",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Disfarçar-se",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Fogo das Fadas",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Graxa",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Identificar",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Laço",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Passos Largos",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Purificar Alimentos e Bebidas",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Queda Suave",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Retirada Acelerada",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Salto",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Santuário",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Vitalidade Vazia",
+        "escola": "",
+        "especial": ""
+      }
+    ],
+    "2º Círculo": [
+      {
+        "nome": "Alterar-se",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Aprimorar Atributo",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Arma Mágica",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Aumentar/ Reduzir",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Auxílio",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Boca Encantada",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Chama Contínua",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Corda Extradimensional",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Escalada de Aranha",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Escrita Celeste",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Esquentar Metal",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Invisibilidade",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Levitação",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Pirotecnia",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Proteção Contra Veneno",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Restauração Menor",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Soneca",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Voo",
+        "escola": "",
+        "especial": ""
+      }
+    ],
+    "3º Círculo": [
+      {
+        "nome": "3:Arma Elemental",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Caminhar Sobre as Águas",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Celeridade",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Criar Comida e Água",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Dissipar Magia",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Flechas Flamejantes",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Fortaleza Intelectual",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Glifo de Proteção",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Pequeno Servo",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Piscar",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Proteção Contra Energia",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Respirar na Água",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Revivificar",
+        "escola": "",
+        "especial": ""
+      }
+    ],
+    "4º Círculo": [
+      {
+        "nome": "4:Arca Secreta de Leomund",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Cão Fiel de Mordenkainen",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Destruição Elemental",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Esfera Resiliente de Otiluke",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Fabricar",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Invocar Construto",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Moldar Rochas",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Movimentação Livre",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Olho Arcano",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Pele-rocha",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Santuário Particular de Mordenkainen",
+        "escola": "",
+        "especial": ""
+      }
+    ],
+    "5º Círculo": [
+      {
+        "nome": "5:Animar Objetos",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Aprimorar Perícia",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Criação",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Muralha de Pedra",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Mão de Bigby",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Restauração Maior",
+        "escola": "",
+        "especial": ""
+      },
+      {
+        "nome": "Transmutar Pedra",
+        "escola": "",
+        "especial": ""
+      }
+    ],
+    "6º Círculo": [],
+    "7º Círculo": [],
+    "8º Círculo": [],
+    "9º Círculo": []
+  }
+}

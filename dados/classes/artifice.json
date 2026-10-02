@@ -1,0 +1,639 @@
+{
+  "nome": "Artífice",
+  "tracos_basicos": {
+    "dado_vida": 8,
+    "prof_armaduras": [
+      "Leve",
+      "Média",
+      "Escudo"
+    ],
+    "prof_armas": [
+      "Simples"
+    ],
+    "prof_ferramentas": [
+      "Ferramentas de Ladrão",
+      "Ferramentas de Funileiro",
+      "Ferramentas de Artesão (uma à escolha)"
+    ],
+    "salvaguardas": [
+      "Constituição",
+      "Inteligência"
+    ],
+    "pericias_opcoes": [
+      "Arcanismo",
+      "História",
+      "Investigação",
+      "Medicina",
+      "Natureza",
+      "Percepção",
+      "Prestidigitação"
+    ],
+    "num_pericias": 2
+  },
+  "tabela_caracteristicas": [
+    {
+      "nivel": 1,
+      "bonus_proficiencia": 2,
+      "truques": 2,
+      "espacos_magia": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "infusoes_conhecidas": 0,
+      "itens_infudidos": 0
+    },
+    {
+      "nivel": 2,
+      "bonus_proficiencia": 2,
+      "truques": 2,
+      "espacos_magia": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "infusoes_conhecidas": 4,
+      "itens_infudidos": 2
+    },
+    {
+      "nivel": 3,
+      "bonus_proficiencia": 2,
+      "truques": 2,
+      "espacos_magia": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "infusoes_conhecidas": 4,
+      "itens_infudidos": 2
+    },
+    {
+      "nivel": 4,
+      "bonus_proficiencia": 2,
+      "truques": 2,
+      "espacos_magia": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "infusoes_conhecidas": 4,
+      "itens_infudidos": 2
+    },
+    {
+      "nivel": 5,
+      "bonus_proficiencia": 3,
+      "truques": 2,
+      "espacos_magia": [
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      "infusoes_conhecidas": 4,
+      "itens_infudidos": 2
+    },
+    {
+      "nivel": 6,
+      "bonus_proficiencia": 3,
+      "truques": 2,
+      "espacos_magia": [
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      "infusoes_conhecidas": 6,
+      "itens_infudidos": 3
+    },
+    {
+      "nivel": 7,
+      "bonus_proficiencia": 3,
+      "truques": 2,
+      "espacos_magia": [
+        4,
+        3,
+        0,
+        0,
+        0
+      ],
+      "infusoes_conhecidas": 6,
+      "itens_infudidos": 3
+    },
+    {
+      "nivel": 8,
+      "bonus_proficiencia": 3,
+      "truques": 2,
+      "espacos_magia": [
+        4,
+        3,
+        0,
+        0,
+        0
+      ],
+      "infusoes_conhecidas": 6,
+      "itens_infudidos": 3
+    },
+    {
+      "nivel": 9,
+      "bonus_proficiencia": 4,
+      "truques": 2,
+      "espacos_magia": [
+        4,
+        3,
+        2,
+        0,
+        0
+      ],
+      "infusoes_conhecidas": 6,
+      "itens_infudidos": 3
+    },
+    {
+      "nivel": 10,
+      "bonus_proficiencia": 4,
+      "truques": 3,
+      "espacos_magia": [
+        4,
+        3,
+        2,
+        0,
+        0
+      ],
+      "infusoes_conhecidas": 8,
+      "itens_infudidos": 4
+    },
+    {
+      "nivel": 11,
+      "bonus_proficiencia": 4,
+      "truques": 3,
+      "espacos_magia": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ],
+      "infusoes_conhecidas": 8,
+      "itens_infudidos": 4
+    },
+    {
+      "nivel": 12,
+      "bonus_proficiencia": 4,
+      "truques": 3,
+      "espacos_magia": [
+        4,
+        3,
+        3,
+        0,
+        0
+      ],
+      "infusoes_conhecidas": 8,
+      "itens_infudidos": 4
+    },
+    {
+      "nivel": 13,
+      "bonus_proficiencia": 5,
+      "truques": 3,
+      "espacos_magia": [
+        4,
+        3,
+        3,
+        1,
+        0
+      ],
+      "infusoes_conhecidas": 8,
+      "itens_infudidos": 4
+    },
+    {
+      "nivel": 14,
+      "bonus_proficiencia": 5,
+      "truques": 4,
+      "espacos_magia": [
+        4,
+        3,
+        3,
+        1,
+        0
+      ],
+      "infusoes_conhecidas": 10,
+      "itens_infudidos": 5
+    },
+    {
+      "nivel": 15,
+      "bonus_proficiencia": 5,
+      "truques": 4,
+      "espacos_magia": [
+        4,
+        3,
+        3,
+        2,
+        0
+      ],
+      "infusoes_conhecidas": 10,
+      "itens_infudidos": 5
+    },
+    {
+      "nivel": 16,
+      "bonus_proficiencia": 5,
+      "truques": 4,
+      "espacos_magia": [
+        4,
+        3,
+        3,
+        2,
+        0
+      ],
+      "infusoes_conhecidas": 10,
+      "itens_infudidos": 5
+    },
+    {
+      "nivel": 17,
+      "bonus_proficiencia": 6,
+      "truques": 4,
+      "espacos_magia": [
+        4,
+        3,
+        3,
+        3,
+        1
+      ],
+      "infusoes_conhecidas": 10,
+      "itens_infudidos": 5
+    },
+    {
+      "nivel": 18,
+      "bonus_proficiencia": 6,
+      "truques": 4,
+      "espacos_magia": [
+        4,
+        3,
+        3,
+        3,
+        1
+      ],
+      "infusoes_conhecidas": 12,
+      "itens_infudidos": 6
+    },
+    {
+      "nivel": 19,
+      "bonus_proficiencia": 6,
+      "truques": 4,
+      "espacos_magia": [
+        4,
+        3,
+        3,
+        3,
+        2
+      ],
+      "infusoes_conhecidas": 12,
+      "itens_infudidos": 6
+    },
+    {
+      "nivel": 20,
+      "bonus_proficiencia": 6,
+      "truques": 4,
+      "espacos_magia": [
+        4,
+        3,
+        3,
+        3,
+        2
+      ],
+      "infusoes_conhecidas": 12,
+      "itens_infudidos": 6
+    }
+  ],
+  "caracteristicas": [
+    {
+      "nivel": 1,
+      "nome": "Engenharia Mágica",
+      "descricao": "Você usa ferramentas de artesão como foco de conjuração e pode produzir efeitos mágicos por meio de seus conhecimentos de artífice."
+    },
+    {
+      "nivel": 1,
+      "nome": "Conjuração",
+      "descricao": "Você pode conjurar magias de artífice usando ferramentas de artesão como foco. Inteligência é seu atributo de conjuração para essas magias."
+    },
+    {
+      "nivel": 2,
+      "nome": "Infundir Item",
+      "descricao": "Você aprende infusões de artífice e pode imbuir itens mundanos com magia. A quantidade de infusões conhecidas e de itens que podem permanecer infundidos segue sua tabela de classe."
+    },
+    {
+      "nivel": 3,
+      "nome": "Especialização de Artífice",
+      "descricao": "Você escolhe uma especialização de artífice, que concede características adicionais nos níveis indicados."
+    },
+    {
+      "nivel": 3,
+      "nome": "A Ferramenta Certa para o Trabalho",
+      "descricao": "Você pode criar as ferramentas de artesão de que precisa com um descanso, usando ferramentas de artesão e os materiais apropriados."
+    },
+    {
+      "nivel": 4,
+      "nome": "Aumento no Valor de Atributo",
+      "descricao": "Você recebe um aumento no valor de atributo ou talento, conforme as regras usadas pela campanha."
+    },
+    {
+      "nivel": 5,
+      "nome": "Característica de Especialização de Artífice",
+      "descricao": "Sua especialização concede uma nova característica."
+    },
+    {
+      "nivel": 6,
+      "nome": "Maestria em Ferramenta",
+      "descricao": "Ao usar uma ferramenta em que é proficiente, você pode obter um benefício adicional de Maestria em Ferramenta conforme as regras da classe."
+    },
+    {
+      "nivel": 7,
+      "nome": "Lampejo de Genialidade",
+      "descricao": "Quando você ou outra criatura que você possa ver a até 9 metros fizer um teste de atributo ou uma salvaguarda, você pode usar sua Reação para adicionar seu modificador de Inteligência à rolagem. Você pode usar esta característica um número de vezes igual ao seu modificador de Inteligência e recupera os usos após um descanso longo."
+    },
+    {
+      "nivel": 8,
+      "nome": "Aumento no Valor de Atributo",
+      "descricao": "Você recebe um aumento no valor de atributo ou talento."
+    },
+    {
+      "nivel": 9,
+      "nome": "Característica de Especialização de Artífice",
+      "descricao": "Sua especialização concede uma nova característica."
+    },
+    {
+      "nivel": 10,
+      "nome": "Perito em Itens Mágicos",
+      "descricao": "Sua experiência com itens mágicos permite sintonizar mais itens mágicos do que o limite normal."
+    },
+    {
+      "nivel": 11,
+      "nome": "Item de Armazenar Magia",
+      "descricao": "Você pode armazenar uma magia de artífice de 1º ou 2º círculo em uma arma ou objeto apropriado. Uma criatura que use o item pode produzir o efeito da magia sem gastar espaço de magia."
+    },
+    {
+      "nivel": 12,
+      "nome": "Aumento no Valor de Atributo",
+      "descricao": "Você recebe um aumento no valor de atributo ou talento."
+    },
+    {
+      "nivel": 14,
+      "nome": "Versado em Itens Mágicos",
+      "descricao": "Você recebe um benefício adicional ao usar itens mágicos e pode sintonizar mais um item mágico."
+    },
+    {
+      "nivel": 16,
+      "nome": "Aumento no Valor de Atributo",
+      "descricao": "Você recebe um aumento no valor de atributo ou talento."
+    },
+    {
+      "nivel": 18,
+      "nome": "Maestria em Itens Mágicos",
+      "descricao": "Você pode sintonizar até seis itens mágicos ao mesmo tempo e obtém maior eficiência no uso de itens mágicos."
+    },
+    {
+      "nivel": 19,
+      "nome": "Aumento no Valor de Atributo",
+      "descricao": "Você recebe um aumento no valor de atributo ou talento."
+    },
+    {
+      "nivel": 20,
+      "nome": "Alma do Artífice",
+      "descricao": "Você recebe um bônus para todas as salvaguardas enquanto estiver sintonizado com itens mágicos e pode aumentar uma rolagem de resistência usando uma reação, além de receber outros benefícios ligados à sua sintonização."
+    }
+  ],
+  "subclasses": [
+    {
+      "nome": "Alquimista",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Ferramentas de Alquimista",
+          "descricao": "Você ganha proficiência com ferramentas de alquimista. Elas também podem servir como foco de conjuração para suas magias de artífice."
+        },
+        {
+          "nivel": 3,
+          "nome": "Elixir Experimental",
+          "descricao": "Ao terminar um descanso longo, você pode criar gratuitamente um elixir experimental e pode criar outros gastando espaços de magia. Cada elixir produz aleatoriamente ou, quando criado com espaço, por escolha, um efeito da tabela de Elixir Experimental. Um elixir dura até ser consumido ou até o fim do próximo descanso longo."
+        },
+        {
+          "nivel": 5,
+          "nome": "Alquimista Adepto",
+          "descricao": "Você adiciona seu modificador de Inteligência a uma rolagem de dano de uma magia de artífice que cause dano Ácido, Ígneo, Necrótico ou Venenoso, uma vez por magia. Seus elixires também recebem melhorias adicionais."
+        },
+        {
+          "nivel": 9,
+          "nome": "Reagentes Restauradores",
+          "descricao": "Uma criatura que beber um de seus elixires recebe pontos de vida temporários. Além disso, você pode conjurar Restauração Menor sem gastar espaço de magia um número de vezes igual ao seu modificador de Inteligência (mínimo 1), usando ferramentas de alquimista como foco."
+        },
+        {
+          "nivel": 15,
+          "nome": "Químico Mestre",
+          "descricao": "Você ganha resistência a dano Ácido e Venenoso e imunidade à condição Envenenado. Pode conjurar Restauração Maior e Cura Completa sem espaço, sem preparo e sem componentes materiais, uma vez por descanso longo para cada magia."
+        }
+      ],
+      "fonte": "Caldeirão de Tudo de Tasha"
+    },
+    {
+      "nome": "Armeiro",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Ferramentas Ideais",
+          "descricao": "Você ganha proficiência com armaduras pesadas e ferramentas de ferreiro. Se já tiver proficiência com estas ferramentas, escolha outro tipo de ferramenta de artesão."
+        },
+        {
+          "nivel": 3,
+          "nome": "Magias de Armeiro",
+          "descricao": "Você sempre tem determinadas magias preparadas conforme sua progressão de artífice; elas contam como magias de artífice, mas não contam para o número de magias que você pode preparar."
+        },
+        {
+          "nivel": 3,
+          "nome": "Armadura Arcana",
+          "descricao": "Você pode transformar uma armadura que veste em uma Armadura Arcana. Ela não exige Força, serve como foco de conjuração, prende-se a você e pode cobrir membros ausentes. Você pode escolher um modelo de armadura ao personalizá-la."
+        },
+        {
+          "nivel": 5,
+          "nome": "Ataque Extra",
+          "descricao": "Você pode atacar duas vezes, em vez de uma, sempre que realizar a ação Atacar no seu turno."
+        },
+        {
+          "nivel": 9,
+          "nome": "Modificações da Armadura",
+          "descricao": "Você pode tratar partes da sua Armadura Arcana como itens separados para fins de infusões, aumentando o número de itens infundidos que pode manter."
+        },
+        {
+          "nivel": 15,
+          "nome": "Armadura Perfeita",
+          "descricao": "Sua Armadura Arcana recebe aprimoramentos finais: o modelo Guardião permite puxar um alvo e derrubá-lo com seus ataques, enquanto o modelo Infiltrador permite causar dano adicional e obter mobilidade aprimorada."
+        }
+      ],
+      "fonte": "Caldeirão de Tudo de Tasha"
+    },
+    {
+      "nome": "Atirador",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Ferramentas Ideais",
+          "descricao": "Você ganha proficiência com ferramentas de entalhador. Elas também podem servir como foco de suas magias de artífice."
+        },
+        {
+          "nivel": 3,
+          "nome": "Canhão Místico",
+          "descricao": "Você aprende a criar um Canhão Místico Pequeno ou Minúsculo. Ele ocupa um espaço e dura até ser destruído ou até você terminar um descanso longo. Você escolhe entre Chama, Balista de Força e Protetor; criar outro exige um espaço de magia."
+        },
+        {
+          "nivel": 5,
+          "nome": "Arma de Fogo Arcana",
+          "descricao": "Você aprende a transformar uma arma ou um foco de conjuração em um condutor para seus poderes. Quando uma magia de artífice causa dano por meio desse foco, você pode adicionar 1d8 ao dano de uma das rolagens."
+        },
+        {
+          "nivel": 9,
+          "nome": "Canhão Explosivo",
+          "descricao": "O dano do Canhão Místico aumenta em 1d8. Além disso, você pode fazer o canhão explodir como uma ação, causando dano de força em uma área e destruindo-o."
+        },
+        {
+          "nivel": 15,
+          "nome": "Posição Fortificada",
+          "descricao": "Você pode manter dois Canhões Místicos ao mesmo tempo. Você e seus aliados podem receber cobertura parcial enquanto estiverem próximos deles."
+        }
+      ],
+      "fonte": "Caldeirão de Tudo de Tasha"
+    },
+    {
+      "nome": "Ferreiro de Batalha",
+      "caracteristicas": [
+        {
+          "nivel": 3,
+          "nome": "Ferramentas Ideais",
+          "descricao": "Você ganha proficiência com ferramentas de ferreiro e pode usá-las como foco de conjuração para suas magias de artífice."
+        },
+        {
+          "nivel": 3,
+          "nome": "Pronto para a Batalha",
+          "descricao": "Quando você ataca com uma arma mágica, pode usar seu modificador de Inteligência, em vez de Força ou Destreza, para as jogadas de ataque e dano."
+        },
+        {
+          "nivel": 3,
+          "nome": "Defensor de Aço",
+          "descricao": "Você cria um Defensor de Aço que age por sua própria iniciativa. Ele pode atacar, ajudar e proteger você e seus aliados; você pode comandá-lo com uma ação bônus. Ele usa seu bônus de proficiência e recupera PV ao ser curado por você."
+        },
+        {
+          "nivel": 5,
+          "nome": "Ataque Extra",
+          "descricao": "Você pode atacar duas vezes, em vez de uma, sempre que realizar a ação Atacar no seu turno."
+        },
+        {
+          "nivel": 9,
+          "nome": "Aperfeiçoamento do Defensor de Aço",
+          "descricao": "Seu Defensor de Aço causa dano adicional e recebe melhorias de resistência e mobilidade conforme sua ligação com ele se fortalece."
+        },
+        {
+          "nivel": 15,
+          "nome": "Defensor Aperfeiçoado",
+          "descricao": "Seu Defensor de Aço recebe um aprimoramento final, aumentando sua eficácia defensiva e ofensiva."
+        }
+      ],
+      "fonte": "Caldeirão de Tudo de Tasha"
+    }
+  ],
+  "lista_magias": [],
+  "texto_completo": "Artífice — classe de personagem de Caldeirão de Tudo de Tasha.",
+  "infusoes_artifice": [
+    {
+      "nome": "Afiador Mental",
+      "item": "Uma armadura ou manto.",
+      "descricao": "O item tem 4 cargas. Quando o usuário falha em uma salvaguarda de Constituição para manter concentração, pode usar Reação e gastar 1 carga para ser bem-sucedido. Recupera 1d4 cargas diariamente ao amanhecer."
+    },
+    {
+      "nome": "Anel de Reabastecimento de Magia",
+      "item": "Um anel (requer sintonização).",
+      "descricao": "Pode recuperar, com uma ação, um espaço de magia gasto de 3º círculo ou inferior. Uma vez usado, não pode ser usado novamente até o próximo amanhecer.",
+      "nivel_minimo": 6
+    },
+    {
+      "nome": "Arma Aprimorada",
+      "item": "Uma arma simples ou marcial.",
+      "descricao": "Concede +1 nas jogadas de ataque e dano. O bônus aumenta para +2 no 10º nível de artífice."
+    },
+    {
+      "nome": "Arma Bumerangue",
+      "item": "Uma arma simples ou marcial com Arremesso.",
+      "descricao": "Concede +1 nas jogadas de ataque e dano e retorna imediatamente à mão após um ataque à distância."
+    },
+    {
+      "nome": "Arma Radiante",
+      "item": "Uma arma simples ou marcial (requer sintonização).",
+      "descricao": "Concede +1 nas jogadas de ataque e dano; possui 4 cargas e pode gerar luz. Como reação após ser atingido, pode gastar 1 carga para cegar o atacante até o fim do próximo turno dele, salvo salvaguarda de Constituição contra sua CD de magia. Recupera 1d4 cargas diariamente.",
+      "nivel_minimo": 6
+    },
+    {
+      "nome": "Armadura da Força Mágica",
+      "item": "Uma armadura (requer sintonização).",
+      "descricao": "Possui 6 cargas. Pode gastar 1 carga para adicionar seu modificador de Inteligência a um teste ou salvaguarda de Força, ou para evitar ser derrubado com uma reação. Recupera 1d6 cargas diariamente."
+    },
+    {
+      "nome": "Armadura da Resistência",
+      "item": "Uma armadura (requer sintonização).",
+      "descricao": "Concede resistência a um tipo de dano escolhido entre gélido, ígneo, energia, elétrico, necrótico, venenoso, psíquico, ácido, radiante ou trovejante.",
+      "nivel_minimo": 6
+    },
+    {
+      "nome": "Armadura de Propulsão Arcana",
+      "item": "Uma armadura (requer sintonização).",
+      "descricao": "Aumenta o deslocamento em 1,5 m e fornece manoplas mágicas que causam 1d8 de dano de energia, têm Arremesso (6/18 m) e retornam imediatamente. Pode substituir membros ausentes.",
+      "nivel_minimo": 14
+    },
+    {
+      "nome": "Botas do Caminho Sinuoso",
+      "item": "Um par de botas (requer sintonização).",
+      "descricao": "Como ação bônus, teletransporta-se até 4,5 m para um espaço desocupado que possa ver e que tenha ocupado em algum momento do turno atual.",
+      "nivel_minimo": 6
+    },
+    {
+      "nome": "Defesa Aprimorada",
+      "item": "Uma armadura ou escudo.",
+      "descricao": "Concede +1 à Classe de Armadura; o bônus aumenta para +2 no 10º nível de artífice."
+    },
+    {
+      "nome": "Disparo Recorrente",
+      "item": "Uma arma simples ou marcial com Munição (requer sintonização).",
+      "descricao": "Concede +1 nas jogadas de ataque e dano à distância, ignora Munição e cria automaticamente uma munição mágica que desaparece após o ataque."
+    },
+    {
+      "nome": "Elmo da Prontidão",
+      "item": "Um elmo (requer sintonização).",
+      "descricao": "Concede vantagem em Iniciativa e impede ser surpreendido, desde que não esteja incapacitado.",
+      "nivel_minimo": 10
+    },
+    {
+      "nome": "Escudo de Repulsão",
+      "item": "Um escudo (requer sintonização).",
+      "descricao": "Concede +1 à CA e possui 4 cargas. Como reação após ser atingido por ataque corpo a corpo, gasta 1 carga para empurrar o atacante até 4,5 m. Recupera 1d4 cargas diariamente.",
+      "nivel_minimo": 6
+    },
+    {
+      "nome": "Foco Arcano Aprimorado",
+      "item": "Um cajado, bastão ou varinha (requer sintonização).",
+      "descricao": "Concede +1 nas jogadas de ataque com magia e permite ignorar meia cobertura; aumenta para +2 no 10º nível."
+    },
+    {
+      "nome": "Replicar Item Mágico",
+      "item": "Item mágico conforme as tabelas de itens replicáveis da fonte; também pode replicar item mágico comum, exceto poções e pergaminhos.",
+      "descricao": "Aprenda esta infusão várias vezes, escolhendo um item replicável permitido pelo seu nível de artífice. A sintonização depende do item replicado."
+    },
+    {
+      "nome": "Servo Homúnculo",
+      "item": "Uma gema ou cristal com valor mínimo de 100 po.",
+      "descricao": "O objeto se torna o coração de um Servo Homúnculo que obedece aos seus comandos, compartilha sua iniciativa e pode ser comandado com ação bônus. Se você ou ele morrer, o homúnculo desaparece."
+    }
+  ]
+}
